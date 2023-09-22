@@ -154,8 +154,8 @@
 					<li>broken2_n->[exclaim_low]...[vagina], [vagina]가 이상해에.. [exclaim_low]...</li>
 					<li>broken2_n->[exclaim_low]... 느낌이-[exclaim_low]...</li>
 					<li>broken2_n->[exclaim_low]... 헤헤... [cum]이... [exclaim_low]... 또...</li>
-					<li>broken1_n->[exclaim_high]! 제발, [exclaim_high], [vagina]가 더 이상 못 버텨-[exclaim_high]! [penis] 그만 박아-[exclaim_high]!</li>
-					<li>broken1_n->[exclaim_high]! 대체 언제까지, [exclaim_high]! [vagina] 따먹으려고-[exclaim_high]!</li>
+					<li>broken1_n->[exclaim_high]! 제발, [exclaim_high], [vagina]가 더 이상 못 버텨-[exclaim_high]! [penis] 그만-[exclaim_high]!</li>
+					<li>broken1_n->[exclaim_high]! 대체 언제까지, [exclaim_high]! [vagina]에, [exclaim_high]!</li>
 					<li>broken1_n->대체 얼마나 더...[exclaim_high]!</li>
 					<li>broken1_n->[exclaim_high]! 너, 너무 힘들어...[exclaim_high]... 제발 조금만 쉬게 해줘-[exclaim_high]!</li>
 					<li>broken1_n->[exclaim_high]! 제발, 이제 [vagina]에 [cum] 더 이상 못 들어가요... [exclaim_high]!</li>
@@ -343,7 +343,6 @@
 					<li>rape_react_n->[exclaim_low]! 저리 떨어져, [rapist]!</li>
 					<li>rape_react_n->그만, 그만 해! [exclaim_low]!</li>	
 					
-					
 					<!-- ===Masochist Victim of Male Rapist=== -->					
 					
 					<!-- ===Broken Victim of Male Rapist=== -->					
@@ -471,7 +470,7 @@
 		<logRulesInitiator>
 			<rulesStrings>								
 					<!-- ===Masochist Neutral=== -->
-					<li>masochist_n->[exclaim_low]... [vagina] 속 내 손가락이 느껴져..? 이쪽도 쑤셔줄까요? [rapist]!</li>
+					<li>masochist_n->[exclaim_low]... 손가락 기분이 어때..? 이쪽도 쑤셔줄까요? [rapist]!</li>
 					<li>masochist_n->[exclaim_low], 엄청 젖은거 알아요.. 너무 야해요... [exclaim_low]..</li>
 					<li>masochist_n->좋아요..? 계속 쑤셔줄게...</li>
 					<!-- ===Broken Neutral=== -->
@@ -495,7 +494,7 @@
 					<li>rape_react_n->싫어! 그만 해..!</li>
 					<li>rape_react_n->하지 마, 제발! [exclaim_low]...</li>
 					<li>rape_react_n->[RECIPIENT_nameDef], 제발, 제발 나 좀 내버려 둬...[exclaim_low]...</li>
-					<li>rape_react_n->그만, [exclaim_low], 냄새나는 네 역겨운 [vagina]에 내 손 넣지 마!</li>
+					<li>rape_react_n->그만, [exclaim_low], 냄새나고 역겨운 [vagina]에 내 손 넣지 마!</li>
 					<li>rape_react_n->그만, 이제 그만해! [exclaim_low]...</li>	
 									
 					<!-- ===Masochist Victim of Male Rapist=== -->					
@@ -521,33 +520,34 @@
 		<logRulesInitiator>
 			<rulesStrings>							
 					<!-- ===Masochist Neutral=== -->
-					<li>masochist_n->[exclaim_low]! [rapist], you're too good to me! [exclaim_low]!</li>
+					<li>masochist_n->[exclaim_low]! 거기, 거기 조앗, 느껴서 죄송해요, 더 혼내주세-[exclaim_low]!</li>
 					<li>masochist_n->[exclaim_low]! 더, 손가락으로 더 쑤셔주세요..! [rapist]! </li>
 					<li>masochist_n->[exclaim_low]..! 거기잇, 클리만 문지르면, [exclaim_low]! 안대요...!</li>
 					<!-- ===Broken Neutral=== -->
 					<li>broken2_n->[exclaim_low]...헤에...? [exclaim_low]...</li>
 					<li>broken2_n->[exclaim_low]...손가락이...[exclaim_low]!</li>
-					<li>broken2_n->[exclaim_low]...[vagina].. [vagina]가 이상해-[exclaim_low]!</li>
-					<li>broken2_n->[exclaim_low]...my [vagina]-[exclaim_low]...so wet...</li>
-					<li>broken2_n->[exclaim_low]...my...body-[exclaim_low]...</li>
-					<li>broken2_n->[exclaim_low]...my...[vagina]? [exclaim_low]...</li>
-					<li>broken2_n->[exclaim_low]...I can't-[exclaim_low]...</li>
-					<li>broken2_n->[exclaim_low]...Please...[exclaim_low]...</li>
-					<li>broken2_n->[exclaim_low]...No more-[exclaim_low]...</li>
-					<li>broken2_n->[exclaim_low]...It feels-[exclaim_low]...</li>
-					<li>broken1_n->[exclaim_low]! Please, I don't want any more fingers digging around in my [vagina]!</li>
-					<li>broken1_n->[exclaim_low]! How many times has this made me-[exclaim_low]!</li>
-					<li>broken1_n->How many times...[exclaim_low]!</li>
-					<li>broken1_n->[exclaim_low]! When will you give me a break, [rapist]! [exclaim_low]!</li>
-					<li>broken1_n->[exclaim_low]! Just because I'm wet doesn't mean I...[exclaim_low]!</li>
-					<li>broken1_n->Won't you ever leave me alone, [rapist]? [exclaim_low]! </li>
+					<li>broken2_n->[exclaim_low]...[vagina].. [vagina] 기분 이상해-[exclaim_low]!</li>
+					<li>broken2_n->[exclaim_low]...[vagina]-[exclaim_low]... 손가락 느낌 이상해...</li>
+					<li>broken2_n->[exclaim_low]...내... 내 몸이-[exclaim_low]...</li>
+					<li>broken2_n->[exclaim_low]...[vagina]... 아파... [exclaim_low]...</li>
+					<li>broken2_n->[exclaim_low]...더, 더 이상-[exclaim_low]...</li>
+					<li>broken2_n->[exclaim_low]...제발...[exclaim_low]...</li>
+					<li>broken2_n->[exclaim_low]...이제 그만-[exclaim_low]...</li>
+					<li>broken2_n->[exclaim_low]...더는 못 버텨-[exclaim_low]...</li>
+					<li>broken1_n->[exclaim_low]! 제발, 제발 [vagina]에서 손가락 빼줘... [exclaim_low]!</li>
+					<li>broken1_n->[exclaim_low]! 제발, [exclaim_low], 더 이상은 못 버티겠어!</li>
+					<li>broken1_n->대체 얼마나 더...[exclaim_low]!</li>
+					<li>broken1_n->[exclaim_low]! 제발...[exclaim_low]... 그저 잠깐, 잠깐의 쉴 틈, [exclaim_low]! 이라도, [exclaim_low]!</li>
+					<li>broken1_n->[exclaim_low]! 젖었다고 전부 흥분한 건 아니-[exclaim_low]!</li>
+					<li>broken1_n->그, 그만-[exclaim_low]! 손가락, 그만 넣어..! [vagina] 아파..! [exclaim_high]!</li>
 					<!-- ===Neutral=== -->
-					<li>rape_react_n->Hey sto- [exclaim_low]!</li>
-					<li>rape_react_n->Wait no! [exclaim_low]!</li>
-					<li>rape_react_n->Please don't! [exclaim_low]!</li>
-					<li>rape_react_n->Oh just leave me alone, [RECIPIENT_nameDef]...[exclaim_low]!</li>
-					<li>rape_react_n->[exclaim_low]! Get your fingers off me, [rapist]!</li>
-					<li>rape_react_n->[exclaim]! Get those out of me, [rapist]!!</li>
+					<li>rape_react_n->안돼, 멈ㅊ- [exclaim_high]!</li>
+					<li>rape_react_n->잠깐, 잠깐! [exclaim_low]..!</li>
+					<li>rape_react_n->하지 마, 제발! [exclaim_low]!</li>
+					<li>rape_react_n->[exclaim_high]! 이파.. 제발..!</li>
+					<li>rape_react_n->[RECIPIENT_nameDef], 안돼, 우리 이러지 말자- [exclaim_high]!</li>
+					<li>rape_react_n->[exclaim_high]! 그만, [rapist]..! 제발 손가락 뺴줘, [exclaim_high]!</li>
+					<li>rape_react_n->[exclaim_low]! 저리 떨어져, [exclaim_low]!</li>
 							
 					<!-- ===Masochist Victim of Male Rapist=== -->					
 					
