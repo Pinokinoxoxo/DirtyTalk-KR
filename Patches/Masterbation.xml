@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+<operations>
+	<!-- ===Giver=== -->
+	
+	<!-- <li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Masturbation_HandjobA"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+			<li>r_logentry->[Masturbated]</li>
+			<li>Masturbated_f->[exclaim_lowF].. [exclaim_lowF], [exclaim_lowF]! [exclaim_highF]!</li>
+			<li>Masturbated_f->[exclaim_lowF].. 좋아... [exclaim_lowF]..!</li>
+			<li>Masturbated_m->[exclaim_lowM].. [exclaim_lowM], [exclaim_lowM]! [exclaim_highM]!</li>
+			<li>Masturbated_m->[exclaim_lowM].. 좋아... [exclaim_highM]..!</li>
+		
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Masturbation_HandjobP"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+			<li>r_logentry->[Masturbated]</li>
+			<li>Masturbated_f->[exclaim_lowF].. [exclaim_lowF], [exclaim_lowF]! [exclaim_highF]!</li>
+			<li>Masturbated_f->[exclaim_lowF].. 좋아... [exclaim_lowF]..!</li>
+			<li>Masturbated_m->[exclaim_lowM].. [exclaim_lowM], [exclaim_lowM]! [exclaim_highM]!</li>
+			<li>Masturbated_m->[exclaim_lowM].. 좋아... [exclaim_highM]..!</li>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Masturbation_HandjobV"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+			<li>r_logentry->[Masturbated]</li>
+			<li>Masturbated_f->[exclaim_lowF].. [exclaim_lowF], [exclaim_lowF]! [exclaim_highF]!</li>
+			<li>Masturbated_f->[exclaim_lowF].. 좋아... [exclaim_lowF]..!</li>
+			<li>Masturbated_m->[exclaim_lowM].. [exclaim_lowM], [exclaim_lowM]! [exclaim_highM]!</li>
+			<li>Masturbated_m->[exclaim_lowM].. 좋아... [exclaim_highM]..!</li>
+		</value>
+	</li>	
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Masturbation_AutoFellatio"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+			<li>r_logentry->[Masturbated]</li>
+			<li>Masturbated_f->[exclaim_lowF].. [exclaim_lowF], [exclaim_lowF]! [exclaim_highF]!</li>
+			<li>Masturbated_f->[exclaim_lowF].. 좋아... [exclaim_lowF]..!</li>
+			<li>Masturbated_m->[exclaim_lowM].. [exclaim_lowM], [exclaim_lowM]! [exclaim_highM]!</li>
+			<li>Masturbated_m->[exclaim_lowM].. 좋아... [exclaim_highM]..!</li>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="masturbation_autobreastjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+			<li>r_logentry->[Masturbated]</li>
+			<li>Masturbated_f->[exclaim_lowF].. [exclaim_lowF], [exclaim_lowF]! [exclaim_highF]!</li>
+			<li>Masturbated_f->[exclaim_lowF].. 좋아... [exclaim_lowF]..!</li>
+			<li>Masturbated_m->[exclaim_lowM].. [exclaim_lowM], [exclaim_lowM]! [exclaim_highM]!</li>
+			<li>Masturbated_m->[exclaim_lowM].. 좋아... [exclaim_highM]..!</li>
+		</value>
+	</li>
+		
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "Masturbation_HandjobPRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>		
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "Masturbation_HandjobVRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "Masturbation_HandjobARP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "Masturbation_HandjobBRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "Masturbation_AutoFellatioRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "Masturbation_AutoBreastjobRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li> -->
+
+</operations>
+</Operation>
+</Patch>

@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+<operations>
+<!-- ===AnalSex=== -->
+	<!-- ===Penetrator=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Anal"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Anal_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_mf->오늘은 뒤로 하고 싶은걸? [ass] 벌려, [lover]!</li>
+					<li>sex_mf->[ass] 벌렁거리는 거 봐. [penis]를 그렇게 먹고 싶었어 [lover]? [exclaim_high]!</li>
+					<li>sex_mf->[ass](으)로 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
+					<!-- ===Male Speaker=== -->
+					
+					<!-- ===Female Speaker=== -->
+					<li>sex_ff->내 후타 [penis]로 [ass](을)를 휘저어 줄까, [lover]? [exclaim_low]!</li>
+		</value>
+	</li>	
+	<!-- ===Penetrated=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Anal"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Anal_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mm->[lover], 빨리 박아 줘!</li>
+					<li>sex_mm->빨리, [lover], 제대로 한 판 하자고. 내 [ass]에 잔뜩 박아줄 수 있지?</li>
+					<li>sex_mm->나랑 한번 할래, [lover]?</li>
+					
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->[lover], 나 오늘은 여기로 하고 싶어. 빨리 넣어 줘...</li>
+					<li>sex_fm->빨리, [lover], 망가질 정도로 나 범해줘... 내 [ass]에 잔뜩 박아줘..!</li>
+					<li>sex_fm->나랑 한번 할래, [lover]?</li>
+		</value>
+	</li>	
+
+<!-- ===VaginalSex=== -->
+	<!-- ===Penetrator=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Vaginal_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mf->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
+					<li>sex_mf->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
+					<li>sex_mf->[lover] [vagina]에 잔뜩 박아줄게. 다리 벌려.</li>
+					<li>sex_mf->[lover] [womb]에 [cum] 잔뜩 채워줄게. 다리 벌려.</li>
+					<li>sex_mf->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
+					
+					<!-- ===Female Speaker=== -->
+					<li>sex_ff->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
+					<li>sex_ff->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
+					<li>sex_ff->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
+					<li>sex_ff->내 후타 [penis] 맛이 어때, [lover]? [exclaim_low]!</li>
+					
+		</value>
+	</li>	
+	<!-- ===Penetrated=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Vaginal_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mm->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
+					<li>sex_mm->나랑 한번 할래, [lover]?</li>
+					<li>sex_mm->빨리, 이 [vagina]에 네 [penis](으)로 가득 채워줘!</li>
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
+					<li>sex_fm->빨리, [lover], 망가질 정도로 나 범해줘... 내 [vagina]에 잔뜩 박아줘..!</li>
+					<li>sex_fm->나랑 한번 할래, [lover]?</li>
+					<li>sex_fm->빨리, [vagina]에 [lover] [penis] 가지고 [womb]까지 휘저어 줘어..</li>
+					<li>sex_fm->[lover].. 오늘은 안에 싸줘야해.. [womb] 가득가득 채워줘요..!</li>
+		</value>
+	</li>	
+
+<!-- ===Handjob=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Handjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Hand_Job_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->[lover], 손으로 이것 좀 만져줄래??</li>
+					<li>sex_n->[lover], 내 [penis] 엄청 화났는데, 손으로 해줄래?</li>
+					<li>sex_n->잠깐, [lover], 으응, 그렇게 만져줘.</li>
+					<!-- ===Male Speaker=== -->
+					<!-- ===Female Speaker=== -->
+
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Handjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Hand_Job_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->오늘은 힘들어. 대신 손으로 해줄게. 어때?</li>
+					<li>sex_n->[penis] 커진 거 봐. 손으로 한 발 빼줄까?</li>
+					<li>sex_n->[lover] [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_n->잔뜩 싸줘. 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+					<!-- ===Male Speaker=== -->
+
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+	
+<!-- ===Footjob=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Footjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Foot_Job_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->[lover] 발로 내 [penis] 만져볼래?</li>
+					<li>sex_n->발로 내 [penis] 문질러줘. 그거 너무 흥분되더라...</li>
+					<li>sex_n->[lover], 발로 비비며 가지고 노는 야한 장난 해볼래?</li>
+					<!-- ===Male Speaker=== -->
+					<!-- ===Female Speaker=== -->
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Footjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Foot_Job_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->여기 누워봐, [lover].</li>
+					<li>sex_n->변태. 지저분한 발로 만져지고 있는데도 흥분하는 거야?</li>
+					<li>sex_n->[lover] [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_n->[RECIPIENT_nameDef], 쌀 것 같아? 내 발로 이렇게 만져주니까 좋아?</li><!-- ===Male Speaker=== -->
+					<!-- ===Male Speaker=== -->
+
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+	
+<!-- ===Fingering=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Fingering"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Fingering_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_fm->빨리, 빨리 손가락으로 어떻게든 해줘, 어서...</li>
+					<li>sex_fm->[lover], 나.. 나 [vagina] 만져줘, 어서... 내 [vagina] 손으로 쑤셔줘..!</li>
+					<li>sex_fm->[exclaim_low], 제 암캐 [vagina] [lover] 손으로 엉망진창 쑤셔주세요...!</li>
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Fingering"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Fingering_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->[vagina](이)가 엄청 젖었네. 이거 보여, [lover]?</li>
+					<li>sex_n->이렇게 클리랑 같이 문질러주는거 좋아하잖아, [lover]. 그치?</li>
+					<li>sex_n->소리 봐. 찌걱이는 소리 들려? [lover], 얼마나 흥분한거야? 이렇게 푹 젖고.</li>
+					<!-- ===Male Speaker=== -->
+					
+					<!-- ===Female Speaker=== -->
+
+		</value>
+	</li>	
+	
+<!-- ===Fisting=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Fisting"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Fisting_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->여기다 주먹 한번 넣어볼래, [lover]? [exclaim_high]!</li>
+					<li>sex_n->[exclaim_high]! 드, 들어갈 것 같아..!</li>
+					<!-- ===Male Speaker=== -->
+
+					<!-- ===Female Speaker=== -->
+
+		</value>
+	</li>		
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Fisting"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Fisting_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->[lover] 구멍에 주먹 넣어볼까?</li>
+					<li>sex_n->주먹 넣는걸로 느끼는거야? [lover], 진짜 변태구나?</li>
+					<!-- ===Male Speaker=== -->
+					<!-- ===Female Speaker=== -->
+		</value>
+	</li>		
+	
+<!-- ===Breastjob=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Breastjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Breast_Job_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->[boobs]으로 해주게? 오늘 왜이리 적극적이야, [lover]?</li>
+					<li>sex_n->[lover], 좀만 더 세게 해줘. 곧 나올 것 같아.</li><!-- ===Male Speaker=== -->
+					
+					<!-- ===Female Speaker=== -->
+
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Breastjob"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Breast_Job_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mm->남자 [boobs]에 싸려고 하다니, 너무 변태 아냐, [lover]?</li>
+					<li>sex_mm->[lover] [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_mm->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
+					<li>sex_mm->보여? 이게 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->아직 안돼. 내 [boobs]에 싸려고 했어, [lover]?</li>
+					<li>sex_fm->[lover] [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_fm->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
+					<li>sex_fm->보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					
+		</value>
+	</li>	
+	
+<!-- ===Scissoring=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Scissoring"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Scissoring_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->이리 와, [lover], 엉덩이 이쪽에 대고 누워봐.</li>
+					<li>sex_n->[exclaim_high], [vagina]끼리 비비는거 너무 좋아 [lover]...</li>
+					<li>sex_n->내 [vagina]는 무슨 느낌이야? 부드러워서 좋지, [lover]?</li>
+					<!-- ===Male Speaker=== -->
+
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+	
+<!-- ===MutualMasturbation=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_MutualMasturbation"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Mutual_Masturbation_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== --> 
+					<li>sex_mf->[lover], [vagina] 엄청 젖었네. 내 [penis]도 터질 것 같아. 만져줘.</li>
+					<li>sex_mf->[vagina] 속 내 손가락으로 혼자 느끼지만 말고 나도 애무해줘, [lover].</li>
+					<li>sex_mf->[lover], 내 앞에서 [vagina] 만지면서 자위하는 모습 보여주래?</li>
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->[exclaim_high], 키스,, 키스 해주면서 같이 쑤셔줘..!</li>
+					<li>sex_fm->[lover] [penis] 엄청 뜨겁다... 내 [vagina]도 뜨거워.. 같이 만져줘...</li>
+					<li>sex_fm->[lover], 내 앞에서 [penis]로 자위하는 모습 보여줘...</li>
+		</value>
+	</li>	
+	
+<!-- ===Rimming=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Rimming"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Rimming_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mm->[ass]도 혹시... 핥아줄 수 있어, [lover]?</li>
+					<li>sex_mm->밑에.. [ass], [ass] 빨아줘.. 그거 너무 기분 좋아.. [exclaim_low]!</li>
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->[ass]도 혹시... 핥아줄 수 있어, [lover]?</li>
+					<li>sex_fm->밑에.. [ass], [ass]도 빨아줘.. 그거 너무 기분 좋아.. [exclaim_low]!</li>
+					<li>sex_fm->내 [ass] 맛도 궁금하지 않아? [vagina]도 좋지만 [ass]도 맛있을텐데... [exclaim_low]...</li>
+					<li>sex_fm->[ass] 빨리는 생각을 하니까 [vagina]도 젖었어.. 너무 흥분되는데, 빨리 해줘 [lover].. [exclaim_low]!</li>
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Rimming"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Rimming_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->이리로 와서 다리 벌려 [lover], [ass] 이리 대!</li>
+					<li>sex_n->[ass] 핥는거로 움찔대는 [lover] 모습을 보고 싶어..!</li>
+					<li>sex_n->[lover]의 [ass]는 무슨 맛일까? 이리 와서 누워..!</li>
+					<!-- ===Male Speaker=== -->
+					<!-- ===Female Speaker=== -->
+		</value>
+	</li>	
+	
+
+<!-- ===Cunnilingus=== -->
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Cunnilingus"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Cunnilingus_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->나 입으로 해줘... [lover], 입으로 제 [vagina] 엉망진창으로 범해주세요...</li>
+					<li>sex_fm->[lover], 입으로 해줄 수 있어? 그거 너무 기분 좋아.</li>
+					<li>sex_fm->혀, 혀로 클리 문지르는거 너무 좋아아.. 조금만 더 해줘..</li>
+					<li>sex_fm->[lover], 내 [vagina] 보니까 꼴려? 핥고 싶지? 코 박고 빨아먹고 싶지?</li>
+					<li>sex_fm->[lover], [vagina] 핥아봐. [vagina]만 보면 발정하는.. [exclaim_lowF]!</li>
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Cunnilingus"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Cunnilingus_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->다리 벌려. 입으로 잔뜩 [vagina] 빨아먹어줄게, [lover].</li>
+					<li>sex_n->[vagina](이)가 벌써 이렇게 질척이면 어떻게 해? 익사하겠어, [lover]!</li>
+					<!-- ===Male Speaker=== -->
+					
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+	
+	
+<!-- ===Fellatio=== -->
+	
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Fellatio"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Fellatio_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mf->내 [penis](을)를 그렇게 먹고 싶었어, [lover]?</li>
+					<li>sex_mf->슬슬 섰으니까 이제 입으로 해줘 [lover].</li>
+					<li>sex_mf->이정도는 해야 쌀 느낌이 나지, [lover]. 더 깊이 빨아줘.</li>
+					<!-- ===Female Speaker=== -->
+
+		</value>
+	</li>	
+	
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Fellatio"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Fellatio_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->오늘은 조금 지치네. 대신 입으로 해줄게 [lover]!</li>
+					<li>sex_n->[lover], [cum] 입에 가득 싸주세요오..!</li>
+					<li>sex_n->[lover], 입으로 해줄까? 오늘은 깊숙히 넣어도 좋아.</li>
+					<li>sex_n->하, 너무 뜨거워.. [lover] [penis] 빨리 먹어버리고 싶어...</li>
+					<!-- ===Male Speaker=== -->
+
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+	
+	
+<!-- ===Sixtynine=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Sixtynine"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=Sixtynine_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<!-- ===Male Speaker=== -->
+					<li>sex_mf->이리와, [lover], 엉덩이 이리로 두고 누워.</li>
+					<li>sex_mf->엎드려봐, 나도 네꺼 빨아줄테니까, [lover].</li>
+					<!-- ===Female Speaker=== -->
+					<li>sex_fm->이리와, [lover], 엉덩이 이리로 두고 누워.</li>
+					<li>sex_fm->엎드려봐, 나도 네꺼 빨아줄테니까, [lover].</li>
+		</value>
+	</li>	
+	
+<!-- ===DoublePenetration=== -->
+
+	<!-- ===Giver=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_DoublePenetration" or defName="Sex_DoublePenetrationM"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=DoublePenetration_Sex_Reply, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->[lover], 이 [penis]들로 가득 채워줄까?</li>
+					<li>sex_n->[vagina](와)과 [ass]에 동시에 잔뜩 쑤셔줄게, [lover]!</li>
+					<li>sex_n->[lover], 내 [penis]들로 [vagina](와)과 [ass]에 함께 쑤셔박히는 경험을 해보는 건 어때?</li>
+					<li>sex_n->동시에 박혀서 앙앙대는 기분이 어때, [lover]? [exclaim_low]!</li>	
+					<!-- ===Male Speaker=== -->
+					
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+
+	<!-- ===Reciever=== -->
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_DoublePenetration" or defName="Sex_Reverse_DoublePenetrationM"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+				<li>r_logentry(tag=DoublePenetration_Sex_Reply_Reverse, priority=5)->[sex]</li>
+					<!-- ===Neutral=== -->
+					<li>sex_n->그 [penis]들... 내 [vagina]랑 [ass]에 함께 박아주면 엄청 기분 좋겠지?</li>
+					<li>sex_n->[lover], 그 [penis]들 한번 써보고 싶어. [vagina](와)과 [ass] 모두 쓰게 해줄게.</li>
+					<!-- ===Male Speaker=== -->
+
+					<!-- ===Female Speaker=== -->
+					
+		</value>
+	</li>	
+
+	
+<!-- ===Rulepacks=== -->
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "DoublePenetrationRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=DoublePenetrationRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "DoublePenetrationReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=DoublePenetrationRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "AnalSexRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=AnalSexRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "AnalSexReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=AnalSexRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "VaginalSexRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=VaginalSexRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "VaginalSexReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=VaginalSexRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "HandjobRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=HandjobRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+		<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "HandjobReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=HandjobRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FootjobRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FootjobRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FootjobReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FootjobRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FingeringRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FingeringRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FingeringReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FingeringRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FistingRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FistingRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FistingReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FistingRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "BreastjobRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=BreastjobRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "BreastjobReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=BreastjobRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "ScissoringRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=ScissoringRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "MutualMasturbationRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=MutualMasturbationRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "RimmingRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=RimmingRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "CunnilingusRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=CunnilingusRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "RimmingReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=RimmingRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "CunnilingusReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=CunnilingusRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FellatioRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FellatioRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "FellatioReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=FellatioRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "SixtynineRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=SixtynineRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+	<li Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = "SixtynineReverseRP"]/rulePack/rulesStrings</xpath>
+		<value>
+			<rulesStrings>
+				<li>sent(tag=SixtynineRP)->[sexrp]</li>
+				<li>sexrp-></li>
+			</rulesStrings>
+		</value>
+	</li>
+</operations>
+</Operation>
+</Patch>

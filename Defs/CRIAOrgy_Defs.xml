@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- ===ChitchatReplies=== -->
+	<InteractionDef ParentName="SexTalkReply">
+		<defName>OrgyChat</defName>
+		<label>orgy-chat</label>
+		<logRulesInitiator>
+			<rulesStrings>
+				<!-- ===Bad opinion of recipient=== -->
+					<li>r_logentry(INITIATOR_opinion&lt;-25, priority=1)->[bad_opinion]</li>
+						<li>bad_opinion(RECIPIENT_gender==Male)->네 형편없는 [penis]만 없었다면 더 좋았을텐데 말이야.</li>
+						<li>bad_opinion(RECIPIENT_gender==Female)->네 쓸모없는 [vagina]만 없었다면 더 좋았을텐데 말이야..</li>
+						<li>bad_opinion->네 형편없는 [ass]만 없었다면 더 좋았을텐데 말이야.</li>					
+					    <li>bad_opinion->그러게. 즐겁고 흥분되던 분위기를 누가 망치지만 않았다면 말이야.</li>
+					    <li>bad_opinion->그래? 나는 너 때문에 모든 욕정과 흥분이 사라졌는데.</li>
+				<!-- ===Neutral opinion of recipient=== -->
+					<li>r_logentry->[neutral_opinion]</li>		
+						<li>neutral_opinion->응, 엄청 즐겁고 흥분되던 시간이었지, [counterpart].</li>	
+						
+				<!-- ===Good opinion of recipient generic=== -->
+					<li>r_logentry(INITIATOR_opinion>=25, priority=1)->[good_opinion]</li>
+					<li>good_opinion(INITIATOR_thoughtLabel==sexually frustrated, priority=1)->[good_opinion_horny]</li>						
+					<li>good_opinion(INITIATOR_thoughtLabel==horny, priority=1)->[good_opinion_horny]</li>
+						<li>good_opinion_horny(INITIATOR_gender==Male, RECIPIENT_gender==Male, INITIATOR_opinion>=50, INITIATOR_trait==gay)->[counterpart], 네가 있으니까 더 흥분되고 좋았어!</li>
+						<li>good_opinion_horny(INITIATOR_gender==Female, RECIPIENT_gender==Female, INITIATOR_opinion>=50, INITIATOR_trait==gay)->[counterpart], 네가 있으니까 더 흥분되고 좋았어!</li>
+						<li>good_opinion_horny(INITIATOR_gender==Female, RECIPIENT_gender==Male, INITIATOR_opinion>=50, INITIATOR_trait!=gay)->[counterpart], 네가 있으니까 더 흥분되고 좋았어!</li>
+						<li>good_opinion_horny(INITIATOR_gender==Male, RECIPIENT_gender==Female, INITIATOR_opinion>=50, INITIATOR_trait!=gay)->[counterpart], 네가 있으니까 더 흥분되고 좋았어!</li>
+						<li>good_opinion_horny->그 때 생각만 하면 자꾸 흥분돼서 자위라도 하고 싶단 말이야...</li>
+					<li>good_opinion->응, 언젠가 또 하면 좋겠어!</li>
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+	
+</Defs>	

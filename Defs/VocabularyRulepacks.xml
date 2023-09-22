@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- ===Constants across all sexual interactions "Sex.xml"=== -->
+  <RulePackDef>
+    <defName>SexualInteractionConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Grunt/Moans=== -->
+		<li>exclaim_low->으응</li>
+		<li>exclaim_low->웅</li>
+		<li>exclaim_low->흐응</li>
+		<li>exclaim_low->읏</li>
+		<li>exclaim_low->으흠</li>
+		<li>exclaim_high->ARGH</li>
+		<li>exclaim_high->AAH</li>
+		<li>exclaim_high->OH</li>
+		<li>exclaim_high->OGH</li>
+		<li>exclaim_high->EEK</li>
+		<li>exclaim_high->ERGH</li>
+		<li>exclaim_high->OOF</li>
+		<li>exclaim_high->UNG</li>
+		<li>exclaim_oral->ngh</li>
+		<li>exclaim_oral->mph</li>
+		<li>exclaim_oral->slurp</li>
+		<li>exclaim_oral->ung</li>
+		<li>exclaim_oral->slorp</li>
+		
+		<!-- ===Female Grunt/Moans=== -->
+		<li>exclaim_lowF->앙</li>
+		<li>exclaim_lowF->흣</li>
+		<li>exclaim_lowF->힉</li>
+		<li>exclaim_lowF->앗</li>
+		<li>exclaim_lowF->앙</li>
+		<li>exclaim_lowF->흐읏</li>
+		<li>exclaim_lowF->하앙</li>
+		<li>exclaim_lowF->하읏</li>
+		<li>exclaim_lowF->헤엑</li>
+		<li>exclaim_lowF->아앙</li>
+		<li>exclaim_lowF->아흑</li>
+		<li>exclaim_highF->헤으윽</li>
+		<li>exclaim_highF->하아앙</li>
+		<li>exclaim_highF->아하윽</li>
+		<li>exclaim_highF->아흐윽</li>
+		<li>exclaim_highF->하으응</li>
+		<li>Grunt_F-></li>
+		
+		<!-- ass/vagina oral=== -->
+		<li>exclaim_oral1->쪽</li>
+		<li>exclaim_oral1->쯥</li>
+		<li>exclaim_oral1->쭈웁</li>
+		<li>exclaim_oral1->츄릅</li>
+		<li>exclaim_oral1->후룹</li>
+		<li>exclaim_oral1->핥짝</li>
+		
+		<!-- ===Male Grunt/Moans=== -->
+		<li>exclaim_lowM->후</li>
+		<li>exclaim_lowM->후우</li>
+		<li>exclaim_lowM->흐읏</li>
+		<li>exclaim_lowM->하아</li>
+		<li>exclaim_highM->으윽</li>
+		<li>exclaim_highM->허윽</li>
+		<li>Grunt_M-></li>
+		
+		<!-- penis oral=== -->
+		<li>exclaim_oral2->쪽</li>
+		<li>exclaim_oral2->쯥</li>
+		<li>exclaim_oral2->쭈웁</li>
+		<li>exclaim_oral2->츄릅</li>
+		<li>exclaim_oral2->우붑</li>
+		<li>exclaim_oral2->쿠흡</li>
+		<li>exclaim_oral2->케흐읍</li>
+		<li>exclaim_oral2->우구웁</li>
+		<li>exclaim_oral2->우브읍</li>
+		
+		<!-- ===Verbs=== -->
+		<li>suck->lick</li>
+		<li>suck->suck</li>
+		<li>forces->forces</li>	
+		<li>forces->slides</li>
+		<li>forces->inserts</li>
+		<li>forces->pushes</li>
+		<li>forces->shoves</li>
+		<li>licks->licks</li>
+		<li>licks->tongues</li>
+		<li>fuck->범해</li>
+		<li>fuck->박아</li>
+		<li>fuck->따먹어</li>
+		<li>fuck->쑤셔</li>		
+		
+		<li>desire->need</li>
+		<li>desire->want</li>
+		<!--<li>desire->demand</li>-->
+		
+		<!-- ===Adjectives=== -->		
+			<!-- ===Genital Adjectives=== -->
+				<!-- ===Good=== -->
+				<li>penis_adj_good->커다란</li>
+				<li>penis_adj_good->우람한</li>
+				<li>penis_adj_good->단단한</li>
+				<li>penis_adj_good->흥분되는</li>
+				<li>penis_adj_good-></li>
+				
+				<li>boobs_adj_good->아름다운</li>
+				<li>boobs_adj_good->커다란</li>
+				<li>boobs_adj_good->부드러운</li>
+				<li>boobs_adj_good->아담한</li>
+				<li>boobs_adj_good->섹시한</li>
+				<li>boobs_adj_good->굉장한</li>
+				<li>boobs_adj_good->예쁜</li>
+				<li>boobs_adj_good->흥분되는</li>
+				<li>boobs_adj_good-></li>
+				
+				<li>vagina_adj_good->귀여운</li>
+				<li>vagina_adj_good->조이는</li>
+				<li>vagina_adj_good->물 많은</li>
+				<!-- <li>vagina_adj_good->virgin</li>-->
+				<!-- <li>vagina_adj_good->used</li>-->
+				<li>vagina_adj_good-></li>
+				
+				<li>ass_adj_good->아름다운</li>
+				<li>ass_adj_good->섹시한</li>
+				<li>ass_adj_good->커다란</li>
+				<li>ass_adj_good->예쁜</li>
+				<li>ass_adj_good->귀여운</li>
+				<li>ass_adj_good-></li>
+			
+				<!-- <li>asshole_adj_good->virgin</li>-->
+				<li>asshole_adj_good->귀여운</li>
+				<li>asshole_adj_good->조이는</li>
+				<li>asshole_adj_good-></li>
+				
+				<!-- ===Bad=== -->
+				<li>penis_adj_bad->filthy</li>
+				<li>penis_adj_bad->dirty</li>
+				<li>penis_adj_bad->hard</li>
+				<li>penis_adj_bad->fat</li>
+				<li>penis_adj_bad->big</li>
+				<li>penis_adj_bad-></li>
+				
+				<li>vagina_adj_bad->hot</li>
+				<li>vagina_adj_bad->tight</li>
+				<li>vagina_adj_bad->wet</li>
+				<li>vagina_adj_bad->filthy</li>
+				<li>vagina_adj_bad->dirty</li>
+			
+			<!-- ===Participant Adjectives=== -->
+				<!-- ===Good=== -->
+				<li>participant_adj_good->대단한</li>
+				<li>participant_adj_good->착한</li>
+				<li>participant_adj_good->섹시한</li>
+				<li>participant_adj_good->음란한</li>
+				<li>participant_adj_good->야한</li>
+			
+				<!-- ===Bad=== -->
+				<li>participant_adj_bad->형편없는</li>
+				<li>participant_adj_bad->발정난</li>
+				<li>participant_adj_bad->추잡한</li>
+				<li>participant_adj_bad->음탕한</li>
+				<li>participant_adj_bad->저속한</li>
+				
+			<li>counterpart_adj_age(RECIPIENT_age>=INITIATOR_age)->큰</li>
+			<li>counterpart_adj_age(INITIATOR_age>=RECIPIENT_age)->어린</li>
+			<li>counterpart_adj_age-></li>
+			
+		<li>derogadj->추잡한</li>
+		<li>derogadj->더러운</li>
+		<li>derogadj->역겨운</li>	
+		
+		<!-- ===Genitals=== -->
+		<li>penis->자지</li>
+		<li>penis->물건</li>
+		<li>penis->고추</li>
+		<li>ass->애널</li>
+		<li>ass->엉덩이</li>
+		<li>ass->뒷구멍</li>
+		<li>vagina->보지</li>
+		<li>vagina->밑구멍</li>
+		<li>vagina->앞구멍</li>
+		<li>vaginaM->씹구멍</li>
+		<li>womb->자궁</li>
+		<li>womb->아가방</li>
+		<li>boobs->가슴</li>
+		<li>boobs->젖가슴</li>		
+		<!-- ===Misc=== -->			
+		<li>cum->정액</li>	
+		<li>cum->아기즙</li>
+		<li>cum->좆물</li>			
+		<li>cum->자지즙</li>
+		<li>nipple->꼭지</li>
+		<li>nipple->유두</li>
+		<li>lovejuce->애액</li>
+		<li>lovejuce->보지즙</li>
+		<li>lovejuce->씹물</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all sexual social interactions "SexualChitchat.xml"=== -->
+  <RulePackDef>
+    <defName>SexualChitchatConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Reacting to sex=== -->
+		<li>normal_sex_reaction->wow</li>
+		<li>normal_sex_reaction->oh my</li>
+		<li>normal_sex_reaction->*gasp*</li>
+		<li>normal_sex_reaction->ah</li>
+		<li>horny_sex_reaction->wow</li>
+		<li>horny_sex_reaction->ooh</li>
+		<li>horny_sex_reaction->hot</li>
+		<li>gross_sex_reaction->ew</li>
+		<li>gross_sex_reaction->ugh</li>
+		<li>gross_sex_reaction->gross</li>
+		<li>gross_sex_reaction->yuck</li>
+		<li>cheer_sex_reaction->woo</li>
+		<li>cheer_sex_reaction->nice</li>
+		<li>leaving_sex_reaction->i'll get out of here</li>
+		<li>leaving_sex_reaction->i'll go</li>
+		<li>leaving_sex_reaction->i'll leave you to it</li>
+		<!-- ===Misc=== -->
+		<li>expletive_adj->겁나게</li>
+		<li>expletive_adj->존나</li>
+		<li>expletive->젠장할</li>
+		<li>expletive->젠장맞을</li>
+		<li>expletive->우라질</li>
+		<li>fuck->fuck</li>	
+		<li>fuck->pound</li>	
+		<li>fuck->breed</li>	
+		<li>insult->개자식</li>
+		<li>insult->motherfucker</li>
+		<li>insult->개새끼</li>
+		<li>insult->piece of shit</li>
+		<li>insult->fucker</li>
+		<li>laughs->아하하</li>
+		<li>laughs->하하</li>
+	<!-- ===Nouns=== -->	
+	<li>counterpart(INITIATOR_opinion>=25)->[friend]</li>
+		<li>friend->친구</li>
+		<li>friend->어이</li>
+		<li>friend->야</li>
+		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Male, RECIPIENT_age>INITIATOR_age)->형</li>
+		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Male, RECIPIENT_age>INITIATOR_age)->누나</li>
+		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Female, RECIPIENT_age>INITIATOR_age)->언니</li>
+		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Female, RECIPIENT_age>INITIATOR_age)->오빠</li>
+	<li>counterpart->[neutral]</li>
+		<li>neutral->[RECIPIENT_nameDef]</li>		
+		<li>neutral->이봐</li>
+	<li>counterpart(INITIATOR_opinion&lt;=-25)->[rival]</li>
+		<li>rival(RECIPIENT_trait==masochist, INITIATOR_trait!=masochist, priority=1)->[disapprove]</li>				
+			<li>disapprove(RECIPIENT_trait==zoophile, INITIATOR_trait!=zoophile)->수간충</li>
+			<li>disapprove(RECIPIENT_trait==rapist, INITIATOR_trait!=rapist)->강간마</li>
+			<li>disapprove->degenerate</li>
+			<li>disapprove->freak</li>
+			<li>disapprove(INITIATOR_intellectual_level>=10)->profligate</li>
+		<li>rival->punk</li>
+		<li>rival(RECIPIENT_gender==Male)->개자식</li>
+		<li>rival(RECIPIENT_gender==Female)->걸레년</li>			
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+ <!-- ===Constants across all sex initiator interactions "Sex.xml"=== -->
+  <RulePackDef>
+    <defName>SexConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+		<li>sex(INITIATOR_gender==Male, RECIPIENT_gender==Male, priority=1)->[sex_mm]</li>
+		<li>sex(INITIATOR_gender==Male, RECIPIENT_gender==Female, priority=1)->[sex_mf]</li>
+		<li>sex(INITIATOR_gender==Female, RECIPIENT_gender==Male, priority=1)->[sex_ff]</li>
+		<li>sex(INITIATOR_gender==Female, RECIPIENT_gender==Female, priority=1)->[sex_fm]</li>
+			<li>sex_mm->[sex_n]</li>
+			<li>sex_mf->[sex_n]</li>
+			<li>sex_ff->[sex_n]</li>
+			<li>sex_fm->[sex_n]</li>
+		<!-- ===Nouns=== -->
+		<li>lover(INITIATOR_opinion>=85)->[best]</li>
+			<li>best->자기</li>
+			<li>best->내사랑</li>
+			<li>best->여보</li>
+			<li>best->여보야</li>
+			<li>friend(RECIPIENT_gender==Female)->애기야</li>
+			<li>best(RECIPIENT_gender==Male)->오라버니</li>
+			<li>best(RECIPIENT_gender==Male)->서방님</li>
+			<li>best(RECIPIENT_gender==Female)->마누라</li>
+		<li>lover(INITIATOR_opinion>=25)->[friend]</li>
+			<li>friend->자기</li>
+			<li>friend->내사랑</li>
+			<li>friend->[RECIPIENT_nameDef]</li>
+			<li>friend(RECIPIENT_gender==Female)->귀염둥이</li>
+			<li>friend(RECIPIENT_gender==Male)->오라버니</li>
+			<li>friend(RECIPIENT_gender==Male)->오빠</li>
+		<li>lover->[neutral]</li>
+			<li>neutral->[RECIPIENT_nameDef]</li>							
+		<li>lover(INITIATOR_opinion&lt;=-25)->[rival]</li>
+			<li>rival(RECIPIENT_gender==Female)->암캐</li>
+			<li>rival(RECIPIENT_gender==Female)->걸레</li>
+			<li>rival(RECIPIENT_gender==Male)->더러운 남창</li>
+			<li>rival(RECIPIENT_gender==Male)->발정난 개새끼</li>
+		<li>lover(INITIATOR_opinion&lt;=-85)->[worst]</li>
+			<li>worst(RECIPIENT_gender==Female)->창년</li>
+			<li>worst(RECIPIENT_gender==Female)->암캐년</li>
+			<li>worst(RECIPIENT_gender==Female)->걸레년</li>
+			<li>rival(RECIPIENT_gender==Male)->역겨운 창놈</li>
+			<li>worst(RECIPIENT_gender==Male)->씹새끼</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all sex recipient interactions "SexReply.xml"=== -->
+  <RulePackDef>
+    <defName>SexReplyConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+		<li>r_logentry->[sex_react]</li>
+			<li>sex_react(INITIATOR_gender==Female, RECIPIENT_gender==Female, priority=1)->[sex_react_ff]</li>
+			<li>sex_react(INITIATOR_gender==Female, RECIPIENT_gender==Male, priority=1)->[sex_react_fm]</li>
+			<li>sex_react(INITIATOR_gender==Male, RECIPIENT_gender==Female, priority=1)->[sex_react_mf]</li>
+			<li>sex_react(INITIATOR_gender==Male, RECIPIENT_gender==Male, priority=1)->[sex_react_mm]</li>
+				<li>sex_react_ff->[sex_react_n]</li>
+				<li>sex_react_fm->[sex_react_n]</li>
+				<li>sex_react_mf->[sex_react_n]</li>
+				<li>sex_react_mm->[sex_react_n]</li>
+		<!-- ===Nouns=== -->
+		<li>lover(INITIATOR_opinion>=85)->[best]</li>
+			<li>best->자기</li>
+			<li>best->여보</li>
+			<li>best->내사랑</li>
+			<li>best->여보야</li>
+			<li>best(RECIPIENT_gender==Female)->귀염둥이</li>
+			<li>best(RECIPIENT_gender==Male)->오라버니</li>
+		<li>lover(INITIATOR_opinion>=25)->[friend]</li>
+			<li>friend->자기</li>
+			<li>friend->여보</li>
+			<li>friend(RECIPIENT_gender==Female)->애기</li>
+			<li>friend(RECIPIENT_gender==Male)->오라버니</li>
+		<li>lover->[neutral]</li>
+			<li>neutral->[RECIPIENT_nameDef]</li>							
+		<li>lover(INITIATOR_opinion&lt;=-25)->[rival]</li>
+			<li>rival(RECIPIENT_gender==Female)->암캐</li>
+			<li>rival(RECIPIENT_gender==Female)->걸레</li>
+			<li>rival(RECIPIENT_gender==Male)->짐승</li>
+			<li>rival(RECIPIENT_gender==Male)->남창</li>
+		<li>lover(INITIATOR_opinion&lt;=-85)->[worst]</li>
+			<li>worst(RECIPIENT_gender==Female)->창년</li>
+			<li>worst(RECIPIENT_gender==Female)->암캐년</li>
+			<li>worst(RECIPIENT_gender==Female)->걸레년</li>
+			<li>worst(RECIPIENT_gender==Male)->개자식</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all sex recipient interactions "Masterbation.xml"=== -->
+  <RulePackDef>
+    <defName>MasterbationConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+		<li>r_logentry->[Masturbated]</li>
+			<li>Masturbated(INITIATOR_gender==Female, priority=1)->[Masturbated_f]</li>
+			<li>Masturbated(INITIATOR_gender==Male, priority=1)->[Masturbated_m]</li>
+				<li>Masturbated_f->[Masturbated_n]</li>
+				<li>Masturbated_m->[Masturbated_n]</li>
+		<!-- ===Nouns=== -->
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all rapist interactions "Rape.xml"=== -->
+  <RulePackDef>
+    <defName>RapeConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+		<li>rape(INITIATOR_gender==Male, priority=1)->[rape_m]</li>
+		<li>rape(INITIATOR_gender==Female, priority=1)->[rape_f]</li>
+			<li>rape_m->[rape_n]</li>
+			<li>rape_f->[rape_n]</li>
+		<!-- ===Nouns=== -->
+		<li>victim->[RECIPIENT_nameDef]</li>
+		<li>victim(RECIPIENT_gender==Female)->[victim_f]</li>
+		<li>victim(RECIPIENT_gender==Male)->[victim_m]</li>
+		<li>victim_f(INITIATOR_opinion>=25,  priority=1)->[RECIPIENT_nameDef]</li>
+		<li>victim_f->bitch</li>
+		<li>victim_f->걸레</li>
+		<li>victim_f->창녀</li>
+		<li>victim_m(INITIATOR_opinion>=25,  priority=1)->[RECIPIENT_nameDef]</li>
+		<li>victim_m->bitch</li>
+		<li>victim_m->pussy</li>
+		<li>victim_m->weakling</li>	
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all victim interactions "RapeReply.xml"=== -->
+  <RulePackDef>
+    <defName>RapeReplyConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+		<li>r_logentry->[rape_react]</li>
+			<li>rape_react(RECIPIENT_gender==Female, priority=1)->[rape_react_f]</li>
+				
+				<li>rape_react_f(INITIATOR_trait==masochist, priority=2)->[masochist_f]</li>
+				<li>rape_react_f(INITIATOR_thoughtLabel==begging for more, priority=1)->[masochist_f]</li>
+				<li>rape_react_f(INITIATOR_thoughtLabel==my body feels broken, priority=1)->[broken2_f]</li>
+				<li>rape_react_f(INITIATOR_thoughtLabel==dizzy, priority=1)->[broken1_f]</li>
+			<li>rape_react(RECIPIENT_gender==Male, priority=1)->[rape_react_m]</li>
+				<li>rape_react_m(INITIATOR_trait==masochist, priority=2)->[masochist_m]</li>
+				<li>rape_react_m(INITIATOR_thoughtLabel==begging for more, priority=1)->[masochist_m]</li>
+				<li>rape_react_m(INITIATOR_thoughtLabel==my body feels broken, priority=1)->[broken2_m]</li>
+				<li>rape_react_m(INITIATOR_thoughtLabel==dizzy, priority=1)->[broken1_m]</li>		
+				<li>rape_react_m->[rape_react_n]</li>
+				<li>rape_react_f->[rape_react_n]</li>
+				<li>masochist_m->[masochist_n]</li>
+				<li>masochist_f->[masochist_n]</li>
+				<li>broken2_m->[broken2_n]</li>
+				<li>broken2_f->[broken2_n]</li>
+				<li>broken1_m->[broken2_n]</li>
+				<li>broken1_f->[broken2_n]</li>
+		<!-- ===Nouns=== -->
+		<li>rapist(INITIATOR_opinion>=25, priority=1)->[RECIPIENT_nameDef]</li>
+		<li>rapist(INITIATOR_trait==masochist, priority=2)->[master]</li>					
+			<li>master->주인님</li>
+			<li>master(RECIPIENT_gender==Male)->daddy</li>
+			<li>master->[RECIPIENT_nameDef]</li>
+		<li>rapist->[rapist_bad_opinion]</li>
+			<li>rapist_bad_opinion(RECIPIENT_gender==Female)->창녀</li>
+			<li>rapist_bad_opinion(RECIPIENT_gender==Male)->creep</li>
+			<li>rapist_bad_opinion->개새끼</li>
+			<li>rapist_bad_opinion->개자식</li>
+			<li>rapist_bad_opinion->you piece of shit</li>
+			<li>rapist_bad_opinion->freak</li>	
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all breeder interactions "Bestiality.xml"=== -->
+  <RulePackDef>
+    <defName>BestialityConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+			<li>r_logentry(INITIATOR_alienRace==Human, priority=2)->[human_breed]</li>
+				<li>human_breed(INITIATOR_gender==Male)->[human_breed_m]</li>
+				<li>human_breed(INITIATOR_gender==Female)->[human_breed_f]</li>
+					<li>human_breed_m(INITIATOR_trait==zoophile, priority=2)->[zoophile_m]</li>
+					<li>human_breed_f(INITIATOR_trait==zoophile, priority=2)->[zoophile_f]</li>
+
+					<li>zoophile_f->[zoophile_n]</li>	
+					<li>zoophile_m->[zoophile_n]</li>	
+					<li>human_breed_m->[human_breed_n]</li>	
+					<li>human_breed_f->[human_breed_n]</li>	
+				
+			<li>r_logentry(INITIATOR_alienRace!=Human, RECIPIENT_alienRace==Human, priority=1)->[animal_breed_with_reply]</li>
+			
+			<li>r_logentry(INITIATOR_alienRace!=Human, priority=0.5)->[animal_breed]</li>	
+				<li>animal_breed(INITIATOR_gender==Male)->[animal_breed_m]</li>	
+				<li>animal_breed(INITIATOR_gender==Female)->[animal_breed_f]</li>	
+					<li>animal_breed_m->[animal_breed_n]</li>
+					<li>animal_breed_f->[animal_breed_n]</li>
+				
+			<!-- ===Verbs=== -->
+			<li>fuck->breed</li>	
+			
+			<!-- ===Nouns=== -->		
+			<li>animal_noun->[RECIPIENT_nameDef]</li>
+			<li>animal_noun(RECIPIENT_gender==Male)->boy</li>
+			<li>animal_noun(RECIPIENT_gender==Female)->girl</li>
+			<li>animal_noun(RECIPIENT_gender==Female)->lady</li>
+			
+			<!-- ====Animal Genitals=== -->
+			<li>animal_genitals_initiator(INITIATOR_gender==Male, priority=5)->[animal_penis_initiator]</li>
+			<li>animal_genitals_initiator(INITIATOR_gender==Female, priority=5)->[animal_vagina_initiator]</li>
+			<li>animal_genitals_recipient(RECIPIENT_gender==Male, priority=5)->[animal_penis_recipient]</li>
+			<li>animal_genitals_recipient(RECIPIENT_gender==Female, priority=5)->[animal_vagina_recipient]</li>
+			
+			<li>animal_penis_initiator(INITIATOR_alienRace==Human, priority=5)->[penis]</li>
+				<li>animal_penis_initiator->[penis]</li>
+				<li>animal_penis_initiator->[INITIATOR_kind] [penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_alienRace==Human, priority=5)->[penis]</li>
+				<li>animal_penis_recipient->[penis]</li>
+				<li>animal_penis_recipient->[RECIPIENT_kind] [penis]</li>
+			<li>animal_vagina_initiator(INITIATOR_alienRace==Human, priority=5)->[vagina]</li>
+				<li>animal_vagina_initiator->[vagina]</li>
+				<li>animal_vagina_initiator->[INITIATOR_kind] [vagina]</li>
+			<li>animal_vagina_recipient(RECIPIENT_alienRace==Human, priority=5)->[vagina]</li>
+				<li>animal_vagina_recipient->[vagina]</li>
+				<li>animal_vagina_recipient->[RECIPIENT_kind] [vagina]</li>
+			<li>animal_ass_initiator(INITIATOR_alienRace==Human, priority=5)->[ass]</li>
+				<li>animal_ass_initiator->[ass]</li>
+				<li>animal_ass_initiator->[INITIATOR_kind] [ass]</li>
+			<li>animal_ass_recipient(RECIPIENT_alienRace==Human, priority=5)->[ass]</li>
+				<li>animal_ass_recipient->[ass]</li>
+				<li>animal_ass_recipient->[RECIPIENT_kind] [ass]</li>
+			
+			<li>animal_penis_recipient(RECIPIENT_kind==husky, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==labrador retriever, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==yorkshire terrier, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==warg, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==timber wolf, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==arctic wolf, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==fennec fox, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==red fox, priority=1)->[canine_penis]</li>
+			<li>animal_penis_recipient(RECIPIENT_kind==arctic fox, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==husky, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==labrador retriever, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==yorkshire terrier, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==warg, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==timber wolf, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==arctic wolf, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==fennec fox, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==red fox, priority=1)->[canine_penis]</li>
+			<li>animal_penis_initiator(RECIPIENT_kind==arctic fox, priority=1)->[canine_penis]</li>
+					<li>canine_penis->red rocket</li>
+					<li>canine_penis->knot</li>
+					<li>canine_penis->[penis]</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <!-- ===Constants across all breedee interactions "BestialityReply.xml"=== -->
+  <RulePackDef>
+    <defName>BestialityReplyConstants</defName>
+    <rulePack>
+      <rulesStrings>
+		<!-- ===Who's doing what to who=== -->
+		<li>r_logentry(INITIATOR_alienRace==Human, priority=2)->[human_react]</li>				
+			<li>human_react(RECIPIENT_gender==Male)->[human_react_m]</li>
+				<li>human_react_m(INITIATOR_trait==zoophile, priority=2)->[zoophile_m]</li>
+			<li>human_react(RECIPIENT_gender==Female)->[human_react_f]</li>	
+				<li>human_react_f(INITIATOR_trait==zoophile, priority=2)->[zoophile_f]</li>			
+		<li>r_logentry(INITIATOR_alienRace!=Human, priority=1)->...</li>
+		
+			<li>zoophile_f->[zoophile_n]</li>	
+			<li>zoophile_m->[zoophile_n]</li>	
+			<li>human_react_m->[human_react_n]</li>	
+			<li>human_react_f->[human_react_n]</li>	
+			
+		<!-- ===Verbs=== -->
+			<li>fuck->breed</li>	
+			
+		<!-- ===Nouns=== -->
+		<li>animal_noun->[RECIPIENT_nameDef]</li>
+		<li>animal_noun(RECIPIENT_gender==Male)->boy</li>
+		<li>animal_noun(RECIPIENT_gender==Female)->girl</li>
+		<li>animal_noun(RECIPIENT_gender==Female)->lady</li>
+
+		<!-- ====Animal Genitals=== -->
+		<li>animal_genitals_initiator(INITIATOR_gender==Male, priority=5)->[animal_penis_initiator]</li>
+		<li>animal_genitals_initiator(INITIATOR_gender==Female, priority=5)->[animal_vagina_initiator]</li>
+		<li>animal_genitals_recipient(RECIPIENT_gender==Male, priority=5)->[animal_penis_recipient]</li>
+		<li>animal_genitals_recipient(RECIPIENT_gender==Female, priority=5)->[animal_vagina_recipient]</li>
+			
+		<li>animal_penis_initiator(INITIATOR_alienRace==Human, priority=5)->[penis]</li>
+			<li>animal_penis_initiator->[penis]</li>
+			<li>animal_penis_initiator->[INITIATOR_kind] [penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_alienRace==Human, priority=5)->[penis]</li>
+			<li>animal_penis_recipient->[penis]</li>
+			<li>animal_penis_recipient->[RECIPIENT_kind] [penis]</li>
+		<li>animal_vagina_initiator(INITIATOR_alienRace==Human, priority=5)->[vagina]</li>
+			<li>animal_vagina_initiator->[vagina]</li>
+			<li>animal_vagina_initiator->[INITIATOR_kind] [vagina]</li>
+		<li>animal_vagina_recipient(RECIPIENT_alienRace==Human, priority=5)->[vagina]</li>
+			<li>animal_vagina_recipient->[vagina]</li>
+			<li>animal_vagina_recipient->[RECIPIENT_kind] [vagina]</li>
+		<li>animal_ass_initiator(INITIATOR_alienRace==Human, priority=5)->[ass]</li>
+			<li>animal_ass_initiator->[ass]</li>
+			<li>animal_ass_initiator->[INITIATOR_kind] [ass]</li>
+		<li>animal_ass_recipient(RECIPIENT_alienRace==Human, priority=5)->[ass]</li>
+			<li>animal_ass_recipient->[ass]</li>
+			<li>animal_ass_recipient->[RECIPIENT_kind] [ass]</li>
+		
+		<li>animal_penis_recipient(RECIPIENT_kind==husky, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==labrador retriever, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==yorkshire terrier, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==warg, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==timber wolf, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==arctic wolf, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==fennec fox, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==red fox, priority=1)->[canine_penis]</li>
+		<li>animal_penis_recipient(RECIPIENT_kind==arctic fox, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==husky, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==labrador retriever, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==yorkshire terrier, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==warg, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==timber wolf, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==arctic wolf, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==fennec fox, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==red fox, priority=1)->[canine_penis]</li>
+		<li>animal_penis_initiator(RECIPIENT_kind==arctic fox, priority=1)->[canine_penis]</li>
+				<li>canine_penis->red rocket</li>
+				<li>canine_penis->knot</li>
+				<li>canine_penis->[penis]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>
+

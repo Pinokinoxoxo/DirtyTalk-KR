@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!--	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/RulePackDef[defName = &quot;DoublePenetrationRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=DoublePenetrationRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;DoublePenetrationReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=DoublePenetrationRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+	
+		<xpath>/Defs/RulePackDef[defName = &quot;AnalSexRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=AnalSexRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;AnalSexReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=AnalSexRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;VaginalSexRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=VaginalSexRP, priority=-1)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;VaginalSexReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=VaginalSexRP, priority=-1)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;HandjobRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=HandjobRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;HandjobReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=HandjobRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FootjobRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FootjobRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FootjobReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FootjobRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FingeringRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FingeringRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FingeringReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FingeringRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FistingRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FistingRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FistingReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FistingRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;BreastjobRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=BreastjobRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;BreastjobReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=BreastjobRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;ScissoringRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=ScissoringRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;MutualMasturbationRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=MutualMasturbationRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;RimmingRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=RimmingRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;RimmingReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=RimmingRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;CunnilingusRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=CunnilingusRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;CunnilingusReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=CunnilingusRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FellatioRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FellatioRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;FellatioReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=FellatioRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;SixtynineRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=SixtynineRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+
+		<xpath>/Defs/RulePackDef[defName = &quot;SixtynineReverseRP&quot;]/rulePack/rulesStrings</xpath>
+		<value>
+		  <rulesStrings>
+			<li>sent(tag=SixtynineRP)-&gt;</li>
+		  </rulesStrings>
+		</value>
+	</Operation> -->
+</Patch>

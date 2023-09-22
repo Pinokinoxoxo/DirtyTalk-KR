@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- ===ChitchatReplies=== -->
+	<InteractionDef ParentName="SexTalkReply">
+		<defName>Milking_Question</defName>
+		<label>milking-question</label>
+		<symbol>UI/Icons/MilkMote</symbol>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry(INITIATOR_thoughtLabel==producing milk, tag=Milking_Questiona, priority=1)->[is_milkproducing]</li>
+					<li>is_milkproducing(INITIATOR_opinion>=25)->젖 생산은 순조롭게 잘 되고 있어, [counterpart]!</li>
+					<li>is_milkproducing(INITIATOR_opinion>=25)->그 녀석들은 젖 생산을 아주 잘 하고 있어. 완벽해!</li>
+					<li>is_milkproducing(INITIATOR_opinion&lt;=-25)->걔들은 네 [boobs]에서 나오는 것 보다 더 잘 생산하고 있어, [counterpart]!</li>
+					<li>is_milkproducing->그들은 순조롭게 젖을 생산하고 있어, [counterpart].</li>
+					<li>is_milkproducing->이 [boobs]들은 젖을 잘 짜내고 있어. 아주 완벽해!</li>
+					<li>is_milkproducing->우유 생산은 순조롭게 진행되고 있어, [counterpart].</li>
+				<li>r_logentry(INITIATOR_thoughtLabel==not producing milk, tag=Milking_Questionb, priority=1)->[not_milkproducing]</li>
+					<li>not_milkproducing(INITIATOR_opinion>=25)->[counterpart] 걔들은 제대로 젖을 짜고 있지 않아. 정말 [milkterrible]!</li>
+					<li>not_milkproducing(INITIATOR_opinion>=25)->내 [boobs]은 네 [breastcompliment] [boobs]에서 나오는 양을 도저히 따라잡을 수가 없어!</li>
+					<li>not_milkproducing(INITIATOR_opinion&lt;=-25)->그네들은 전혀 젖을 만들이 않고 있어. [counterpart], 너도 알고 있잖아!</li>
+					<li>not_milkproducing->[counterpart], 더 이상 젖이 나오지 않아... 너무 [milkterrible]!</li>
+					<li>not_milkproducing->더 이상 젖이 나오지가 않아! 너무 [milkterrible]!</li>			
+				<li>r_logentry->...</li>				
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+	
+	<InteractionDef ParentName="SexTalkReply">
+		<defName>Milking_Questiona</defName>
+		<label>milking-question</label>
+		<symbol>UI/Icons/MilkMote</symbol>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry(INITIATOR_thoughtLabel==producing milk, priority=1)->[is_milkproducing]</li>
+					<li>is_milkproducing(INITIATOR_opinion>=25)->잘 됐네! 내 [boobs]에서도 젖이 잘 나와!</li>
+					<li>is_milkproducing(INITIATOR_opinion&lt;=-25)->나도 그랬으면 좋겠어...</li>
+					<li>is_milkproducing->잘됐다, [counterpart]. 나도 똑같아.</li>
+					<li>is_milkproducing->내 [boobs]에서도 젖이 잘 나와, 젖이 잘 나오면 기분 좋지 않아?</li>
+				<li>r_logentry(INITIATOR_thoughtLabel==not producing milk, priority=1)->[not_milkproducing]</li>
+					<li>not_milkproducing(INITIATOR_opinion>=25)->내 [boobs]에서 나오는 양은 네 [breastcompliment] [boobs]에서 나오는 것과는 비교가 안돼!</li>
+					<li>not_milkproducing(INITIATOR_opinion&lt;=-25)->네 [boobs]이 나보다 젖이 더 잘 나온다고? [milkterrible]!</li>
+					<li>not_milkproducing->질투나!</li>	
+				<li>r_logentry->...</li>		
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+	
+	<InteractionDef ParentName="SexTalkReply">
+		<defName>Milking_Questionb</defName>
+		<label>milking-question</label>
+		<symbol>UI/Icons/MilkMote</symbol>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry(INITIATOR_thoughtLabel==producing milk, priority=1)->[is_milkproducing]</li>
+					<li>is_milkproducing(INITIATOR_opinion>=25)->걱정 마 [counterpart]! 네 [breastcompliment] [boobs]에서도 곧 있으면 달콤한 젖이 나올거야.</li>
+					<li>is_milkproducing(INITIATOR_opinion&lt;=-25)->[counterpart], 부끄러운 줄 알아!</li>
+					<li>is_milkproducing->네 [boobs]에서도 곧 젖이 잘 나올거야, [counterpart].</li>
+				<li>r_logentry(INITIATOR_thoughtLabel==not producing milk, priority=1)->[not_milkproducing]</li>
+					<li>not_milkproducing(INITIATOR_opinion>=25)->[counterpart], 내 [boobs]에서도 젖이 마른 것 같아. 너무 [milkterrible]!</li>
+					<li>not_milkproducing(INITIATOR_opinion&lt;=-25)->드디어 네가 나보다 젖이 적게 나오는구나...</li>
+					<li>not_milkproducing->[counterpart], 나도 같은 처지야!</li>
+				<li>r_logentry->...</li>		
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>
+</Defs>	

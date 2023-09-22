@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+<Operation Class="PatchOperationSequence">
+<operations>
+	
+	<!-- ===Chitchat=== -->	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName = "Chitchat"]/logRulesInitiator/rulesStrings</xpath>
+		<value>
+			<li>r_logentry(INITIATOR_thoughtDefName==SawExhibitionism_Disapproved, RECIPIENT_thoughtDefName==PartookInExhibitionism_Disapproved, tag=ExhibitionismChat)->[exhibitionismchat]</li>
+			<li>exhibitionismchat->이런, 제발 어디든 들어가서 해!</li>
+			<li>exhibitionismchat->떡치는 건 제발 안 보이는 곳에서 해!</li>
+		</value>
+	</li>
+	
+</operations>
+</Operation>
+</Patch>

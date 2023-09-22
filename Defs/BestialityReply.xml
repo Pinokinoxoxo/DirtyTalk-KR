@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<InteractionDef Name="BreedReply" Abstract="True">
+		<symbol>UI/Icons/BreedingMote</symbol>
+	</InteractionDef>
+	
+<!-- ===AnalBreeding=== -->
+
+	<!-- ===Reciever=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Anal_Breed_Reply</defName>
+		<label>analbreed — react to</label>		
+		<logRulesInitiator>
+			<rulesStrings>
+					<!-- ===Neutral Zoophile=== -->
+					<li>zoophile_n->[exclaim_low]! 그 [animal_penis_recipient]로 내 [ass] 엉망진창으로 만들어줘!</li>
+					<!-- ===Neutral=== -->
+					<li>human_react_n->이런 미친! 저리 꺼져! [exclaim_high]!</li>
+					<li>human_react_n->[exclaim_high]! 내 [ass]에서 그 역겨운 [derogadj] [animal_penis_recipient] 빨리 빼..!</li>	
+					<li>human_react_n->[exclaim_high]! 내 [ass]에서 그 [animal_penis_recipient] 빼!</li>	
+					<!-- ===Zoophile react to male breeder=== -->
+					
+					<!-- ===React to male breeder=== -->
+					
+					<!-- ===Zoophile react to female breeder=== -->
+					
+					<!-- ===React to female breeder=== -->
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+	<!-- ===Giver=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Anal_Breed_Reply_Reverse</defName>
+		<label>analbreed — react to</label>		
+		<logRulesInitiator>
+			<rulesStrings>
+					<!-- ===Neutral Zoophile=== -->
+					<li>zoophile_n->If you insist, [animal_noun]!</li>
+					<li>zoophile_n->I'll never turn down a [RECIPIENT_kind] [ass]!</li>	
+					<!-- ===Neutral=== -->
+					<li>human_react_n->흐으... 이런 짓은 하지 말았어야 했는데!</li>
+					<li>human_react_n->으윽... 난, 나는 이러면, 하지만 네 [animal_ass_recipient](은)는...</li>
+					<li>human_react_n->알아, 이건 잘못됐어, [animal_noun], 하지만 네 [animal_ass_recipient](은)는 참을 수가 없는 걸!</li>
+					<li>human_react_n->네 [animal_ass_recipient](이)가 이렇게 기분 좋은게 문제야, [animal_noun]!</li>		
+					<!-- ===Zoophile react to male breeder=== -->
+					
+					<!-- ===React to male breeder=== -->
+				
+					<!-- ===Zoophile react to female breeder=== -->
+					
+					<!-- ===React to female breeder=== -->
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+<!-- ===VaginalBreeding=== -->
+	
+	<!-- ===Reciever=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Vaginal_Breed_Reply</defName>
+		<label>vaginalbreed — react to</label>	
+		<logRulesInitiator>
+			<rulesStrings>				
+				<!-- ===Neutral Zoophile=== -->
+				<li>zoophile_n->[exclaim_low]! [animal_noun], [animal_penis_recipient]로.. [exclaim_low]! 내 [vagina] 가득 박아줘..!</li>
+				<!-- ===Neutral=== -->
+				<li>human_react_n->이런 미친! 저리 꺼져, [exclaim_high]!</li>
+				<li>human_react_n->[exclaim_high]! 그 [animal_penis_recipient] 당장 빼..!</li>
+				<li>human_react_n->[exclaim_high]! 그, 그 [derogadj] [animal_penis_recipient] 당장 치워..!</li>
+				<!-- ===Zoophile react to male breeder=== -->
+				
+				<!-- ===React to male breeder=== -->
+				
+				<!-- ===Zoophile react to female breeder=== -->
+				
+				<!-- ===React to female breeder=== -->
+
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+	<!-- ===Giver=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Vaginal_Breed_Reply_Reverse</defName>
+		<label>vaginalbreed — react to</label>	
+		<logRulesInitiator>
+			<rulesStrings>				
+				<!-- ===Neutral Zoophile=== -->
+				<li>zoophile_n->[animal_noun], 네가 원한다면...</li>
+				<li>zoophile_n->I'll never turn down a [animal_vagina_recipient]!</li>
+				<!-- ===Neutral=== -->
+				<li>human_react_n->흐으... 이런 짓은 하지 말았어야 했는데!</li>
+				<li>human_react_n->으윽... 난, 나는 이러면, 하지만 네 [animal_vagina_recipient](은)는...</li>
+				<li>human_react_n->알아, 이건 잘못됐어, [animal_noun], 하지만 네 [animal_vagina_recipient](은)는 정말 참을 수가 없는 걸!</li>
+				<li>human_react_n->네 [animal_vagina_recipient](이)가 이렇게 기분 좋은게 문제야, [animal_noun]!</li>
+				<!-- ===Zoophile react to male breeder=== -->
+
+				<!-- ===React to male breeder=== -->
+
+				<!-- ===Zoophile react to female breeder=== -->
+				
+				<!-- ===React to female breeder=== -->
+			
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+<!-- ===OralBreeding=== -->
+
+	<!-- ===Giver=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Orally_Breed_Reply</defName>
+		<label>oralbreed — react to</label>		
+		<logRulesInitiator>
+			<rulesStrings>
+				<!-- ===Neutral Zoophile=== -->
+				<li>zoophile_n->*[exclaim_oral]* [animal_penis_recipient]... *[exclaim_oral]* 너무 맛있어, [animal_noun]..!</li>
+				<li>zoophile_n->*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]* </li>
+				<li>zoophile_n->*[exclaim_oral]* 착하지..? *[exclaim_oral]* [animal_noun]! *[exclaim_oral]*</li>
+				<li>zoophile_n->*[exclaim_oral]* 어서 싸... *[exclaim_oral]* [animal_noun]... 착하지? *[exclaim_oral]*</li>
+				<li>zoophile_n->우리 [animal_noun], *[exclaim_oral]* [cum] 빨리... *[exclaim_oral]* 싸야지..? *[exclaim_oral]*</li>
+				<!-- ===Neutral=== -->
+				<li>human_react_n->[animal_noun]! *[exclaim_oral]* 우웁, [animal_penis_recipient], 이거 빨리, *[exclaim_oral]* 빼!</li>
+				<li>human_react_n->*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]* </li>
+				<li>human_react_n->*[exclaim_oral]* [animal_noun], 너, *[exclaim_oral]* 빨리, 혼나..! *[exclaim_oral]* </li>
+				<!-- ===Zoophile react to male breeder=== -->
+				
+				<!-- ===React to male breeder=== -->
+				
+				<!-- ===Zoophile react to female breeder=== -->
+
+				<!-- ===React to female breeder=== -->
+
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+	<!-- ===Reciever=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Orally_Breed_Reply_Reverse</defName>
+		<label>oralbreed — react to</label>		
+		<logRulesInitiator>
+			<rulesStrings>
+				<!-- ===Neutral Zoophile=== -->
+				<li>zoophile_n->[exclaim_low]! 좋아..! [animal_noun], 그렇게 계속..[exclaim_low]! 하면 돼..!</li>
+				<li>zoophile_n->[exclaim_low]! 우리 [animal_noun], [exclaim_low]! 혀도 참 잘 쓰네...</li>
+				<li>zoophile_n->[exclaim_low]... [animal_noun], 맛이 어때..?</li>
+				<li>zoophile_n->옳지, [exclaim_low]! 그렇게 계속 [vagina] 빨아줘... [exclaim_low]!</li>
+				<!-- ===Neutral=== -->
+				<li>human_react_n->안돼, 거기는 핥는 거 아니야, [exclaim_low]!</li>
+				<li>human_react_n->[exclaim_low]! 아파! 조금 살살... 아니 내가 지금 무슨 소리를, [exclaim_low]!</li>
+				<li>human_react_n->[animal_noun]! 그러면 안돼! 안되는데, [exclaim_low]!</li>
+				<li>human_react_n->[exclaim_low], 이건... 이건 아니야...</li>
+				
+				<!-- ===React to male breeder=== -->
+				
+				<!-- ===Zoophile react to female breeder=== -->
+				
+				<!-- ===React to female breeder=== -->	
+				
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>	
+	
+	<!-- ===Serviced=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Orally_Service_Reply</defName>
+		<label>oralbreed — react to</label>
+		<logRulesInitiator>
+			<rulesStrings>
+				<!-- ===Neutral Zoophile=== -->
+				<li>zoophile_n->[exclaim_low]! Hey there [animal_noun]!</li>
+				<li>zoophile_n->[exclaim_low]! [animal_noun], 옳지, 그렇게 계속 해..!</li>
+				<li>zoophile_n->[exclaim_low]! [animal_noun], 착하지? 바로 그거야!</li>
+				<li>zoophile_n->[exclaim_low]... 맛이 어때, [animal_noun]?</li>
+				<li>zoophile_n->[animal_noun], 똑똑하네... 그렇게 혀를 써야돼..!</li>
+				<!-- ===Neutral=== -->
+				<li>human_react_n->머리 치워! 거기는 안-[exclaim_low]!</li>
+				<li>human_react_n->안돼, 거기는 핥는 거 아니야, [exclaim_low]!</li>
+				<li>human_react_n->[exclaim_low]! 아파! 조금 살살... 아니 내가 지금 무슨 소리를, [exclaim_low]!</li>
+				<li>human_react_n->[animal_noun]! 그러면 안돼! 안되는데, [exclaim_low]!</li>
+				<li>human_react_n->[exclaim_low], 이건... 이건 아니야...</li>
+				<!-- ===Zoophile react to male breeder=== -->
+				
+				<!-- ===React to male breeder=== -->
+
+				<!-- ===Zoophile react to female breeder=== -->
+				
+				<!-- ===React to female breeder=== -->		
+				
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+<!-- ===Handjob=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>Handjob_Service_Reply</defName>
+		<label>oralbreed — react to</label>
+		<logRulesInitiator>
+			<rulesStrings>
+				<!-- ===Neutral Zoophile=== -->
+				<li>zoophile_n->[exclaim_low]!</li>
+				<!-- ===Neutral=== -->
+				<li>human_react_n->[exclaim_low]!</li>
+
+				<!-- ===Zoophile react to male breeder=== -->
+				
+				<!-- ===React to male breeder=== -->
+
+				<!-- ===Zoophile react to female breeder=== -->
+				
+				<!-- ===React to female breeder=== -->		
+				
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>	
+
+<!-- ===DoublePenetration=== -->
+
+	<!-- ===Reciever=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>DP_Breed_Reply</defName>
+		<label>analbreed — react to</label>		
+		<logRulesInitiator>
+			<rulesStrings>
+					<!-- ===Neutral Zoophile=== -->
+					<li>zoophile_n->[exclaim_low]! [penis]로 계속 나를 따먹어줘!</li>
+					<!-- ===Neutral=== -->
+					<li>human_react_n->이런 미친! 저리 꺼져! [exclaim_high]!</li>
+					<li>human_react_n->[exclaim_high]! [animal_noun]! 안돼, [penis]s 빨리 빼!</li>	
+					<!-- ===Zoophile react to male breeder=== -->
+					
+					<!-- ===React to male breeder=== -->
+					
+					<!-- ===Zoophile react to female breeder=== -->
+					
+					<!-- ===React to female breeder=== -->
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+	
+	<!-- ===Giver=== -->
+	<InteractionDef ParentName="BreedReply">
+		<defName>DP_Breed_Reply_Reverse</defName>
+		<label>analbreed — react to</label>		
+		<logRulesInitiator>
+			<rulesStrings>
+					<!-- ===Neutral Zoophile=== -->
+					<li>zoophile_n->[animal_noun].. 네가 원한다면...</li>
+					<li>zoophile_n->[exclaim_low]! 내 [penis]들이 마음에 들어, [animal_noun]? [exclaim_low]!</li>	
+					<!-- ===Neutral=== -->
+					<li>human_react_n->흐으... 이.. 이런 짓을 하면 안됐어..!</li>
+					<li>human_react_n->으흑...나, 나는 그저, 근데, [exclaim_low]!</li>
+					<li>human_react_n->알아, 이건 잘못됐어, [animal_noun], 하지만 널 보면 도저히 참을 수가 없는 걸!</li>
+					<li>human_react_n->[animal_noun], 내 [penis]들을 이렇게 기분 좋게 만들어준 게 좋은게 문제야!</li>		
+					<!-- ===Zoophile react to male breeder=== -->
+					
+					<!-- ===React to male breeder=== -->
+				
+					<!-- ===Zoophile react to female breeder=== -->
+					
+					<!-- ===React to female breeder=== -->
+			</rulesStrings>
+		</logRulesInitiator>
+	</InteractionDef>		
+
+</Defs>
