@@ -47,6 +47,7 @@
 		<!-- ass/vagina oral=== -->
 		<li>exclaim_oral1->쪽</li>
 		<li>exclaim_oral1->쯥</li>
+		<li>exclaim_oral1->츕</li>
 		<li>exclaim_oral1->쭈웁</li>
 		<li>exclaim_oral1->츄릅</li>
 		<li>exclaim_oral1->후룹</li>
@@ -55,10 +56,13 @@
 		<!-- ===Male Grunt/Moans=== -->
 		<li>exclaim_lowM->후</li>
 		<li>exclaim_lowM->후우</li>
+		<li>exclaim_lowM->허억</li>
 		<li>exclaim_lowM->흐읏</li>
 		<li>exclaim_lowM->하아</li>
 		<li>exclaim_highM->으윽</li>
 		<li>exclaim_highM->허윽</li>
+		<li>exclaim_highM->하으윽</li>
+		<li>exclaim_highM->헤으윽</li>
 		<li>Grunt_M-></li>
 		
 		<!-- penis oral=== -->
@@ -73,15 +77,15 @@
 		<li>exclaim_oral2->우브읍</li>
 		
 		<!-- ===Verbs=== -->
-		<li>suck->lick</li>
-		<li>suck->suck</li>
-		<li>forces->forces</li>	
-		<li>forces->slides</li>
-		<li>forces->inserts</li>
-		<li>forces->pushes</li>
-		<li>forces->shoves</li>
-		<li>licks->licks</li>
-		<li>licks->tongues</li>
+		<li>suck->빨아</li>
+		<li>suck->핥아</li>
+		<li>forces->강제로 쑤셔넣음</li>	
+		<li>forces->미끄러지듯 박음</li>
+		<li>forces->억지로 밀어넣음</li>
+		<li>forces->강하게 박음</li>
+		<li>forces->힘차게 쑤셔넣음</li>
+		<li>licks->게걸스럽게 핥음</li>
+		<li>licks->강하게 핥음</li>
 		<li>fuck->범해</li>
 		<li>fuck->박아</li>
 		<li>fuck->따먹어</li>
@@ -130,17 +134,17 @@
 				<li>asshole_adj_good-></li>
 				
 				<!-- ===Bad=== -->
-				<li>penis_adj_bad->filthy</li>
-				<li>penis_adj_bad->dirty</li>
-				<li>penis_adj_bad->hard</li>
-				<li>penis_adj_bad->fat</li>
-				<li>penis_adj_bad->big</li>
+				<li>penis_adj_bad->역겨운</li>
+				<li>penis_adj_bad->더러운</li>
+				<li>penis_adj_bad->부실한</li>
+				<li>penis_adj_bad->손톱만한</li>
+				<li>penis_adj_bad->물렁한</li>
 				<li>penis_adj_bad-></li>
 				
-				<li>vagina_adj_bad->hot</li>
-				<li>vagina_adj_bad->tight</li>
-				<li>vagina_adj_bad->wet</li>
-				<li>vagina_adj_bad->filthy</li>
+				<li>vagina_adj_bad->더러운</li>
+				<li>vagina_adj_bad->썩은내 나는</li>
+				<li>vagina_adj_bad->역겨운</li>
+				<li>vagina_adj_bad->헐렁한</li>
 				<li>vagina_adj_bad->dirty</li>
 			
 			<!-- ===Participant Adjectives=== -->
