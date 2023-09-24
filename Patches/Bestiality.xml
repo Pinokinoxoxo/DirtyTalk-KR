@@ -9,15 +9,15 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Anal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], show me that [ass].</li>
-					<li>zoophile_n->Here, [animal_noun], I wanna [fuck] that [ass]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun]. 뒤 돌고...</li>
+					<li>zoophile_n->이리 와, [animal_noun], 귀여운 [ass] 좀 보여줘.</li>
+					<li>zoophile_n->우리 [animal_noun], 내가 [ass] 제대로 [fuck] 줄게!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but I need your [ass]!</li>
-					<li>human_breed_n->Your [ass] shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 난 네 [ass]가 필요해..!</li>
+					<li>human_breed_n->[animal_noun], 네 [ass]가 이렇게 기분 좋은 게 잘못이야!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>
 					<!-- ===Male humanlike on animal=== -->					
 						
 					<!-- ===Female humanlike on animal=== -->
@@ -26,8 +26,8 @@
 					<li>animal_breed_with_reply(tag=Anal_Breed_Reply)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->	
-					<li>animal_breed_n->*anally mounts [RECIPIENT_nameDef]*</li>			
-					<li>animal_breed_n->*[forces] [animal_penis_initiator] into [RECIPIENT_nameDef]'s [ass]*</li>	
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [ass]에 추삽질을 함*</li>			
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [ass]에 [animal_penis_initiator](을)를 [forces]*</li>	
 		</value>
 	</li>	
 	
@@ -36,15 +36,15 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Reverse_Anal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], [fuck] my [ass] with that [animal_penis_recipient]!</li>
-					<li>zoophile_n->Here, [animal_noun], come [fuck] my [ass]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun], 빨리 와서 [animal_penis_recipient](을)를 내 [ass]에...</li>
+					<li>zoophile_n->여기, [animal_noun], 그 [animal_penis_recipient](으)로 내 [ass](을)를 [fuck]줘..!</li>
+					<li>zoophile_n->우리 [animal_noun], 이리 와서 내 [ass] [fuck]줘... 빨리...</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but I need your [animal_penis_recipient]!</li>
-					<li>human_breed_n->Your [animal_penis_recipient] shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 난 네 [animal_penis_recipient]가 필요해..!</li>
+					<li>human_breed_n->[animal_noun], 네 [animal_penis_recipient]가 이렇게 기분 좋은 게 잘못이야!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>
 					<!-- ===Male humanlike on animal=== -->					
 
 					<!-- ===Female humanlike on animal=== -->
@@ -53,7 +53,7 @@
 					<li>animal_breed_with_reply(tag=Anal_Breed_Reply_Reverse)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->	
-					<li>animal_breed_n->*presents [ass] to [RECIPIENT_nameDef]*</li>		
+					<li>animal_breed_n->*[RECIPIENT_nameDef]에게 [ass](을)를 들이밈*</li>		
 
 		</value>
 	</li>	
@@ -65,17 +65,15 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], show me that [animal_vagina_recipient].</li>
-					<li>zoophile_n->Here, [animal_noun], I wanna [fuck] that [vagina]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun]. 뒤 돌고...</li>
+					<li>zoophile_n->이리 와, [animal_noun], 귀여운 [animal_vagina_recipient] 좀 보여줘.</li>
+					<li>zoophile_n->우리 [animal_noun], 내가 [vagina] 제대로 [fuck] 줄게!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, but I can't resist this [vagina]!</li>
-					<li>human_breed_n->Your [animal_vagina_recipient] shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Your [animal_vagina_recipient] shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
-					
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 난 네 [animal_vagina_recipient]가 필요한 걸..!</li>
+					<li>human_breed_n->[animal_noun], 네 [animal_vagina_recipient]가 이렇게 기분 좋은 게 잘못이야!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>
 					<!-- ===Male humanlike on animal=== -->										
 					
 					<!-- ===Female humanlike on animal=== -->	
@@ -84,8 +82,8 @@
 					<li>animal_breed_with_reply(tag=Vaginal_Breed_Reply)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->	
-					<li>animal_breed_n->*vaginally mounts [RECIPIENT_nameDef]*</li>			
-					<li>animal_breed_n->*[forces] [animal_penis_initiator] into [RECIPIENT_nameDef]'s [vagina]*</li>					
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [vagina]에 추삽질을 함*</li>			
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [vagina]에 [animal_penis_initiator](을)를 [forces]*</li>					
 		</value>
 	</li>	
 	
@@ -94,16 +92,15 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Reverse_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], [fuck] my [vagina] with that [animal_penis_recipient]!</li>
-					<li>zoophile_n->Here, [animal_noun], show me that big [animal_penis_recipient]!</li>
-					<li>zoophile_n->Here, [animal_noun], come [fuck] my [vagina]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun], 빨리 와서 [animal_penis_recipient](을)를 내 [vagina]에...</li>
+					<li>zoophile_n->여기, [animal_noun], 그 [animal_penis_recipient](으)로 내 [vagina](을)를 [fuck]줘..!</li>
+					<li>zoophile_n->우리 [animal_noun], 이리 와서 내 [vagina] [fuck]줘... 빨리...</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but I can't resist your [animal_penis_recipient]!</li>
-					<li>human_breed_n->Your [animal_penis_recipient] shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>		
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 난 네 [animal_penis_recipient]가 필요해..!</li>
+					<li>human_breed_n->[animal_noun], 네 [animal_penis_recipient]가 이렇게 기분 좋은 게 잘못이야!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>		
 					<!-- ===Male humanlike on animal=== -->										
 
 					<!-- ===Female humanlike on animal=== -->	
@@ -112,7 +109,7 @@
 					<li>animal_breed_with_reply(tag=Vaginal_Breed_Reply_Reverse)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->
-					<li>animal_breed_n->*presents [animal_vagina_initiator] to [RECIPIENT_nameDef]*</li>							
+					<li><li>animal_breed_n->*[RECIPIENT_nameDef]에게 [animal_vagina_initiator](을)를 들이밈*</li>
 
 		</value>
 	</li>	
@@ -124,16 +121,16 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Oral"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, and [suck] this [penis], [animal_noun]!</li>
-					<li>zoophile_n->Here, [animal_noun], [suck] my [penis].</li>
-					<li>zoophile_n->Your mouth feels so good, [animal_noun]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun]. 이리 와서 이 [penis] 한 번 [suck]볼래..?</li>
+					<li>zoophile_n->이리 와, [animal_noun], 네가 좋아하는 [penis] [suck]주렴.</li>
+					<li>zoophile_n->우리 [animal_noun], 혀 느낌이 너무 좋아..!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but your tongue feels so good!</li>
-					<li>human_breed_n->I'm so horny I can't stop myself, [animal_noun]!</li>
-					<li>human_breed_n->Your mouth shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 네 혀가 너무 기분이 좋아..!</li>
+					<li>human_breed_n->[animal_noun], 미안해, 나 지금 너무 꼴려서 참을 수가 없어..!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->이, 이건, [animal_noun], 네 입이 너무 기분이 좋아서 그래..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>
 					<!-- ===Male humanlike on animal=== -->							
 					
 					<!-- ===Female humanlike on animal=== -->	
@@ -142,9 +139,8 @@
 					<li>animal_breed_with_reply(tag=Orally_Breed_Reply)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->							
-					<li>animal_breed_n->*[forces] [animal_penis_initiator] into [RECIPIENT_nameDef]'s mouth*</li>
-					<li>animal_breed_n->*forces [RECIPIENT_nameDef] to suck on [animal_penis_initiator]*</li>							
-					<li>animal_breed_n->*facefucks [RECIPIENT_nameDef]*</li>
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 입에 [animal_penis_initiator](을)를 [forces]*</li>
+					<li>animal_breed_n->*[RECIPIENT_nameDef]에게 [animal_penis_initiator]을 [forces]*</li>							
 		</value>
 	</li>	
 	
@@ -153,17 +149,18 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Reverse_Oral"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], let me taste that [animal_penis_recipient].</li>
-					<li>zoophile_n->Here, [animal_noun], show me that tasty [animal_penis_recipient]!</li>
-					<li>zoophile_n->Mmm, your [animal_penis_recipient] tastes so good, [animal_noun]!</li>
+					
+					<li>zoophile_n->이리 오렴, [animal_noun], 빨리 와서 [animal_penis_recipient](을)를 내 입에...</li>
+					<li>zoophile_n->여기, [animal_noun], 그 [animal_penis_recipient]을 빨리 핥게 해줘..!</li>
+					<li>zoophile_n->우리 [animal_noun], 이리 와서 내 입을 [fuck]줘... 빨리...</li>
+					<li>zoophile_n->으음, 우리 [animal_noun], [animal_penis_recipient] 너무 맛있어..!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but I can't resist your [animal_penis_recipient]!</li>
-					<li>human_breed_n->I can't help but want to taste your [animal_penis_recipient], [animal_noun]!</li>
-					<li>human_breed_n->Your [animal_penis_recipient] shouldn't taste this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>	
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 네 [animal_penis_recipient](을)를 거부하기엔 너무 기분이 좋아..!</li>
+					<li>human_breed_n->[animal_noun], 미안해, 나 지금 너무 꼴려서 네 [animal_penis_recipient]를 당장 먹고 싶어..!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->이, 이건, [animal_noun], 네 [animal_penis_recipient](이)가 너무 기분이 좋아서 그래..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>	
 					<!-- ===Male humanlike on animal=== -->							
 					
 					<!-- ===Female humanlike on animal=== -->	
@@ -172,9 +169,9 @@
 					<li>animal_breed_with_reply(tag=Orally_Breed_Reply_Reverse)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->
-					<li>animal_breed_n->*Opens mouth wide for [RECIPIENT_nameDef]'s [animal_penis_recipient]*</li>
-					<li>animal_breed_n->*Offers mouth to [RECIPIENT_nameDef]*</li>
-					<li>animal_breed_n->*Eagerly takes [RECIPIENT_nameDef]'s [animal_penis_recipient] into their mouth*</li>
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [animal_penis_recipient]을 보고 입을 벌림*</li>
+					<li>animal_breed_n->*[RECIPIENT_nameDef]에게 입을 갖다 댐*</li>
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [animal_penis_recipient](을)를 입에 머금으려 함*</li>
 		</value>
 	</li>	
 	
@@ -184,17 +181,17 @@
 		<xpath>/Defs/InteractionDef[defName = "Bestiality_Reverse_Oral_Service"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], let me taste that [animal_genitals_recipient].</li>
-					<li>zoophile_n->Here, [animal_noun], show me that tasty [animal_genitals_recipient]!</li>
-					<li>zoophile_n->Mmm, your [animal_genitals_recipient] tastes so good, [animal_noun]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun], 빨리 와서 [animal_genitals_recipient](을)를 내 입에...</li>
+					<li>zoophile_n->여기, [animal_noun], 그 [animal_genitals_recipient]을 빨리 핥게 해줘..!</li>
+					<li>zoophile_n->우리 [animal_noun], 이리 와서 내 입을 엉망 진창으로... 빨리...</li>
+					<li>zoophile_n->으음, 우리 [animal_noun], [animal_genitals_recipient] 너무 맛있어..!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, but I can't resist this [animal_genitals_recipient]!</li>
-					<li>human_breed_n->I can't help but want to taste your [animal_genitals_recipient], [animal_noun]!</li>
-					<li>human_breed_n->Your [animal_genitals_recipient] shouldn't taste this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 네 [animal_genitals_recipient](을)를 거부할 수가 없었어..!</li>
+					<li>human_breed_n->[animal_noun], 미안해, 나 지금 너무 꼴려서 네 [animal_genitals_recipient]를 당장 먹고 싶어..!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->이, 이건, [animal_noun], 네 [animal_genitals_recipient](이)가 너무 기분이 좋아서 그래..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>	
 					<!-- ===Male humanlike on animal=== -->										
 						
 					<!-- ===Female humanlike on animal=== -->	
@@ -203,36 +200,34 @@
 					<li>animal_breed_with_reply(tag=Orally_Service_Reply)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->				
-						<li>animal_breed_n->*[licks] [RECIPIENT_nameDef]'s [animal_genitals_recipient]*</li>										
+						<li>animal_breed_n->*[RECIPIENT_nameDef]의 [animal_genitals_recipient](을)를 [licks]*</li>										
 
 		</value>
 	</li>	
 	
 	
 	
-	<!-- ===Handjob=== -->
+[	<!-- ===Handjob=== -->
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName = "Bestiality_Reverse_Handjob"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here and show me your [animal_penis_recipient], [animal_noun]!</li>
-					<li>zoophile_n->Here, [animal_noun], you want me to rub your [animal_penis_recipient]?</li>
-					<li>zoophile_n->Your [animal_penis_recipient] feels so nice, [animal_noun]!</li>
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], let me feel that [animal_penis_recipient].</li>
-					<li>zoophile_n->Here, [animal_noun], show me that nice [animal_penis_recipient]!</li>
-					<li>zoophile_n->Mmm, your [animal_penis_recipient] feels so nice, [animal_noun]!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun]. 이리 와...</li>
+					<li>zoophile_n->이리 와, [animal_noun], 귀여운 [animal_penis_recipient] 좀 보여줘.</li>
+					<li>zoophile_n->우리 [animal_noun], [animal_penis_recipient] 너무 이쁘다!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun], 빨리 와서 [animal_genitals_recipient](을)를...</li>
+					<li>zoophile_n->[animal_noun], [animal_genitals_recipient](을)를 내 몸에 빨리 비비고 싶어?</li>
+					<li>zoophile_n->[animal_noun], 이리와서 내가 네 [animal_penis_recipient](을)를 느낄 수 있도록 해줘...</li>
+					<li>zoophile_n->우리 [animal_noun], 이리 와서 [animal_penis_recipient](을)를 보여주렴...</li>
+					<li>zoophile_n->으음, 우리 [animal_noun], [animal_penis_recipient] 너무 기분 좋아..!</li>		
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but your [animal_penis_recipient] feels so nice!</li>
-					<li>human_breed_n->I'm so horny I can't stop myself, [animal_noun]!</li>
-					<li>human_breed_n->Your [animal_penis_recipient] shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but I can't resist your [animal_penis_recipient]!</li>
-					<li>human_breed_n->I can't help but want to stroke your [animal_penis_recipient], [animal_noun]!</li>
-					<li>human_breed_n->Your [animal_penis_recipient] shouldn't feel this nice, [animal_noun]!</li>	
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 네 [animal_penis_recipient](을)를 거부할 수가 없었어..!</li>
+					<li>human_breed_n->[animal_noun], 미안해, 나 지금 너무 꼴려서..!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->이, 이건, [animal_noun], 네 [animal_penis_recipient](이)가 너무 기분이 좋아서 그래..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>	
+					<li>human_breed_n->미안, [animal_noun], 난 정말 이러면 안됐어..!</li>
 					<!-- ===Male humanlike on animal=== -->	
 					
 					<!-- ===Female humanlike on animal=== -->	
@@ -241,7 +236,7 @@
 					<li>animal_breed_with_reply(tag=Handjob_Service_Reply)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->
-					<li>animal_breed_n->*strokes [RECIPIENT_nameDef]'s [animal_penis_recipient]*</li>	
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [animal_penis_recipient]을 문지름*</li>	
 
 		</value>
 	</li>	
@@ -253,15 +248,16 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Double_Penetration_M"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Want these [penis]s, [animal_noun]?</li>
-					<li>zoophile_n->Here, [animal_noun], I wanna [fuck] you with these [penis]s!</li>
+					<li>zoophile_n->이리 오렴, [animal_noun]. 뒤 돌고...</li>
+					<li>zoophile_n->이리 와, [animal_noun], 내 [penis]들을 한번 맛 보고 싶지? 그치?</li>
+					<li>zoophile_n->우리 [animal_noun], 내 [penis]로 제대로 [fuck] 줄게!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun]! [exclaim_low]!</li>
-					<li>human_breed_n->My [penis]s shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this!</li>
-					<li>human_breed_n->...this is so wrong...</li>
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안, [animal_noun]! 진짜 잘못된 행동인걸 알지만, [exclaim_low]!</li>
+					<li>human_breed_n->[animal_noun], 내 [penis]가 이렇게 기분 좋을 줄은 몰랐어..! [exclaim_low]!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>
+					
 					<!-- ===Male humanlike on animal=== -->					
 						
 					<!-- ===Female humanlike on animal=== -->
@@ -270,8 +266,8 @@
 					<li>animal_breed_with_reply(tag=DP_Breed_Reply)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->	
-					<li>animal_breed_n->*anally mounts [RECIPIENT_nameDef]*</li>			
-					<li>animal_breed_n->*[forces] [penis]s into [RECIPIENT_nameDef]'s [ass]*</li>	
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 두 구멍에 추삽질을 함*</li>			
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 구멍에 동시에 [penis](을)를 [forces]*</li>	
 		</value>
 	</li>	
 	
@@ -280,15 +276,15 @@
 		<xpath>/Defs/InteractionDef[defName="Bestiality_Reverse_Double_Penetration_M"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 					<!-- ===Neutral Zoophile=== -->
-					<li>zoophile_n->Come here, [animal_noun].</li>
-					<li>zoophile_n->Here, [animal_noun], [fuck] me with those [penis]s!</li>
-					<li>zoophile_n->Wanna [fuck] me with those [penis]s, [animal_noun]?</li>
+					<li>zoophile_n->이리 오렴, [animal_noun]. 내 뒤로 와...</li>
+					<li>zoophile_n->이리 와, [animal_noun], 그 [penis]들로 빨리 날 [fuck]줘..!</li>
+					<li>zoophile_n->우리 [animal_noun], 빨리, 빨리 [penis]들로 나를 제대로 [fuck]줘!</li>
 					<!-- ===Neutral=== -->
-					<li>human_breed_n->I really shouldn't do this, [animal_noun]!</li>
-					<li>human_breed_n->This is so wrong, [animal_noun], but I need your [penis]s!</li>
-					<li>human_breed_n->Your [penis]s shouldn't feel this good, [animal_noun]!</li>
-					<li>human_breed_n->Oh, [animal_noun], I shouldn't do this! [exclaim_low]!</li>
-					<li>human_breed_n->...this is so wrong...</li>
+					<li>human_breed_n->[animal_noun], 우린 정말 이러면 안됐어..!</li>
+					<li>human_breed_n->미안해, [animal_noun], 이게 잘못된 건 알지만, 난 네 [penis]들이 필요한 걸..!</li>
+					<li>human_breed_n->[animal_noun], 네 [penis]들이 이렇게 기분 좋은 게 잘못이야!</li>
+					<li>human_breed_n->하아, [animal_noun], 난 정말 네게 이러면 안돼는데..!</li>
+					<li>human_breed_n->...이건 진짜 잘못됐어...</li>
 					<!-- ===Male humanlike on animal=== -->					
 
 					<!-- ===Female humanlike on animal=== -->
@@ -297,8 +293,8 @@
 					<li>animal_breed_with_reply(tag=DP_Breed_Reply_Reverse)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->	
-					<li>animal_breed_n->*presses [ass] against [RECIPIENT_nameDef]'s [penis]s*</li>		
-					<li>animal_breed_n->*presents for [RECIPIENT_nameDef]'s [penis]s*</li>	
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [penis]들을 구멍에 박음*</li>		
+					<li>animal_breed_n->*[RECIPIENT_nameDef]의 [penis]에 몸을 들이밈*</li>	
 					
 		</value>
 	</li>	
