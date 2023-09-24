@@ -10,7 +10,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Anal_Rape_Reply</defName>
 		<label>analrape — react to</label>
-		<symbol>UI/Icons/AnalRape</symbol>
+		<symbol>UI/Icons/AnalRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>								
 					<!-- ===Masochist Neutral=== -->	
@@ -74,7 +74,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Anal_Rape_Reply_Reverse</defName>
 		<label>analrape — react to</label>
-		<symbol>UI/Icons/AnalRape</symbol>
+		<symbol>UI/Icons/AnalRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>								
 					<!-- ===Masochist Neutral=== -->	
@@ -131,7 +131,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Vaginal_Rape_Reply</defName>
 		<label>vaginalrape — react to</label>
-		<symbol>UI/Icons/VaginalRape</symbol>
+		<symbol>UI/Icons/VaginalRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>			
 					<!-- ===Masochist Neutral=== -->	
@@ -198,7 +198,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Vaginal_Rape_Reply_Reverse</defName>
 		<label>vaginalrape — react to</label>
-		<symbol>UI/Icons/VaginalRape</symbol>
+		<symbol>UI/Icons/VaginalRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>			
 					<!-- ===Masochist Neutral=== -->
@@ -254,7 +254,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Handjob_Rape_Reply</defName>
 		<label>handjobrape — react to</label>
-		<symbol>UI/Icons/HandjobRape</symbol>
+		<symbol>UI/Icons/HandjobRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>		
 					<!-- ===Masochist Neutral=== -->
@@ -309,7 +309,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Handjob_Rape_Reply_Reverse</defName>
 		<label>handjobrape — react to</label>
-		<symbol>UI/Icons/HandjobRape</symbol>
+		<symbol>UI/Icons/HandjobRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>		
 					<!-- ===Masochist Neutral=== -->
@@ -365,7 +365,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Footjob_Rape_Reply</defName>
 		<label>footjobrape — react to</label>
-		<symbol>UI/Icons/FootjobRape</symbol>
+		<symbol>UI/Icons/FootjobRapeMote</symbol>
 		<logRulesInitiator>
 		<rulesStrings>			
 					<!-- ===Masochist Neutral=== -->
@@ -411,7 +411,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Footjob_Rape_Reply_Reverse</defName>
 		<label>footjobrape — react to</label>
-		<symbol>UI/Icons/FootjobRape</symbol>
+		<symbol>UI/Icons/FootjobRapeMote</symbol>
 		<logRulesInitiator>
 		<rulesStrings>			
 					<!-- ===Masochist Neutral=== -->
@@ -465,7 +465,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Fingering_Rape_Reply</defName>
 		<label>fingeringrape — react to</label>
-		<symbol>UI/Icons/FingeringRape</symbol>
+		<symbol>UI/Icons/FingeringRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>								
 					<!-- ===Masochist Neutral=== -->
@@ -515,7 +515,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Fingering_Rape_Reply_Reverse</defName>
 		<label>fingeringrape — react to</label>
-		<symbol>UI/Icons/FingeringRape</symbol>
+		<symbol>UI/Icons/FingeringRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>							
 					<!-- ===Masochist Neutral=== -->
@@ -569,7 +569,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Fisting_Rape_Reply</defName>
 		<label>fistingrape — react to</label>
-		<symbol>UI/Icons/FistingRape</symbol>
+		<symbol>UI/Icons/FistingRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>									
 					<!-- ===Masochist Neutral=== -->
@@ -619,7 +619,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Fisting_Rape_Reply_Reverse</defName>
 		<label>fistingrape — react to</label>
-		<symbol>UI/Icons/FistingRape</symbol>
+		<symbol>UI/Icons/FistingRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>									
 					<!-- ===Masochist Neutral=== -->
@@ -666,7 +666,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Breastjob_Rape_Reply</defName>
 		<label>breastjobrape — react to</label>
-		<symbol>UI/Icons/BreastjobRape</symbol>
+		<symbol>UI/Icons/BreastjobRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Masochist Neutral=== -->
@@ -713,7 +713,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Breastjob_Rape_Reply_Reverse</defName>
 		<label>breastjobrape — react to</label>
-		<symbol>UI/Icons/BreastjobRape</symbol>
+		<symbol>UI/Icons/BreastjobRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Masochist Neutral=== -->
@@ -765,7 +765,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Scissoring_Rape_Reply</defName>
 		<label>scissoringrape — react to</label>
-		<symbol>UI/Icons/ScissoringRape</symbol>
+		<symbol>UI/Icons/ScissoringRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Masochist Neutral=== -->
@@ -817,7 +817,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Rimming_Rape_Reply</defName>
 		<label>rimmingrape — react to</label>
-		<symbol>UI/Icons/RimmingRape</symbol>
+		<symbol>UI/Icons/RimmingRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					
@@ -860,7 +860,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Rimming_Rape_Reply_Reverse</defName>
 		<label>rimmingrapef — react to</label>
-		<symbol>UI/Icons/RimmingRape</symbol>
+		<symbol>UI/Icons/RimmingRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 				
@@ -910,7 +910,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Cunnilingus_Rape_Reply</defName>
 		<label>cunnilingusrape — react to</label>
-		<symbol>UI/Icons/CunnilingusRape</symbol>
+		<symbol>UI/Icons/CunnilingusRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>	
 			
@@ -954,7 +954,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Cunnilingus_Rape_Reply_Reverse</defName>
 		<label>cunnilingusrape — react to</label>
-		<symbol>UI/Icons/CunnilingusRape</symbol>
+		<symbol>UI/Icons/CunnilingusRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>		
 				<!-- ===Masochist Neutral=== -->
@@ -1007,7 +1007,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Fellatio_Rape_Reply</defName>
 		<label>fellatiorape — react to</label>
-		<symbol>UI/Icons/FellatioRape</symbol>
+		<symbol>UI/Icons/FellatioRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>			
 			
@@ -1057,7 +1057,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>Fellatio_Rape_Reply_Reverse</defName>
 		<label>fellatiorape — react to</label>
-		<symbol>UI/Icons/FellatioRape</symbol>
+		<symbol>UI/Icons/FellatioRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>				
 				
@@ -1111,7 +1111,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>DoublePenetration_Rape_Reply</defName>
 		<label>dprape — react to</label>
-		<symbol>UI/Icons/DoublePenetrationRape</symbol>
+		<symbol>UI/Icons/DoublePenetrationRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>						
 				<!-- ===Masochist Neutral=== -->
@@ -1175,7 +1175,7 @@
 	<InteractionDef ParentName="RapeReply">
 		<defName>DoublePenetration_Rape_Reply_Reverse</defName>
 		<label>dprape — react to</label>
-		<symbol>UI/Icons/DoublePenetrationRape</symbol>
+		<symbol>UI/Icons/DoublePenetrationRapeMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>						
 				<!-- ===Masochist Neutral=== -->
