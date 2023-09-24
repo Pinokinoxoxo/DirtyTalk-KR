@@ -34,9 +34,9 @@
 					
 				<!-- ===Sexlife Good Opinion=== -->		
 				<li>r_logentry(INITIATOR_opinion>=25, tag=Sexlife_Generic_Good)->[sexlife_generic_good]</li>
-					<li>sexlife_generic_good->그래, [counterpart], 요새 밤일은 좀 어때?</li>
+					<li>sexlife_generic_good->그래, [counterpart], 요새 밤 일은 좀 어때?</li>
 					<li>sexlife_generic_good->[counterpart], 만족스러운 성생활을 즐기고는 있어?</li>
-					<li>sexlife_generic_good->요즘 섹스는 잘 하고 있어, [counterpart]?</li>
+					<li>sexlife_generic_good->요즘 밤 일은 잘 하고 있어, [counterpart]?</li>
 					
 				<!-- ===Sex Grunts=== -->	
 				<li>r_logentry(RECIPIENT_moving==No, INITIATOR_jobDefName==JoinInBed, priority=10)->[exclaim_low]</li>

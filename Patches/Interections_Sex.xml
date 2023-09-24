@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Anal" or defName="Sex_Reverse_Anal"]</xpath>
+		<value>
+			<symbol>UI/Icons/AnalSex</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Vaginal" or defName="Sex_Reverse_Vaginal"]</xpath>
+		<value>
+			<symbol>UI/Icons/VaginalSex</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Handjob" or defName="Sex_Reverse_Handjob"]</xpath>
+		<value>
+			<symbol>UI/Icons/Handjob</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Footjob" or defName="Sex_Reverse_Footjob"]</xpath>
+		<value>
+			<symbol>UI/Icons/Footjob</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Fingering" or defName="Sex_Reverse_Fingering"]</xpath>
+		<value>
+			<symbol>UI/Icons/Fingering</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Fisting" or defName="Sex_Reverse_Fisting"]</xpath>
+		<value>
+			<symbol>UI/Icons/Fisting</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Breastjob" or defName="Sex_Reverse_Breastjob"]</xpath>
+		<value>
+			<symbol>UI/Icons/Breastjob</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_DoublePenetration" or defName="Sex_Reverse_DoublePenetration"
+						or defName="Sex_DoublePenetrationM" or defName="Sex_Reverse_DoublePenetrationM"]</xpath>
+		<value>
+			<symbol>UI/Icons/DoublePenetration</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Scissoring"]</xpath>
+		<value>
+			<symbol>UI/Icons/Scissoring</symbol>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_MutualMasturbation"]</xpath>
+		<value>
+			<symbol>UI/Icons/MutualMasturbation</symbol>
+		</value>
+	</Operation>
+
+</Patch>

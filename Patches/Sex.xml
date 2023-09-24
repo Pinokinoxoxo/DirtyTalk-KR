@@ -9,13 +9,13 @@
 		<value>
 				<li>r_logentry(tag=Anal_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
-					<li>sex_mf->오늘은 뒤로 하고 싶은걸? [ass] 벌려, [lover]!</li>
-					<li>sex_mf->[ass] 벌렁거리는 거 봐. [penis]를 그렇게 먹고 싶었어 [lover]? [exclaim_high]!</li>
-					<li>sex_mf->[ass](으)로 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
+					<li>sex_n->오늘은 뒤로 하고 싶은걸? [ass] 벌려, [lover]!</li>
+					<li>sex_n->[ass] 벌렁거리는 거 봐. [penis]를 그렇게 먹고 싶었어 [lover]? [exclaim_high]!</li>
+					<li>sex_n->[ass](으)로 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
 					<!-- ===Male Speaker=== -->
 					
 					<!-- ===Female Speaker=== -->
-					<li>sex_ff->내 후타 [penis]로 [ass](을)를 휘저어 줄까, [lover]? [exclaim_low]!</li>
+					<li>sex_n->내 후타 [penis]로 [ass](을)를 휘저어 줄까, [lover]? [exclaim_low]!</li>
 		</value>
 	</li>	
 	<!-- ===Penetrated=== -->
@@ -25,14 +25,14 @@
 				<li>r_logentry(tag=Anal_Sex_Reply_Reverse, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mm->[lover], 빨리 박아 줘!</li>
-					<li>sex_mm->빨리, [lover], 제대로 한 판 하자고. 내 [ass]에 잔뜩 박아줄 수 있지?</li>
-					<li>sex_mm->나랑 한번 할래, [lover]?</li>
+					<li>sex_n->[lover], 빨리 박아 줘!</li>
+					<li>sex_n->빨리, [lover], 제대로 한 판 하자고. 내 [ass]에 잔뜩 박아줄 수 있지?</li>
+					<li>sex_n->나랑 한번 할래, [lover]?</li>
 					
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->[lover], 나 오늘은 여기로 하고 싶어. 빨리 넣어 줘...</li>
-					<li>sex_fm->빨리, [lover], 망가질 정도로 나 범해줘... 내 [ass]에 잔뜩 박아줘..!</li>
-					<li>sex_fm->나랑 한번 할래, [lover]?</li>
+					<li>sex_n->[lover], 나 오늘은 여기로 하고 싶어. 빨리 넣어 줘...</li>
+					<li>sex_n->빨리, [lover], 망가질 정도로 나 범해줘... 내 [ass]에 잔뜩 박아줘..!</li>
+					<li>sex_n->나랑 한번 할래, [lover]?</li>
 		</value>
 	</li>	
 
@@ -44,17 +44,17 @@
 				<li>r_logentry(tag=Vaginal_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mf->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
-					<li>sex_mf->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
-					<li>sex_mf->[lover] [vagina]에 잔뜩 박아줄게. 다리 벌려.</li>
-					<li>sex_mf->[lover] [womb]에 [cum] 잔뜩 채워줄게. 다리 벌려.</li>
-					<li>sex_mf->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
+					<li>sex_n->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
+					<li>sex_n->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
+					<li>sex_n->[lover] [vagina]에 잔뜩 박아줄게. 다리 벌려.</li>
+					<li>sex_n->[lover] [womb]에 [cum] 잔뜩 채워줄게. 다리 벌려.</li>
+					<li>sex_n->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
 					
 					<!-- ===Female Speaker=== -->
-					<li>sex_ff->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
-					<li>sex_ff->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
-					<li>sex_ff->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
-					<li>sex_ff->내 후타 [penis] 맛이 어때, [lover]? [exclaim_low]!</li>
+					<li>sex_n->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
+					<li>sex_n->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
+					<li>sex_n->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
+					<li>sex_n->내 후타 [penis] 맛이 어때, [lover]? [exclaim_low]!</li>
 					
 		</value>
 	</li>	
@@ -65,15 +65,15 @@
 				<li>r_logentry(tag=Vaginal_Sex_Reply_Reverse, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mm->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
-					<li>sex_mm->나랑 한번 할래, [lover]?</li>
-					<li>sex_mm->빨리, 이 [vagina]에 네 [penis](으)로 가득 채워줘!</li>
+					<li>sex_n->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
+					<li>sex_n->나랑 한번 할래, [lover]?</li>
+					<li>sex_n->빨리, 이 [vagina]에 네 [penis](으)로 가득 채워줘!</li>
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
-					<li>sex_fm->빨리, [lover], 망가질 정도로 나 범해줘... 내 [vagina]에 잔뜩 박아줘..!</li>
-					<li>sex_fm->나랑 한번 할래, [lover]?</li>
-					<li>sex_fm->빨리, [vagina]에 [lover] [penis] 가지고 [womb]까지 휘저어 줘어..</li>
-					<li>sex_fm->[lover].. 오늘은 안에 싸줘야해.. [womb] 가득가득 채워줘요..!</li>
+					<li>sex_n->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
+					<li>sex_n->빨리, [lover], 망가질 정도로 나 범해줘... 내 [vagina]에 잔뜩 박아줘..!</li>
+					<li>sex_n->나랑 한번 할래, [lover]?</li>
+					<li>sex_n->빨리, [vagina]에 [lover] [penis] 가지고 [womb]까지 휘저어 줘어..</li>
+					<li>sex_n->[lover].. 오늘은 안에 싸줘야해.. [womb] 가득가득 채워줘요..!</li>
 		</value>
 	</li>	
 
@@ -153,9 +153,9 @@
 				<li>r_logentry(tag=Fingering_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_fm->빨리, 빨리 손가락으로 어떻게든 해줘, 어서...</li>
-					<li>sex_fm->[lover], 나.. 나 [vagina] 만져줘, 어서... 내 [vagina] 손으로 쑤셔줘..!</li>
-					<li>sex_fm->[exclaim_low], 제 암캐 [vagina] [lover] 손으로 엉망진창 쑤셔주세요...!</li>
+					<li>sex_n->빨리, 빨리 손가락으로 어떻게든 해줘, 어서...</li>
+					<li>sex_n->[lover], 나.. 나 [vagina] 만져줘, 어서... 내 [vagina] 손으로 쑤셔줘..!</li>
+					<li>sex_n->[exclaim_low], 제 암캐 [vagina] [lover] 손으로 엉망진창 쑤셔주세요...!</li>
 					<!-- ===Female Speaker=== -->
 					
 		</value>
@@ -230,15 +230,15 @@
 				<li>r_logentry(tag=Breast_Job_Reply_Reverse, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mm->남자 [boobs]에 싸려고 하다니, 너무 변태 아냐, [lover]?</li>
-					<li>sex_mm->[lover] [penis] 움찔거리는거 귀여워...</li>
-					<li>sex_mm->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
-					<li>sex_mm->보여? 이게 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<li>sex_n->남자 [boobs]에 싸려고 하다니, 너무 변태 아냐, [lover]?</li>
+					<li>sex_n->[lover] [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_n->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
+					<li>sex_n->보여? 이게 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->아직 안돼. 내 [boobs]에 싸려고 했어, [lover]?</li>
-					<li>sex_fm->[lover] [penis] 움찔거리는거 귀여워...</li>
-					<li>sex_fm->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
-					<li>sex_fm->보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<li>sex_n->아직 안돼. 내 [boobs]에 싸려고 했어, [lover]?</li>
+					<li>sex_n->[lover] [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_n->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
+					<li>sex_n->보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
 					
 		</value>
 	</li>	
@@ -266,13 +266,13 @@
 				<li>r_logentry(tag=Mutual_Masturbation_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== --> 
-					<li>sex_mf->[lover], [vagina] 엄청 젖었네. 내 [penis]도 터질 것 같아. 만져줘.</li>
-					<li>sex_mf->[vagina] 속 내 손가락으로 혼자 느끼지만 말고 나도 애무해줘, [lover].</li>
-					<li>sex_mf->[lover], 내 앞에서 [vagina] 만지면서 자위하는 모습 보여주래?</li>
+					<li>sex_n->[lover], [vagina] 엄청 젖었네. 내 [penis]도 터질 것 같아. 만져줘.</li>
+					<li>sex_n->[vagina] 속 내 손가락으로 혼자 느끼지만 말고 나도 애무해줘, [lover].</li>
+					<li>sex_n->[lover], 내 앞에서 [vagina] 만지면서 자위하는 모습 보여주래?</li>
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->[exclaim_high], 키스,, 키스 해주면서 같이 쑤셔줘..!</li>
-					<li>sex_fm->[lover] [penis] 엄청 뜨겁다... 내 [vagina]도 뜨거워.. 같이 만져줘...</li>
-					<li>sex_fm->[lover], 내 앞에서 [penis]로 자위하는 모습 보여줘...</li>
+					<li>sex_n->[exclaim_high], 키스,, 키스 해주면서 같이 쑤셔줘..!</li>
+					<li>sex_n->[lover] [penis] 엄청 뜨겁다... 내 [vagina]도 뜨거워.. 같이 만져줘...</li>
+					<li>sex_n->[lover], 내 앞에서 [penis]로 자위하는 모습 보여줘...</li>
 		</value>
 	</li>	
 	
@@ -285,13 +285,13 @@
 				<li>r_logentry(tag=Rimming_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mm->[ass]도 혹시... 핥아줄 수 있어, [lover]?</li>
-					<li>sex_mm->밑에.. [ass], [ass] 빨아줘.. 그거 너무 기분 좋아.. [exclaim_low]!</li>
+					<li>sex_n->[ass]도 혹시... 핥아줄 수 있어, [lover]?</li>
+					<li>sex_n->밑에.. [ass], [ass] 빨아줘.. 그거 너무 기분 좋아.. [exclaim_low]!</li>
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->[ass]도 혹시... 핥아줄 수 있어, [lover]?</li>
-					<li>sex_fm->밑에.. [ass], [ass]도 빨아줘.. 그거 너무 기분 좋아.. [exclaim_low]!</li>
-					<li>sex_fm->내 [ass] 맛도 궁금하지 않아? [vagina]도 좋지만 [ass]도 맛있을텐데... [exclaim_low]...</li>
-					<li>sex_fm->[ass] 빨리는 생각을 하니까 [vagina]도 젖었어.. 너무 흥분되는데, 빨리 해줘 [lover].. [exclaim_low]!</li>
+					<li>sex_n->[ass]도 혹시... 핥아줄 수 있어, [lover]?</li>
+					<li>sex_n->밑에.. [ass], [ass]도 빨아줘.. 그거 너무 기분 좋아.. [exclaim_low]!</li>
+					<li>sex_n->내 [ass] 맛도 궁금하지 않아? [vagina]도 좋지만 [ass]도 맛있을텐데... [exclaim_low]...</li>
+					<li>sex_n->[ass] 빨리는 생각을 하니까 [vagina]도 젖었어.. 너무 흥분되는데, 빨리 해줘 [lover].. [exclaim_low]!</li>
 		</value>
 	</li>	
 	
@@ -320,11 +320,11 @@
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->나 입으로 해줘... [lover], 입으로 제 [vagina] 엉망진창으로 범해주세요...</li>
-					<li>sex_fm->[lover], 입으로 해줄 수 있어? 그거 너무 기분 좋아.</li>
-					<li>sex_fm->혀, 혀로 클리 문지르는거 너무 좋아아.. 조금만 더 해줘..</li>
-					<li>sex_fm->[lover], 내 [vagina] 보니까 꼴려? 핥고 싶지? 코 박고 빨아먹고 싶지?</li>
-					<li>sex_fm->[lover], [vagina] 핥아봐. [vagina]만 보면 발정하는.. [exclaim_lowF]!</li>
+					<li>sex_n->나 입으로 해줘... [lover], 입으로 제 [vagina] 엉망진창으로 범해주세요...</li>
+					<li>sex_n->[lover], 입으로 해줄 수 있어? 그거 너무 기분 좋아.</li>
+					<li>sex_n->혀, 혀로 클리 문지르는거 너무 좋아아.. 조금만 더 해줘..</li>
+					<li>sex_n->[lover], 내 [vagina] 보니까 꼴려? 핥고 싶지? 코 박고 빨아먹고 싶지?</li>
+					<li>sex_n->[lover], [vagina] 핥아봐. [vagina]만 보면 발정하는.. [exclaim_lowF]!</li>
 		</value>
 	</li>	
 	
@@ -353,9 +353,9 @@
 				<li>r_logentry(tag=Fellatio_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mf->내 [penis](을)를 그렇게 먹고 싶었어, [lover]?</li>
-					<li>sex_mf->슬슬 섰으니까 이제 입으로 해줘 [lover].</li>
-					<li>sex_mf->이정도는 해야 쌀 느낌이 나지, [lover]. 더 깊이 빨아줘.</li>
+					<li>sex_n->내 [penis](을)를 그렇게 먹고 싶었어, [lover]?</li>
+					<li>sex_n->슬슬 섰으니까 이제 입으로 해줘 [lover].</li>
+					<li>sex_n->이정도는 해야 쌀 느낌이 나지, [lover]. 더 깊이 빨아줘.</li>
 					<!-- ===Female Speaker=== -->
 
 		</value>
@@ -386,11 +386,11 @@
 				<li>r_logentry(tag=Sixtynine_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
-					<li>sex_mf->이리와, [lover], 엉덩이 이리로 두고 누워.</li>
-					<li>sex_mf->엎드려봐, 나도 네꺼 빨아줄테니까, [lover].</li>
+					<li>sex_n->이리와, [lover], 엉덩이 이리로 두고 누워.</li>
+					<li>sex_n->엎드려봐, 나도 네꺼 빨아줄테니까, [lover].</li>
 					<!-- ===Female Speaker=== -->
-					<li>sex_fm->이리와, [lover], 엉덩이 이리로 두고 누워.</li>
-					<li>sex_fm->엎드려봐, 나도 네꺼 빨아줄테니까, [lover].</li>
+					<li>sex_n->이리와, [lover], 엉덩이 이리로 두고 누워.</li>
+					<li>sex_n->엎드려봐, 나도 네꺼 빨아줄테니까, [lover].</li>
 		</value>
 	</li>	
 	
