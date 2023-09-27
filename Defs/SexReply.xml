@@ -10,7 +10,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Anal_Sex_Reply</defName>
 		<label>analsex — react to</label>
-		<symbol>UI/Icons/AnalSex</symbol>
+		<symbol>UI/Icons/AnalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -34,7 +34,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Anal_Sex_Reply_Reverse</defName>
 		<label>analsex — react to</label>
-		<symbol>UI/Icons/AnalSex</symbol>
+		<symbol>UI/Icons/AnalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -58,7 +58,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Vaginal_Sex_Reply</defName>
 		<label>vaginalsex — react to</label>
-		<symbol>UI/Icons/VaginalSex</symbol>
+		<symbol>UI/Icons/VaginalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -83,7 +83,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Vaginal_Sex_Reply_Reverse</defName>
 		<label>vaginalsex — react to</label>
-		<symbol>UI/Icons/VaginalSex</symbol>
+		<symbol>UI/Icons/VaginalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -106,7 +106,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Hand_Job_Reply</defName>
 		<label>handjob — react to</label>
-		<symbol>UI/Icons/Handjob</symbol>
+		<symbol>UI/Icons/HandjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -127,7 +127,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Hand_Job_Reply_Reverse</defName>
 		<label>handjob — react to</label>
-		<symbol>UI/Icons/Handjob</symbol>
+		<symbol>UI/Icons/HandjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -147,7 +147,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Foot_Job_Reply</defName>
 		<label>footjob — react to</label>
-		<symbol>UI/Icons/Footjob</symbol>
+		<symbol>UI/Icons/FootjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -166,7 +166,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Foot_Job_Reply_Reverse</defName>
 		<label>footjob — react to</label>
-		<symbol>UI/Icons/Footjob</symbol>
+		<symbol>UI/Icons/FootjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -186,7 +186,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Fingering_Sex_Reply</defName>
 		<label>fingering — react to</label>
-		<symbol>UI/Icons/Fingering</symbol>
+		<symbol>UI/Icons/FingeringMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -205,7 +205,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Fingering_Sex_Reply_Reverse</defName>
 		<label>fingering — react to</label>
-		<symbol>UI/Icons/Fingering</symbol>
+		<symbol>UI/Icons/FingeringMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -227,7 +227,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Fisting_Sex_Reply</defName>
 		<label>fisting — react to</label>
-		<symbol>UI/Icons/Fisting</symbol>
+		<symbol>UI/Icons/FistingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->						
@@ -248,7 +248,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Fisting_Sex_Reply_Reverse</defName>
 		<label>fisting — react to</label>
-		<symbol>UI/Icons/Fisting</symbol>
+		<symbol>UI/Icons/FistingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -269,7 +269,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Breast_Job_Reply</defName>
 		<label>breastjob — react to</label>
-		<symbol>UI/Icons/Breastjob</symbol>
+		<symbol>UI/Icons/BreastjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -293,7 +293,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Breast_Job_Reply_Reverse</defName>
 		<label>breastjob — react to</label>
-		<symbol>UI/Icons/Breastjob</symbol>
+		<symbol>UI/Icons/BreastjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->						
@@ -312,7 +312,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Scissoring_Sex_Reply</defName>
 		<label>scissoring — react to</label>
-		<symbol>UI/Icons/Scissoring</symbol>
+		<symbol>UI/Icons/ScissoringMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -331,7 +331,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Mutual_Masturbation_Reply</defName>
 		<label>mutualmasturbation — react to</label>
-		<symbol>UI/Icons/MutualMasturbation</symbol>
+		<symbol>UI/Icons/MutualMasturbationMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -353,7 +353,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Rimming_Sex_Reply</defName>
 		<label>rimming — react to</label>
-		<symbol>UI/Icons/Rimming</symbol>
+		<symbol>UI/Icons/RimmingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->
@@ -372,7 +372,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Rimming_Sex_Reply_Reverse</defName>
 		<label>rimming — react to</label>
-		<symbol>UI/Icons/Rimming</symbol>
+		<symbol>UI/Icons/RimmingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -392,7 +392,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Cunnilingus_Sex_Reply</defName>
 		<label>cunnilingus — react to</label>
-		<symbol>UI/Icons/Cunnilingus</symbol>
+		<symbol>UI/Icons/CunnilingusMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -410,7 +410,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Cunnilingus_Sex_Reply_Reverse</defName>
 		<label>cunnilingus — react to</label>
-		<symbol>UI/Icons/Cunnilingus</symbol>
+		<symbol>UI/Icons/CunnilingusMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -432,7 +432,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Fellatio_Sex_Reply</defName>
 		<label>fellatio — react to</label>
-		<symbol>UI/Icons/Fellatio</symbol>
+		<symbol>UI/Icons/FellatioMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -451,7 +451,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Fellatio_Sex_Reply_Reverse</defName>
 		<label>fellatio — react to</label>
-		<symbol>UI/Icons/Fellatio</symbol>
+		<symbol>UI/Icons/FellatioMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -470,7 +470,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>Sixtynine_Sex_Reply</defName>
 		<label>sixtynine — react to</label>
-		<symbol>UI/Icons/Sixtynine</symbol>
+		<symbol>UI/Icons/SixtynineMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -491,7 +491,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>DoublePenetration_Sex_Reply</defName>
 		<label>doublepenetration — react to</label>
-		<symbol>UI/Icons/DoublePenetration</symbol>
+		<symbol>UI/Icons/DoublePenetrationMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	
@@ -510,7 +510,7 @@
 	<InteractionDef ParentName="SexReply">
 		<defName>DoublePenetration_Sex_Reply_Reverse</defName>
 		<label>doublepenetration — react to</label>
-		<symbol>UI/Icons/DoublePenetration</symbol>
+		<symbol>UI/Icons/DoublePenetrationMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
 					<!-- ===Neutral=== -->	

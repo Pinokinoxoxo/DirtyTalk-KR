@@ -205,17 +205,17 @@
     <rulePack>
       <rulesStrings>
 		<!-- ===Reacting to sex=== -->
-		<li>normal_sex_reaction->wow</li>
+		<li>normal_sex_reaction->와우</li>
 		<li>normal_sex_reaction->oh my</li>
 		<li>normal_sex_reaction->*gasp*</li>
 		<li>normal_sex_reaction->ah</li>
-		<li>horny_sex_reaction->wow</li>
-		<li>horny_sex_reaction->ooh</li>
-		<li>horny_sex_reaction->hot</li>
-		<li>gross_sex_reaction->ew</li>
-		<li>gross_sex_reaction->ugh</li>
-		<li>gross_sex_reaction->gross</li>
-		<li>gross_sex_reaction->yuck</li>
+		<li>horny_sex_reaction->와우</li>
+		<li>horny_sex_reaction->하아</li>
+		<li>horny_sex_reaction->후우</li>
+		<li>gross_sex_reaction->윽</li>
+		<li>gross_sex_reaction->우욱</li>
+		<li>gross_sex_reaction->으윽</li>
+		<li>gross_sex_reaction->우웩</li>
 		<li>cheer_sex_reaction->woo</li>
 		<li>cheer_sex_reaction->nice</li>
 		<li>leaving_sex_reaction->i'll get out of here</li>
