@@ -78,17 +78,6 @@
 		</include>
 	</value>
 	</li>	
-	<!-- ===Constants across all breedee interactions "Masterbation.xml"=== -->
-	<li Class="PatchOperationAdd">
-	<xpath>/Defs/InteractionDef[defName="Masturbation_HandjobV"]/logRulesInitiator</xpath>
-	<value>
-		<include>
-		<li>SexualInteractionConstants</li>
-		<li>MasterbationConstants</li>
-		</include>
-	</value>
-	</li>
-	
 </operations>
 </Operation>
 </Patch>

@@ -4,49 +4,49 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Anal" or defName="Rape_Reverse_Anal"]</xpath>
 		<value>
-			<symbol>UI/Icons/AnalRape</symbol>
+			<symbol>UI/Icons/AnalRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Vaginal" or defName="Rape_Reverse_Vaginal"]</xpath>
 		<value>
-			<symbol>UI/Icons/VaginalRape</symbol>
+			<symbol>UI/Icons/VaginalRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Handjob" or defName="Rape_Reverse_Handjob"]</xpath>
 		<value>
-			<symbol>UI/Icons/HandjobRape</symbol>
+			<symbol>UI/Icons/HandjobRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Footjob" or defName="Rape_Reverse_Footjob"]</xpath>
 		<value>
-			<symbol>UI/Icons/FootjobRape</symbol>
+			<symbol>UI/Icons/FootjobRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Fingering" or defName="Rape_Reverse_Fingering"]</xpath>
 		<value>
-			<symbol>UI/Icons/FingeringRape</symbol>
+			<symbol>UI/Icons/FingeringRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Fisting" or defName="Rape_Reverse_Fisting"]</xpath>
 		<value>
-			<symbol>UI/Icons/FistingRape</symbol>
+			<symbol>UI/Icons/FistingRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Breastjob" or defName="Rape_Reverse_Breastjob"]</xpath>
 		<value>
-			<symbol>UI/Icons/BreastjobRape</symbol>
+			<symbol>UI/Icons/BreastjobRapeMote</symbol>
 		</value>
 	</Operation>
 
@@ -54,35 +54,35 @@
 		<xpath>/Defs/InteractionDef[defName="Rape_DoublePenetration" or defName="Rape_Reverse_DoublePenetration" 
 				or defName="Rape_DoublePenetrationM" or defName="Rape_Reverse_DoublePenetrationM"]</xpath>
 		<value>
-			<symbol>UI/Icons/DoublePenetrationRape</symbol>
+			<symbol>UI/Icons/DoublePenetrationRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Scissoring" or defName="Rape_Reverse_Scissoring"]</xpath>
 		<value>
-			<symbol>UI/Icons/ScissoringRape</symbol>
+			<symbol>UI/Icons/ScissoringRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Rimming" or defName="Rape_Reverse_Rimming"]</xpath>
 		<value>
-			<symbol>UI/Icons/RimmingRape</symbol>
+			<symbol>UI/Icons/RimmingRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Cunnilingus" or defName="Rape_Reverse_Cunnilingus"]</xpath>
 		<value>
-			<symbol>UI/Icons/CunnilingusRape</symbol>
+			<symbol>UI/Icons/CunnilingusRapeMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Rape_Fellatio" or defName="Rape_Reverse_Fellatio"]</xpath>
 		<value>
-			<symbol>UI/Icons/FellatioRape</symbol>
+			<symbol>UI/Icons/FellatioRapeMote</symbol>
 		</value>
 	</Operation>		
 	<!--

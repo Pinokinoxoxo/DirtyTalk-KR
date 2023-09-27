@@ -12,10 +12,10 @@
 
 				<li>r_logentry(priority=5,tag=Anal_Rape_Reply)->[rape]</li>			
 					<!-- ===Neutral=== -->	
-					<li>rape_n->Get over here, [victim]!</li>
-					<li>rape_n->Bend over!</li>
-					<li>rape_n->Spread those cheeks, [victim]!</li>
-					<li>rape_n->Gimme that asshole!</li>
+					<li>rape_n->이리 와, [victim_f]!</li>
+					<li>rape_n->죽기 싫으면 어서 [ass] 벌려! 흐흐흐...</li>
+					<li>rape_n->빨리 다리 벌려, [victim_f]!</li>
+					<li>rape_n->죽고 싶지 않으면 옷 벗고 다리 벌려!</li>
 					<!-- ===Male Rapist=== -->	
 						
 					<!-- ===Female Rapist=== -->					
@@ -49,10 +49,11 @@
 					
 				<li>r_logentry(priority=5,tag=Vaginal_Rape_Reply)->[rape]</li>
 					<!-- ===Neutral=== -->
-					<li>rape_n->Get over here, [victim]!</li>
-					<li>rape_n->Bend over!</li>
-					<li>rape_n->Spread those legs, [victim]!</li>
-					<li>rape_n->Gimme that [vagina]!</li>	
+					<li>rape_n->이리 와, [victim_f]!</li>
+					<li>rape_n->죽기 싫으면 어서 [vagina] 벌려! 흐흐흐...</li>
+					<li>rape_n->빨리 다리 벌려, [victim_f]!</li>
+					<li>rape_n->가랑이 벌리고 [vagina] 이리 대, [victim_f]!</li>
+					<li>rape_n->죽고 싶지 않으면 옷 벗고 다리 벌려!</li>	
 					<!-- ===Male Rapist=== -->	
 						
 					<!-- ===Female Rapist=== -->													
@@ -409,11 +410,11 @@
 					
 				<li>r_logentry(priority=5,tag=DoublePenetration_Rape_Reply)->[rape]</li>		
 					<!-- ===Neutral=== -->
-					<li>rape_n->Get over here, [victim]!</li>
-					<li>rape_n->Bend over, [victim]!</li>
-					<li>rape_n->Spread those legs, [victim]!</li>
-					<li>rape_n->Take both of these [penis]s, [victim]!</li>
-					<li>rape_n->Gimme that [ass] and [vagina]!</li>		
+					<li>rape_n->이리 와, [victim_f]!</li>
+					<li>rape_n->죽기 싫으면 어서 [ass]랑 [vagina] 벌려! 흐흐흐...</li>
+					<li>rape_n->빨리 다리 벌려, [victim_f]!</li>
+					<li>rape_n->가랑이 벌리고 엉덩이 이리 대, [victim_f]!</li>
+					<li>rape_n->죽고 싶지 않으면 옷 벗고 다리 벌려!</li>			
 					<!-- ===Male Rapist=== -->	
 					
 					<!-- ===Female Rapist=== -->	

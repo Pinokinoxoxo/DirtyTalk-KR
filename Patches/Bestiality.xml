@@ -109,7 +109,7 @@
 					<li>animal_breed_with_reply(tag=Vaginal_Breed_Reply_Reverse)->[animal_breed]</li>
 					
 					<!-- ===Animal on any=== -->
-					<li><li>animal_breed_n->*[RECIPIENT_nameDef]에게 [animal_vagina_initiator](을)를 들이밈*</li>
+					<li>animal_breed_n->*[RECIPIENT_nameDef]에게 [animal_vagina_initiator](을)를 들이밈*</li>
 
 		</value>
 	</li>	
@@ -207,7 +207,7 @@
 	
 	
 	
-[	<!-- ===Handjob=== -->
+	<!-- ===Handjob=== -->
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName = "Bestiality_Reverse_Handjob"]/logRulesInitiator/rulesStrings</xpath>
 		<value>

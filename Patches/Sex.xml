@@ -12,23 +12,19 @@
 					<li>sex_n->오늘은 뒤로 하고 싶은걸? [ass] 벌려, [lover]!</li>
 					<li>sex_n->[ass] 벌렁거리는 거 봐. [penis]를 그렇게 먹고 싶었어 [lover]? [exclaim_high]!</li>
 					<li>sex_n->[ass](으)로 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
-					<!-- ===Male Speaker=== -->
-					
-					<!-- ===Female Speaker=== -->
-					<li>sex_n->내 후타 [penis]로 [ass](을)를 휘저어 줄까, [lover]? [exclaim_low]!</li>
+					<li>sex_n->[penis](으)로 [ass](을)를 휘저어 줄까, [lover]? [exclaim_low]!</li>
 		</value>
-	</li>	
+	</li>
+	
 	<!-- ===Penetrated=== -->
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Anal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 				<li>r_logentry(tag=Anal_Sex_Reply_Reverse, priority=5)->[sex]</li>
-					<!-- ===Neutral=== -->
 					<!-- ===Male Speaker=== -->
 					<li>sex_n->[lover], 빨리 박아 줘!</li>
 					<li>sex_n->빨리, [lover], 제대로 한 판 하자고. 내 [ass]에 잔뜩 박아줄 수 있지?</li>
 					<li>sex_n->나랑 한번 할래, [lover]?</li>
-					
 					<!-- ===Female Speaker=== -->
 					<li>sex_n->[lover], 나 오늘은 여기로 하고 싶어. 빨리 넣어 줘...</li>
 					<li>sex_n->빨리, [lover], 망가질 정도로 나 범해줘... 내 [ass]에 잔뜩 박아줘..!</li>
@@ -41,39 +37,44 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
-				<li>r_logentry(tag=Vaginal_Sex_Reply, priority=5)->[sex]</li>
+				<li>r_logentry(tag=Vaginal_Sex_Reply)->[sex]</li>
 					<!-- ===Neutral=== -->
-					<!-- ===Male Speaker=== -->
 					<li>sex_n->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
 					<li>sex_n->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
 					<li>sex_n->[lover] [vagina]에 잔뜩 박아줄게. 다리 벌려.</li>
 					<li>sex_n->[lover] [womb]에 [cum] 잔뜩 채워줄게. 다리 벌려.</li>
 					<li>sex_n->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
-					
-					<!-- ===Female Speaker=== -->
-					<li>sex_n->이리와 [lover], [vagina] 제대로 따먹어줄게!</li>
-					<li>sex_n->[vagina] 움찔대는거 봐. 엄청 젖었잖아, [lover]! 바로 박아줄게.</li>
-					<li>sex_n->내 [penis](이)가 그렇게 먹고 싶었어, [lover]? [exclaim_high]!</li>
-					<li>sex_n->내 후타 [penis] 맛이 어때, [lover]? [exclaim_low]!</li>
-					
 		</value>
-	</li>	
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Vaginal"]/logRulesRecipient/rulesStrings</xpath>
+		<value>
+				<li>r_logentry->빨리, [vagina]에 네 [penis](으)로 가득 채워줘!</li>
+		</value>
+	</li>
+	
 	<!-- ===Penetrated=== -->
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
-				<li>r_logentry(tag=Vaginal_Sex_Reply_Reverse, priority=5)->[sex]</li>
+		
+				<li>r_logentry(tag=Vaginal_Sex_Reply_Reverse)->[sex]</li>
 					<!-- ===Neutral=== -->
-					<!-- ===Male Speaker=== -->
 					<li>sex_n->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
 					<li>sex_n->나랑 한번 할래, [lover]?</li>
 					<li>sex_n->빨리, 이 [vagina]에 네 [penis](으)로 가득 채워줘!</li>
-					<!-- ===Female Speaker=== -->
-					<li>sex_n->[lover]... 나 하고 싶어. 빨리 넣어 줘...</li>
 					<li>sex_n->빨리, [lover], 망가질 정도로 나 범해줘... 내 [vagina]에 잔뜩 박아줘..!</li>
-					<li>sex_n->나랑 한번 할래, [lover]?</li>
 					<li>sex_n->빨리, [vagina]에 [lover] [penis] 가지고 [womb]까지 휘저어 줘어..</li>
-					<li>sex_n->[lover].. 오늘은 안에 싸줘야해.. [womb] 가득가득 채워줘요..!</li>
+					<li>sex_n->[lover].. 오늘은 안에 싸줘야해.. [womb] 가득 가득 채워 줘요..!</li>
+		
+		</value>
+	</li>
+	
+	<li Class="PatchOperationAdd">
+		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Vaginal"]/logRulesRecipient/rulesStrings</xpath>
+		<value>
+				<li>r_logentry->[lover], [vagina]에 잔뜩 박아줄게. 다리 벌려.</li>
 		</value>
 	</li>	
 
@@ -471,7 +472,7 @@
 		<xpath>/Defs/RulePackDef[defName = "VaginalSexRP"]/rulePack/rulesStrings</xpath>
 		<value>
 			<rulesStrings>
-				<li>sent(tag=VaginalSexRP)->[sexrp]</li>
+				<li>sent->[sexrp]</li>
 				<li>sexrp-></li>
 			</rulesStrings>
 		</value>
@@ -480,7 +481,7 @@
 		<xpath>/Defs/RulePackDef[defName = "VaginalSexReverseRP"]/rulePack/rulesStrings</xpath>
 		<value>
 			<rulesStrings>
-				<li>sent(tag=VaginalSexRP)->[sexrp]</li>
+				<li>sent->[sexrp]</li>
 				<li>sexrp-></li>
 			</rulesStrings>
 		</value>

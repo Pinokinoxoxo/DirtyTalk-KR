@@ -4,28 +4,28 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Rimming" or defName="Sex_Reverse_Rimming"]</xpath>
 		<value>
-			<symbol>UI/Icons/Rimming</symbol>
+			<symbol>UI/Icons/RimmingMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Cunnilingus" or defName="Sex_Reverse_Cunnilingus"]</xpath>
 		<value>
-			<symbol>UI/Icons/Cunnilingus</symbol>
+			<symbol>UI/Icons/CunnilingusMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Fellatio" or defName="Sex_Reverse_Fellatio"]</xpath>
 		<value>
-			<symbol>UI/Icons/Fellatio</symbol>
+			<symbol>UI/Icons/FellatioMote</symbol>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Sixtynine"]</xpath>
 		<value>
-			<symbol>UI/Icons/Sixtynine</symbol>
+			<symbol>UI/Icons/SixtynineMote</symbol>
 		</value>
 	</Operation>
 
