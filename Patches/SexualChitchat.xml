@@ -4,13 +4,13 @@
 		<xpath>/Defs/InteractionDef[defName = "Chitchat"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 				<!-- ===New Arrival=== -->
-				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_trait==masochist tag=New_Colony_Masochist)->[new_colony_masochist]</li>
+				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_trait==피학적 tag=New_Colony_Masochist)->[new_colony_masochist]</li>
 					<li>new_colony_masochist->나 지금 되게 취약한 상황인데.. 덩치 크고 힘 센 사람들이 날 범하지는 않겠지..? 헤헤...</li>
 					<li>new_colony_masochist->난 여기 공개적으로 나와 있는데... 아무도... *발그레*... 범하지 않았으면 좋을지도...</li>
 					
 				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_trait==zoophile, tag=New_Colony_Zoophile)->[new_colony_zoophile]</li>
-					<li>new_colony_zoophile(INITIATOR_thoughtLabel==horny, priority=1)->I wonder if any [new_zoo_adj] wildlife roams around here. I'm horny...</li>
-					<li>new_colony_zoophile(INITIATOR_thoughtLabel==sexually frustrated, priority=1)->I wonder if any [new_zoo_adj] wildlife roams around here. I'm horny...</li>
+					<li>new_colony_zoophile(INITIATOR_thoughtLabel==흥분함, priority=1)->I wonder if any [new_zoo_adj] wildlife roams around here. I'm horny...</li>
+					<li>new_colony_zoophile(INITIATOR_thoughtLabel==발정남, priority=1)->I wonder if any [new_zoo_adj] wildlife roams around here. I'm horny...</li>
 					<li>new_colony_zoophile->I hope there's some [new_zoo_adj] animals around here to [new_zoo_fuck].</li>
 						<li>new_zoo_adj->cute</li>
 						<li>new_zoo_adj->strong</li>
@@ -19,15 +19,15 @@
 						<li>new_zoo_fuck->plow</li>
 						<li>new_zoo_fuck->breed</li>
 						
-				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_thoughtLabel==horny, tag=Colonist_Horny)->[new_colony_horny]</li>
-				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_thoughtLabel==sexually frustrated, tag=Colonist_Horny)->[new_colony_horny]</li>
+				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_thoughtLabel==흥분함, tag=Colonist_Horny)->[new_colony_horny]</li>
+				<li>r_logentry(INITIATOR_thoughtDefName==NewColonyOptimism, INITIATOR_thoughtLabel==발정남, tag=Colonist_Horny)->[new_colony_horny]</li>
 					<li>new_colony_horny->여기서 어떻게 섹스할 방법을 찾았으면 좋겠어...</li>
 					<li>new_colony_horny->여기에서 어떻게 몸을 섞을 사람을 찾지 못한다면 정말 미쳐버릴지도 몰라...</li>
 					<li>new_colony_horny->이런 상황 속에서라도 어떻게든 떡칠 사람을 찾고 싶은데 말이지 ...</li>
 					
 				<!-- ===Horny=== -->	
-				<li>r_logentry(INITIATOR_opinion>=25, INITIATOR_thoughtLabel==horny, tag=Colonist_Horny)->[colonist_horny]</li>
-				<li>r_logentry(INITIATOR_opinion>=25, INITIATOR_thoughtLabel==sexually frustrated, tag=Colonist_Horny)->[colonist_horny]</li>
+				<li>r_logentry(INITIATOR_opinion>=25, INITIATOR_thoughtLabel==흥분함, tag=Colonist_Horny)->[colonist_horny]</li>
+				<li>r_logentry(INITIATOR_opinion>=25, INITIATOR_thoughtLabel==발정남, tag=Colonist_Horny)->[colonist_horny]</li>
 					<li>colonist_horny->[expletive], 당장... 섹스하고 싶어..</li>
 					<li>colonist_horny->[expletive], 나 너무 흥분돼...</li>
 					<li>colonist_horny(INITIATOR_gender==Male)->My [expletive_adj] balls are gonna explode!</li>
@@ -59,23 +59,23 @@
 				<!-- ===Sex Reactions=== -->	
 				<li>r_logentry(RECIPIENT_moving==No, RECIPIENT_jobDefName==JoinInBed, priority=9)->[joininbed_react]</li>
 					<li>joininbed_react(INITIATOR_opinion>=25)->[joininbed_react_good]</li>
-						<li>joininbed_react_good(INITIATOR_thoughtLabel==horny)->[joininbed_react_good_horny]</li>
-						<li>joininbed_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[joininbed_react_good_horny]</li>
+						<li>joininbed_react_good(INITIATOR_thoughtLabel==흥분함)->[joininbed_react_good_horny]</li>
+						<li>joininbed_react_good(INITIATOR_thoughtLabel==발정남)->[joininbed_react_good_horny]</li>
 							<li>joininbed_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>joininbed_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
-							<li>joininbed_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
+							<li>joininbed_react_good_horny->[horny_sex_reaction]! 대박인걸, [counterpart]!</li>
 						<li>joininbed_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>joininbed_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>joininbed_react(INITIATOR_opinion&lt;=-25)->[joininbed_react_bad]</li>
-						<li>joininbed_react_bad(INITIATOR_thoughtLabel==horny)->[joininbed_react_bad_horny]</li>
-						<li>joininbed_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[joininbed_react_bad_horny]</li>
+						<li>joininbed_react_bad(INITIATOR_thoughtLabel==흥분함)->[joininbed_react_bad_horny]</li>
+						<li>joininbed_react_bad(INITIATOR_thoughtLabel==발정남)->[joininbed_react_bad_horny]</li>
 							<li>joininbed_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
-							<li>joininbed_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
+							<li>joininbed_react_bad_horny->[horny_sex_reaction]! 네가 그걸 이리 잘할 거라 기대하진 않았는데, [counterpart]!</li>
 							<li>joininbed_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>joininbed_react_bad->[gross_sex_reaction]!</li>
 					<li>joininbed_react->[joininbed_react_neutral]</li>
-						<li>joininbed_react_neutral(INITIATOR_thoughtLabel==horny)->[joininbed_react_neutral_horny]</li>
-						<li>joininbed_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[joininbed_react_neutral_horny]</li>
+						<li>joininbed_react_neutral(INITIATOR_thoughtLabel==흥분함)->[joininbed_react_neutral_horny]</li>
+						<li>joininbed_react_neutral(INITIATOR_thoughtLabel==발정남)->[joininbed_react_neutral_horny]</li>
 							<li>joininbed_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>joininbed_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>joininbed_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -83,23 +83,23 @@
 						
 				<li>r_logentry(RECIPIENT_jobDefName==GettinLoved, priority=9)->[loved_react]</li>
 					<li>loved_react(INITIATOR_opinion>=25)->[loved_react_good]</li>
-						<li>loved_react_good(INITIATOR_thoughtLabel==horny)->[loved_react_good_horny]</li>
-						<li>loved_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[loved_react_good_horny]</li>
+						<li>loved_react_good(INITIATOR_thoughtLabel==흥분함)->[loved_react_good_horny]</li>
+						<li>loved_react_good(INITIATOR_thoughtLabel==발정남)->[loved_react_good_horny]</li>
 							<li>loved_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>loved_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
 							<li>loved_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 						<li>loved_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>loved_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>loved_react(INITIATOR_opinion&lt;=-25)->[loved_react_bad]</li>
-						<li>loved_react_bad(INITIATOR_thoughtLabel==horny)->[loved_react_bad_horny]</li>
-						<li>loved_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[loved_react_bad_horny]</li>
+						<li>loved_react_bad(INITIATOR_thoughtLabel==흥분함)->[loved_react_bad_horny]</li>
+						<li>loved_react_bad(INITIATOR_thoughtLabel==발정남)->[loved_react_bad_horny]</li>
 							<li>loved_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>loved_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 							<li>loved_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>loved_react_bad->[gross_sex_reaction]!</li>
 					<li>loved_react->[loved_react_neutral]</li>
-						<li>loved_react_neutral(INITIATOR_thoughtLabel==horny)->[loved_react_neutral_horny]</li>
-						<li>loved_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[loved_react_neutral_horny]</li>
+						<li>loved_react_neutral(INITIATOR_thoughtLabel==흥분함)->[loved_react_neutral_horny]</li>
+						<li>loved_react_neutral(INITIATOR_thoughtLabel==발정남)->[loved_react_neutral_horny]</li>
 							<li>loved_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>loved_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>loved_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -107,23 +107,23 @@
 						
 				<li>r_logentry(RECIPIENT_jobDefName==GettinLicked, priority=9)->[licked_react]</li>
 					<li>licked_react(INITIATOR_opinion>=25)->[licked_react_good]</li>
-						<li>licked_react_good(INITIATOR_thoughtLabel==horny)->[licked_react_good_horny]</li>
-						<li>licked_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[licked_react_good_horny]</li>
+						<li>licked_react_good(INITIATOR_thoughtLabel==흥분함)->[licked_react_good_horny]</li>
+						<li>licked_react_good(INITIATOR_thoughtLabel==발정남)->[licked_react_good_horny]</li>
 							<li>licked_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>licked_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
 							<li>licked_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 						<li>licked_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>licked_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>licked_react(INITIATOR_opinion&lt;=-25)->[licked_react_bad]</li>
-						<li>licked_react_bad(INITIATOR_thoughtLabel==horny)->[licked_react_bad_horny]</li>
-						<li>licked_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[licked_react_bad_horny]</li>
+						<li>licked_react_bad(INITIATOR_thoughtLabel==흥분함)->[licked_react_bad_horny]</li>
+						<li>licked_react_bad(INITIATOR_thoughtLabel==발정남)->[licked_react_bad_horny]</li>
 							<li>licked_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>licked_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 							<li>licked_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>licked_react_bad->[gross_sex_reaction]!</li>
 					<li>licked_react->[licked_react_neutral]</li>
-						<li>licked_react_neutral(INITIATOR_thoughtLabel==horny)->[licked_react_neutral_horny]</li>
-						<li>licked_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[licked_react_neutral_horny]</li>
+						<li>licked_react_neutral(INITIATOR_thoughtLabel==흥분함)->[licked_react_neutral_horny]</li>
+						<li>licked_react_neutral(INITIATOR_thoughtLabel==발정남)->[licked_react_neutral_horny]</li>
 							<li>licked_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>licked_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>licked_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -131,30 +131,30 @@
 						
 				<li>r_logentry(RECIPIENT_jobDefName==GettinSucked, priority=9)->[sucked_react]</li>
 					<li>sucked_react(INITIATOR_opinion>=25)->[sucked_react_good]</li>
-						<li>sucked_react_good(INITIATOR_thoughtLabel==horny)->[sucked_react_good_horny]</li>
-						<li>sucked_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[sucked_react_good_horny]</li>
+						<li>sucked_react_good(INITIATOR_thoughtLabel==흥분함)->[sucked_react_good_horny]</li>
+						<li>sucked_react_good(INITIATOR_thoughtLabel==발정남)->[sucked_react_good_horny]</li>
 							<li>sucked_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>sucked_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
 							<li>sucked_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 						<li>sucked_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>sucked_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>sucked_react(INITIATOR_opinion&lt;=-25)->[sucked_react_bad]</li>
-						<li>sucked_react_bad(INITIATOR_thoughtLabel==horny)->[sucked_react_bad_horny]</li>
-						<li>sucked_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[sucked_react_bad_horny]</li>
+						<li>sucked_react_bad(INITIATOR_thoughtLabel==흥분함)->[sucked_react_bad_horny]</li>
+						<li>sucked_react_bad(INITIATOR_thoughtLabel==발정남)->[sucked_react_bad_horny]</li>
 							<li>sucked_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>sucked_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 							<li>sucked_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>sucked_react_bad->[gross_sex_reaction]!</li>
 					<li>sucked_react->[sucked_react_neutral]</li>
-						<li>sucked_react_neutral(INITIATOR_thoughtLabel==horny)->[sucked_react_neutral_horny]</li>
-						<li>sucked_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[sucked_react_neutral_horny]</li>
+						<li>sucked_react_neutral(INITIATOR_thoughtLabel==흥분함)->[sucked_react_neutral_horny]</li>
+						<li>sucked_react_neutral(INITIATOR_thoughtLabel==발정남)->[sucked_react_neutral_horny]</li>
 							<li>sucked_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>sucked_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>sucked_react_neutral_horny->[horny_sex_reaction]!</li>
 						<li>sucked_react_neutral->[normal_sex_reaction]!</li>
 						
 				<li>r_logentry(tag=Getting_Raped_React, RECIPIENT_jobDefName==GettinRaped, priority=9)->[raped_react]</li>
-					<li>raped_react(INITIATOR_trait==rapist, priority=2)->[raped_react_rapist]</li>
+					<li>raped_react(INITIATOR_trait==강간마, priority=2)->[raped_react_rapist]</li>
 						<li>raped_react_rapist(INITIATOR_opinion>=25, RECIPIENT_gender==Female, priority=1)->[horny_sex_reaction]! Just take it like a good girl, [RECIPIENT_nameDef]!</li>
 						<li>raped_react_rapist(INITIATOR_opinion>=25, RECIPIENT_gender==Male, priority=1)->[horny_sex_reaction]! Just take it like a man, [RECIPIENT_nameDef]!</li>
 						<li>raped_react_rapist(INITIATOR_opinion&lt;=-25, priority=1)->[horny_sex_reaction]! Get fucked, [counterpart]!</li>
@@ -167,8 +167,8 @@
 						<li>raped_react_good(RECIPIENT_gender==Female)->[normal_sex_reaction]! Get off of her, you [insult]!</li>
 						<li>raped_react_good(RECIPIENT_gender==Male)->[normal_sex_reaction]! Get off of him, you [insult]!</li>
 					<li>raped_react(INITIATOR_opinion&lt;=-25)->[raped_react_bad]</li>
-						<li>raped_react_bad(INITIATOR_thoughtLabel==horny)->[raped_react_bad_horny]</li>
-						<li>raped_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[raped_react_bad_horny]</li>
+						<li>raped_react_bad(INITIATOR_thoughtLabel==흥분함)->[raped_react_bad_horny]</li>
+						<li>raped_react_bad(INITIATOR_thoughtLabel==발정남)->[raped_react_bad_horny]</li>
 							<li>raped_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>raped_react_bad_horny->[horny_sex_reaction]! Get what you deserve, [counterpart]!</li>
 							<li>raped_react_bad_horny->[horny_sex_reaction]! Take that, counterpart!</li>
@@ -178,81 +178,81 @@
 						<li>raped_react_neutral->[normal_sex_reaction]!</li>
 						
 				<li>r_logentry(RECIPIENT_jobDefName==RapeComfortPawn, priority=9)->[rapingcp_react]</li>
-					<li>rapingcp_react(INITIATOR_trait==rapist, priority=2)->[rapingcp_react_rapist]</li>
+					<li>rapingcp_react(INITIATOR_trait==강간마, priority=2)->[rapingcp_react_rapist]</li>
 						<li>rapingcp_react_rapist(INITIATOR_opinion>=25, RECIPIENT_gender==Female, priority=1)->[horny_sex_reaction]! Rail 'em, [counterpart]!</li>
 						<li>rapingcp_react_rapist(INITIATOR_opinion>=25, RECIPIENT_gender==Male, priority=1)->[horny_sex_reaction]! Rail 'em, [counterpart]! [cheer_reaction]!</li>
 						<li>rapingcp_react_rapist(INITIATOR_opinion&lt;=-25, priority=1)->[horny_sex_reaction]! I could do much better, [counterpart]!</li>
 						<li>rapingcp_react_rapist(INITIATOR_opinion&lt;=-25, priority=1)->[horny_sex_reaction]! [cheer_reaction]!</li>
 					<li>rapingcp_react(INITIATOR_opinion>=25)->[rapingcp_react_good]</li>
-						<li>rapingcp_react_good(INITIATOR_thoughtLabel==horny)->[rapingcp_react_good_horny]</li>
-						<li>rapingcp_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[rapingcp_react_good_horny]</li>
+						<li>rapingcp_react_good(INITIATOR_thoughtLabel==흥분함)->[rapingcp_react_good_horny]</li>
+						<li>rapingcp_react_good(INITIATOR_thoughtLabel==발정남)->[rapingcp_react_good_horny]</li>
 							<li>rapingcp_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>rapingcp_react_good_horny->[horny_sex_reaction]!</li>
 							<li>rapingcp_react_good_horny->[horny_sex_reaction]!</li>
 						<li>rapingcp_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]!</li>
 						<li>rapingcp_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>rapingcp_react(INITIATOR_opinion&lt;=-25)->[rapingcp_react_bad]</li>
-						<li>rapingcp_react_bad(INITIATOR_thoughtLabel==horny)->[rapingcp_react_bad_horny]</li>
-						<li>rapingcp_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[rapingcp_react_bad_horny]</li>
+						<li>rapingcp_react_bad(INITIATOR_thoughtLabel==흥분함)->[rapingcp_react_bad_horny]</li>
+						<li>rapingcp_react_bad(INITIATOR_thoughtLabel==발정남)->[rapingcp_react_bad_horny]</li>
 							<li>rapingcp_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>rapingcp_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>rapingcp_react_bad->[gross_sex_reaction]!</li>
 					<li>rapingcp_react->[rapingcp_react_neutral]</li>
-						<li>rapingcp_react_neutral(INITIATOR_thoughtLabel==horny)->[rapingcp_react_neutral_horny]</li>
-						<li>rapingcp_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[rapingcp_react_neutral_horny]</li>
+						<li>rapingcp_react_neutral(INITIATOR_thoughtLabel==흥분함)->[rapingcp_react_neutral_horny]</li>
+						<li>rapingcp_react_neutral(INITIATOR_thoughtLabel==발정남)->[rapingcp_react_neutral_horny]</li>
 							<li>rapingcp_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>rapingcp_react_neutral_horny->[horny_sex_reaction], [counterpart]!</li>
 							<li>rapingcp_react_neutral_horny->[horny_sex_reaction]!</li>
 						<li>rapingcp_react_neutral->[normal_sex_reaction]!</li>
 						
 				<li>r_logentry(RECIPIENT_jobDefName==RandomRape, priority=9)->[raping_react]</li>
-					<li>raping_react(INITIATOR_trait==rapist, priority=2)->[raping_react_rapist]</li>
+					<li>raping_react(INITIATOR_trait==강간마, priority=2)->[raping_react_rapist]</li>
 						<li>raping_react_rapist(INITIATOR_opinion>=25, RECIPIENT_gender==Female, priority=1)->[horny_sex_reaction]! Rail 'em, [counterpart]!</li>
 						<li>raping_react_rapist(INITIATOR_opinion>=25, RECIPIENT_gender==Male, priority=1)->[horny_sex_reaction]! Rail 'em, [counterpart]! [cheer_reaction]!</li>
 						<li>raping_react_rapist(INITIATOR_opinion&lt;=-25, priority=1)->[horny_sex_reaction]! I could do much better, [counterpart]!</li>
 						<li>raping_react_rapist(INITIATOR_opinion&lt;=-25, priority=1)->[horny_sex_reaction]! [cheer_reaction]!</li>
 					<li>raping_react(INITIATOR_opinion>=25)->[raping_react_good]</li>
-						<li>raping_react_good(INITIATOR_thoughtLabel==horny)->[raping_react_good_horny]</li>
-						<li>raping_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[raping_react_good_horny]</li>
+						<li>raping_react_good(INITIATOR_thoughtLabel==흥분함)->[raping_react_good_horny]</li>
+						<li>raping_react_good(INITIATOR_thoughtLabel==발정남)->[raping_react_good_horny]</li>
 							<li>raping_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>raping_react_good_horny->[horny_sex_reaction]!</li>
 							<li>raping_react_good_horny->[horny_sex_reaction]!</li>
 						<li>raping_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]!</li>
 						<li>raping_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>raping_react(INITIATOR_opinion&lt;=-25)->[raping_react_bad]</li>
-						<li>raping_react_bad(INITIATOR_thoughtLabel==horny)->[raping_react_bad_horny]</li>
-						<li>raping_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[raping_react_bad_horny]</li>
+						<li>raping_react_bad(INITIATOR_thoughtLabel==흥분함)->[raping_react_bad_horny]</li>
+						<li>raping_react_bad(INITIATOR_thoughtLabel==발정남)->[raping_react_bad_horny]</li>
 							<li>raping_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>raping_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>raping_react_bad->[gross_sex_reaction]!</li>
 					<li>raping_react->[raping_react_neutral]</li>
-						<li>raping_react_neutral(INITIATOR_thoughtLabel==horny)->[raping_react_neutral_horny]</li>
-						<li>raping_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[raping_react_neutral_horny]</li>
+						<li>raping_react_neutral(INITIATOR_thoughtLabel==흥분함)->[raping_react_neutral_horny]</li>
+						<li>raping_react_neutral(INITIATOR_thoughtLabel==발정남)->[raping_react_neutral_horny]</li>
 							<li>raping_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>raping_react_neutral_horny->[horny_sex_reaction], [counterpart]!</li>
 							<li>raping_react_neutral_horny->[horny_sex_reaction]!</li>
 						<li>raping_react_neutral->[normal_sex_reaction]!</li>
 						
 				<li>r_logentry(RECIPIENT_jobDefName==RapeEnemy, priority=9)->[rapingenemy_react]</li>
-					<li>rapingenemy_react(INITIATOR_trait==kind)->Even they don't deserve that!</li>
+					<li>rapingenemy_react(INITIATOR_trait==다정다감)->Even they don't deserve that!</li>
 					<li>rapingenemy_react(INITIATOR_opinion>=25)->[rapingenemy_react_good]</li>
-						<li>rapingenemy_react_good(INITIATOR_thoughtLabel==horny)->[rapingenemy_react_good_horny]</li>
-						<li>rapingenemy_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[rapingenemy_react_good_horny]</li>
+						<li>rapingenemy_react_good(INITIATOR_thoughtLabel==흥분함)->[rapingenemy_react_good_horny]</li>
+						<li>rapingenemy_react_good(INITIATOR_thoughtLabel==발정남)->[rapingenemy_react_good_horny]</li>
 							<li>rapingenemy_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>rapingenemy_react_good_horny->[horny_sex_reaction]! Give 'em what they deserve, [counterpart]! [cheer_reaction]</li>
 							<li>rapingenemy_react_good_horny->[horny_sex_reaction]! You go, [counterpart]!</li>
 						<li>rapingenemy_react_good(INITIATOR_moving==Yes, priority=1)->[cheer_reaction]!</li>
 						<li>rapingenemy_react_good->[cheer_reaction]!</li>
 					<li>rapingenemy_react(INITIATOR_opinion&lt;=-25)->[rapingenemy_react_bad]</li>
-						<li>rapingenemy_react_bad(INITIATOR_thoughtLabel==horny)->[rapingenemy_react_bad_horny]</li>
-						<li>rapingenemy_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[rapingenemy_react_bad_horny]</li>
+						<li>rapingenemy_react_bad(INITIATOR_thoughtLabel==흥분함)->[rapingenemy_react_bad_horny]</li>
+						<li>rapingenemy_react_bad(INITIATOR_thoughtLabel==발정남)->[rapingenemy_react_bad_horny]</li>
 							<li>rapingenemy_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>rapingenemy_react_bad_horny->[horny_sex_reaction]! I could show 'em better than that, [counterpart]!</li>
 							<li>rapingenemy_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>rapingenemy_react_bad->[gross_sex_reaction]!</li>
 					<li>rapingenemy_react->[rapingenemy_react_neutral]</li>
-						<li>rapingenemy_react_neutral(INITIATOR_thoughtLabel==horny)->[rapingenemy_react_neutral_horny]</li>
-						<li>rapingenemy_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[rapingenemy_react_neutral_horny]</li>
+						<li>rapingenemy_react_neutral(INITIATOR_thoughtLabel==흥분함)->[rapingenemy_react_neutral_horny]</li>
+						<li>rapingenemy_react_neutral(INITIATOR_thoughtLabel==발정남)->[rapingenemy_react_neutral_horny]</li>
 							<li>rapingenemy_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 							<li>rapingenemy_react_neutral_horny->[horny_sex_reaction]! You show 'em, [counterpart]!</li>
 							<li>rapingenemy_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -268,31 +268,31 @@
 					<li>masturbate_react(INITIATOR_opinion&lt;=-25)->[masturbate_react_bad]</li>
 						<li>masturbate_react_bad->[gross_sex_reaction]!</li>
 					<li>masturbate_react->[masturbate_react_neutral]</li>
-						<li>masturbate_react_neutral(INITIATOR_thoughtLabel==horny)->[masturbate_react_neutral_horny]</li>
-						<li>masturbate_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[masturbate_react_neutral_horny]</li>
+						<li>masturbate_react_neutral(INITIATOR_thoughtLabel==흥분함)->[masturbate_react_neutral_horny]</li>
+						<li>masturbate_react_neutral(INITIATOR_thoughtLabel==발정남)->[masturbate_react_neutral_horny]</li>
 							<li>masturbate_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>masturbate_react_neutral_horny->[horny_sex_reaction]!</li>
 						<li>masturbate_react_neutral->[normal_sex_reaction]!</li>
 						
 				<li>r_logentry(RECIPIENT_moving==No, RECIPIENT_jobDefName==WhoreIsServingVisitors, priority=9)->[whoreserve_react]</li>
 					<li>whoreserve_react(INITIATOR_opinion>=25)->[whoreserve_react_good]</li>
-						<li>whoreserve_react_good(INITIATOR_thoughtLabel==horny)->[whoreserve_react_good_horny]</li>
-						<li>whoreserve_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[whoreserve_react_good_horny]</li>
+						<li>whoreserve_react_good(INITIATOR_thoughtLabel==흥분함)->[whoreserve_react_good_horny]</li>
+						<li>whoreserve_react_good(INITIATOR_thoughtLabel==발정남)->[whoreserve_react_good_horny]</li>
 							<li>whoreserve_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>whoreserve_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
 							<li>whoreserve_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 						<li>whoreserve_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>whoreserve_react_good->Give 'em their money's worth, [RECIPIENT_nameDef]!</li>
 					<li>whoreserve_react(INITIATOR_opinion&lt;=-25)->[whoreserve_react_bad]</li>
-						<li>whoreserve_react_bad(INITIATOR_thoughtLabel==horny)->[whoreserve_react_bad_horny]</li>
-						<li>whoreserve_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[whoreserve_react_bad_horny]</li>
+						<li>whoreserve_react_bad(INITIATOR_thoughtLabel==흥분함)->[whoreserve_react_bad_horny]</li>
+						<li>whoreserve_react_bad(INITIATOR_thoughtLabel==발정남)->[whoreserve_react_bad_horny]</li>
 							<li>whoreserve_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>whoreserve_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 							<li>whoreserve_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>whoreserve_react_bad->[gross_sex_reaction], at least give 'em their money's worth, [counterpart]!</li>
 					<li>whoreserve_react->[whoreserve_react_neutral]</li>
-						<li>whoreserve_react_neutral(INITIATOR_thoughtLabel==horny)->[whoreserve_react_neutral_horny]</li>
-						<li>whoreserve_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[whoreserve_react_neutral_horny]</li>
+						<li>whoreserve_react_neutral(INITIATOR_thoughtLabel==흥분함)->[whoreserve_react_neutral_horny]</li>
+						<li>whoreserve_react_neutral(INITIATOR_thoughtLabel==발정남)->[whoreserve_react_neutral_horny]</li>
 							<li>whoreserve_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>whoreserve_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>whoreserve_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -300,23 +300,23 @@
 						
 				<li>r_logentry(RECIPIENT_moving==No, RECIPIENT_jobDefName==Quickie, priority=9)->[quickie_react]</li>
 					<li>quickie_react(INITIATOR_opinion>=25)->[quickie_react_good]</li>
-						<li>quickie_react_good(INITIATOR_thoughtLabel==horny)->[quickie_react_good_horny]</li>
-						<li>quickie_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[quickie_react_good_horny]</li>
+						<li>quickie_react_good(INITIATOR_thoughtLabel==흥분함)->[quickie_react_good_horny]</li>
+						<li>quickie_react_good(INITIATOR_thoughtLabel==발정남)->[quickie_react_good_horny]</li>
 							<li>quickie_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>quickie_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
 							<li>quickie_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 						<li>quickie_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>quickie_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>quickie_react(INITIATOR_opinion&lt;=-25)->[quickie_react_bad]</li>
-						<li>quickie_react_bad(INITIATOR_thoughtLabel==horny)->[quickie_react_bad_horny]</li>
-						<li>quickie_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[quickie_react_bad_horny]</li>
+						<li>quickie_react_bad(INITIATOR_thoughtLabel==흥분함)->[quickie_react_bad_horny]</li>
+						<li>quickie_react_bad(INITIATOR_thoughtLabel==발정남)->[quickie_react_bad_horny]</li>
 							<li>quickie_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>quickie_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 							<li>quickie_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>quickie_react_bad->[gross_sex_reaction]!</li>
 					<li>quickie_react->[quickie_react_neutral]</li>
-						<li>quickie_react_neutral(INITIATOR_thoughtLabel==horny)->[quickie_react_neutral_horny]</li>
-						<li>quickie_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[quickie_react_neutral_horny]</li>
+						<li>quickie_react_neutral(INITIATOR_thoughtLabel==흥분함)->[quickie_react_neutral_horny]</li>
+						<li>quickie_react_neutral(INITIATOR_thoughtLabel==발정남)->[quickie_react_neutral_horny]</li>
 							<li>quickie_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>quickie_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>quickie_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -324,23 +324,23 @@
 						
 				<li>r_logentry(RECIPIENT_moving==No, RECIPIENT_jobDefName==GettingQuickie, priority=9)->[quickie2_react]</li>
 					<li>quickie2_react(INITIATOR_opinion>=25)->[quickie2_react_good]</li>
-						<li>quickie2_react_good(INITIATOR_thoughtLabel==horny)->[quickie2_react_good_horny]</li>
-						<li>quickie2_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[quickie2_react_good_horny]</li>
+						<li>quickie2_react_good(INITIATOR_thoughtLabel==흥분함)->[quickie2_react_good_horny]</li>
+						<li>quickie2_react_good(INITIATOR_thoughtLabel==발정남)->[quickie2_react_good_horny]</li>
 							<li>quickie2_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>quickie2_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
 							<li>quickie2_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 						<li>quickie2_react_good(INITIATOR_moving==Yes, priority=1)->[normal_sex_reaction]! Sorry, [leaving_sex_reaction]!</li>
 						<li>quickie2_react_good->[normal_sex_reaction]! [RECIPIENT_nameDef]!</li>
 					<li>quickie2_react(INITIATOR_opinion&lt;=-25)->[quickie2_react_bad]</li>
-						<li>quickie2_react_bad(INITIATOR_thoughtLabel==horny)->[quickie2_react_bad_horny]</li>
-						<li>quickie2_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[quickie2_react_bad_horny]</li>
+						<li>quickie2_react_bad(INITIATOR_thoughtLabel==흥분함)->[quickie2_react_bad_horny]</li>
+						<li>quickie2_react_bad(INITIATOR_thoughtLabel==발정남)->[quickie2_react_bad_horny]</li>
 							<li>quickie2_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>quickie2_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 							<li>quickie2_react_bad_horny->[horny_sex_reaction]!</li>
 						<li>quickie2_react_bad->[gross_sex_reaction]!</li>
 					<li>quickie2_react->[quickie2_react_neutral]</li>
-						<li>quickie2_react_neutral(INITIATOR_thoughtLabel==horny)->[quickie2_react_neutral_horny]</li>
-						<li>quickie2_react_neutral(INITIATOR_thoughtLabel==sexually frustrated)->[quickie2_react_neutral_horny]</li>
+						<li>quickie2_react_neutral(INITIATOR_thoughtLabel==흥분함)->[quickie2_react_neutral_horny]</li>
+						<li>quickie2_react_neutral(INITIATOR_thoughtLabel==발정남)->[quickie2_react_neutral_horny]</li>
 							<li>quickie2_react_neutral_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
 							<li>quickie2_react_neutral_horny->[horny_sex_reaction]! [counterpart]!</li>
 							<li>quickie2_react_neutral_horny->[horny_sex_reaction]!</li>
@@ -418,21 +418,21 @@
 				<li>r_logentry(INITIATOR_jobDefName==GettinRaped, priority=10)->[gettinraped]</li>
 					<li>gettinraped(RECIPIENT_jobDefName==RapeComfortPawn, priority=9)->I don't know if I can ever forgive this!</li>
 					<li>gettinraped(RECIPIENT_jobDefName==RandomRape, priority=9)->I don't know if I can ever forgive this!</li>
-					<li>gettinraped(RECIPIENT_jobDefName==RapeComfortPawn, INITIATOR_trait==masochist, priority=10)->You're so good to me, master!</li>
-					<li>gettinraped(RECIPIENT_jobDefName==RandomRape, INITIATOR_trait==masochist, priority=10)->You're so good to me, master!</li>
-					<li>gettinraped(INITIATOR_trait==masochist, priority=10)->Isn't master so good to me!?</li>
+					<li>gettinraped(RECIPIENT_jobDefName==RapeComfortPawn, INITIATOR_trait==피학적, priority=10)->You're so good to me, master!</li>
+					<li>gettinraped(RECIPIENT_jobDefName==RandomRape, INITIATOR_trait==피학적, priority=10)->You're so good to me, master!</li>
+					<li>gettinraped(INITIATOR_trait==피학적, priority=10)->Isn't master so good to me!?</li>
 					<li>gettinraped->Please, [RECIPIENT_nameDef], help!</li>				
 				<li>r_logentry(INITIATOR_jobDefName==RapeComfortPawn, priority=10)->[rapingcp]</li>
 					<li>rapingcp(RECIPIENT_jobDefName==GettinRaped, priority=9)->I really needed this!</li>
-					<li>rapingcp(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==masochist, priority=10)->You're really a great fucktoy!</li>
+					<li>rapingcp(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==피학적, priority=10)->You're really a great fucktoy!</li>
 					<li>rapingcp->You want a turn?</li>					
 				<li>r_logentry(INITIATOR_jobDefName==RandomRape, priority=10)->[raping]</li>
 					<li>raping(RECIPIENT_jobDefName==GettinRaped, priority=9)->I really needed this!</li>
-					<li>raping(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==masochist, priority=10)->You're really a great fucktoy!</li>
+					<li>raping(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==피학적, priority=10)->You're really a great fucktoy!</li>
 					<li>raping->You want a turn?</li>	
 				<li>r_logentry(INITIATOR_jobDefName==RapeEnemy, priority=10)->[rapingenemy]</li>
 					<li>rapingenemy(RECIPIENT_jobDefName==GettinRaped, priority=9)->You know deep down it's what you deserve!</li>
-					<li>rapingenemy(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==masochist, priority=10)->You're really a great fucktoy!</li>
+					<li>rapingenemy(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==피학적, priority=10)->You're really a great fucktoy!</li>
 					<li>rapingenemy->You want a turn?</li>	
 				<li>r_logentry(INITIATOR_jobDefName==RJW_Masturbate, priority=10)->[masturbating]</li>
 					<li>masturbating->Well, I'm glad it's just you who caught me.</li>	
@@ -467,10 +467,10 @@
 				<li>r_logentry(RECIPIENT_jobDefName==GettinRaped, priority=9)->[gettinraped_react]</li>
 					<li>gettinraped_react->I'm sorry...</li>				
 				<li>r_logentry(RECIPIENT_jobDefName==RapeComfortPawn, priority=9)->[rapingcp_react]</li>
-					<li>rapingcp_react(INITIATOR_trait==rapist, priority=9)->You really know how to dominate!</li>
+					<li>rapingcp_react(INITIATOR_trait==강간마, priority=9)->You really know how to dominate!</li>
 					<li>rapingcp_react->I don't see how you can do something like this...</li>					
 				<li>r_logentry(RECIPIENT_jobDefName==RandomRape, priority=9)->[raping_react]</li>
-					<li>raping_react(INITIATOR_trait==rapist, priority=9)->You really know how to dominate!</li>
+					<li>raping_react(INITIATOR_trait==강간마, priority=9)->You really know how to dominate!</li>
 					<li>raping_react->I don't see how you can do something like this...</li>	
 				<li>r_logentry(RECIPIENT_jobDefName==RapeEnemy, priority=9)->[rapingenemy_react]</li>
 					<li>rapingenemy_react->It's what he deserves!</li>	
@@ -514,21 +514,21 @@
 				<li>r_logentry(INITIATOR_jobDefName==GettinRaped, priority=10)->[gettinraped]</li>
 					<li>gettinraped(RECIPIENT_jobDefName==RapeComfortPawn, priority=9)->I will never forgive this!</li>
 					<li>gettinraped(RECIPIENT_jobDefName==RandomRape, priority=9)->I will never forgive this!</li>
-					<li>gettinraped(RECIPIENT_jobDefName==RapeComfortPawn, INITIATOR_trait==masochist, priority=10)->You can go harder than that, master!</li>
-					<li>gettinraped(RECIPIENT_jobDefName==RandomRape, INITIATOR_trait==masochist, priority=10)->You can go harder than that, master!</li>
-					<li>gettinraped(INITIATOR_trait==masochist, priority=10)->You could only dream to get fucked as good as this!</li>
+					<li>gettinraped(RECIPIENT_jobDefName==RapeComfortPawn, INITIATOR_trait==피학적, priority=10)->You can go harder than that, master!</li>
+					<li>gettinraped(RECIPIENT_jobDefName==RandomRape, INITIATOR_trait==피학적, priority=10)->You can go harder than that, master!</li>
+					<li>gettinraped(INITIATOR_trait==피학적, priority=10)->You could only dream to get fucked as good as this!</li>
 					<li>gettinraped->Fuck you, [RECIPIENT_nameDef], help!</li>				
 				<li>r_logentry(INITIATOR_jobDefName==RapeComfortPawn, priority=10)->[rapingcp]</li>
 					<li>rapingcp(RECIPIENT_jobDefName==GettinRaped, priority=9)->No! Like this!</li>
-					<li>rapingcp(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==masochist, priority=10)->C'mon put up a fight!</li>
+					<li>rapingcp(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==피학적, priority=10)->C'mon put up a fight!</li>
 					<li>rapingcp->Quit staring, [insult]!</li>					
 				<li>r_logentry(INITIATOR_jobDefName==RandomRape, priority=10)->[raping]</li>
 					<li>raping(RECIPIENT_jobDefName==GettinRaped, priority=9)->No! Like this!</li>
-					<li>raping(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==masochist, priority=10)->C'mon put up a fight!</li>
+					<li>raping(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==피학적, priority=10)->C'mon put up a fight!</li>
 					<li>raping->Quit staring, [insult]!</li>	
 				<li>r_logentry(INITIATOR_jobDefName==RapeEnemy, priority=10)->[rapingenemy]</li>
 					<li>rapingenemy(RECIPIENT_jobDefName==GettinRaped, priority=9)->It's what you deserve!</li>
-					<li>rapingenemy(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==masochist, priority=10)->C'mon put up a fight!</li>
+					<li>rapingenemy(RECIPIENT_jobDefName==GettinRaped, RECIPIENT_trait==피학적, priority=10)->C'mon put up a fight!</li>
 					<li>rapingenemy->Quit staring, [insult]!</li>	
 				<li>r_logentry(INITIATOR_jobDefName==RJW_Masturbate, priority=10)->[masturbating]</li>
 					<li>masturbating->Quit staring, [insult]!</li>	
@@ -563,10 +563,10 @@
 				<li>r_logentry(RECIPIENT_jobDefName==GettinRaped, priority=9)->[gettinraped_react]</li>
 					<li>gettinraped_react->Not my problem, [RECIPIENT_nameDef]!</li>				
 				<li>r_logentry(RECIPIENT_jobDefName==RapeComfortPawn, priority=9)->[rapingcp_react]</li>
-					<li>rapingcp_react(INITIATOR_trait==rapist, priority=9)->You might as well be my bitch, [RECIPIENT_nameDef]!</li>
+					<li>rapingcp_react(INITIATOR_trait==강간마, priority=9)->You might as well be my bitch, [RECIPIENT_nameDef]!</li>
 					<li>rapingcp_react->How could you do this, [insult]!?</li>					
 				<li>r_logentry(RECIPIENT_jobDefName==RandomRape, priority=9)->[raping_react]</li>
-					<li>raping_react(INITIATOR_trait==rapist, priority=9)->You might as well be my bitch, [RECIPIENT_nameDef]!</li>
+					<li>raping_react(INITIATOR_trait==강간마, priority=9)->You might as well be my bitch, [RECIPIENT_nameDef]!</li>
 					<li>raping_react->How could you do this, [insult]!?</li>	
 				<li>r_logentry(RECIPIENT_jobDefName==RapeEnemy, priority=9)->[rapingenemy_react]</li>
 					<li>rapingenemy_react->I could punish him better than that!</li>	

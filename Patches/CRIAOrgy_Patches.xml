@@ -10,9 +10,9 @@
 
 		<!-- ===Orgy=== -->	
 		<li>r_logentry(INITIATOR_thoughtDefName==AttendedOrgy, RECIPIENT_thoughtDefName==AttendedOrgy, tag=OrgyChat)->[orgychat]</li>
-			<li>orgychat->그 때 그 난교 파티 진짜 좋았어, 그렇지 않아?</li>
-			<li>orgychat->그 난교는 분위기가 정말 뜨거웠어!</li>
-			<li>orgychat(INITIATOR_thoughtLabel==horny, priority=1)->나는 그 난교 파티에 대해 생각하는 것 만으로도 몸이 달아 올라!</li>
+			<li>orgychat->That orgy was pretty fun, huh?</li>
+			<li>orgychat->That orgy was hot!</li>
+			<li>orgychat(INITIATOR_thoughtLabel==horny, priority=1)->Thinking about that orgy makes me so horny!</li>
 		
 		
 		<!-- ===Reactions=== -->	
@@ -21,15 +21,15 @@
 				<li>orgysex_react_good(INITIATOR_thoughtLabel==horny)->[orgysex_react_good_horny]</li>
 				<li>orgysex_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[orgysex_react_good_horny]</li>
 					<li>orgysex_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
-					<li>orgysex_react_good_horny->[horny_sex_reaction]! 이리 와, [counterpart]! [cheer_reaction]</li>
-					<li>orgysex_react_good_horny->[horny_sex_reaction]! 네가 가, [counterpart]!</li>
+					<li>orgysex_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
+					<li>orgysex_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 				<li>orgysex_react_good(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 				<li>orgysex_react_good->[cheer_reaction], [counterpart]!</li>
 			<li>orgysex_react(INITIATOR_opinion&lt;=-25)->[orgysex_react_bad]</li>
 				<li>orgysex_react_bad(INITIATOR_thoughtLabel==horny)->[orgysex_react_bad_horny]</li>
 				<li>orgysex_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[orgysex_react_bad_horny]</li>
 					<li>orgysex_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
-					<li>orgysex_react_bad_horny->[horny_sex_reaction]! 네가 잘 한다고? 분위기나 망치지 마, [counterpart]!</li>
+					<li>orgysex_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 					<li>orgysex_react_bad_horny->[horny_sex_reaction]!</li>
 				<li>orgysex_react_bad->[gross_sex_reaction], [RECIPIENT_nameDef]!</li>
 			<li>orgysex_react->[orgysex_react_neutral]</li>
@@ -45,15 +45,15 @@
 				<li>gettingorgysex_react_good(INITIATOR_thoughtLabel==horny)->[gettingorgysex_react_good_horny]</li>
 				<li>gettingorgysex_react_good(INITIATOR_thoughtLabel==sexually frustrated)->[gettingorgysex_react_good_horny]</li>
 					<li>gettingorgysex_react_good_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
-					<li>gettingorgysex_react_good_horny->[horny_sex_reaction]! 이리 와, [counterpart]! [cheer_reaction]</li>
-					<li>gettingorgysex_react_good_horny->[horny_sex_reaction]! 네가 가, [counterpart]!</li>
+					<li>gettingorgysex_react_good_horny->[horny_sex_reaction]! Get it [counterpart]! [cheer_reaction]</li>
+					<li>gettingorgysex_react_good_horny->[horny_sex_reaction]! You go [counterpart]!</li>
 				<li>gettingorgysex_react_good(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]!</li>
 				<li>gettingorgysex_react_good->[cheer_reaction], [counterpart]!</li>
 			<li>gettingorgysex_react(INITIATOR_opinion&lt;=-25)->[gettingorgysex_react_bad]</li>
 				<li>gettingorgysex_react_bad(INITIATOR_thoughtLabel==horny)->[gettingorgysex_react_bad_horny]</li>
 				<li>gettingorgysex_react_bad(INITIATOR_thoughtLabel==sexually frustrated)->[gettingorgysex_react_bad_horny]</li>
 					<li>gettingorgysex_react_bad_horny(INITIATOR_moving==Yes, priority=1)->[horny_sex_reaction]! [leaving_sex_reaction]!</li>
-					<li>gettingorgysex_react_bad_horny->[horny_sex_reaction]! 네가 잘 할거라는 기대 따윈 없어, [counterpart]!</li>
+					<li>gettingorgysex_react_bad_horny->[horny_sex_reaction]! I wouldn't expect you to be good at that, [counterpart]!</li>
 					<li>gettingorgysex_react_bad_horny->[horny_sex_reaction]!</li>
 				<li>gettingorgysex_react_bad->[gross_sex_reaction], [RECIPIENT_nameDef]!</li>
 			<li>gettingorgysex_react->[gettingorgysex_react_neutral]</li>
@@ -74,22 +74,22 @@
 		<xpath>/Defs/InteractionDef[defName = "DeepTalk"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
 			<li>r_logentry(INITIATOR_jobDefName==OrgySex, priority=10)->[orgysex]</li>
-					<li>orgysex->몸놀림이 완전 예술인데, [RECIPIENT_nameDef]!</li>
-					<li>orgysex->[RECIPIENT_nameDef]! 어떻게 해야 하는 지 잘 알고 있네?</li>
-					<li>orgysex(RECIPIENT_gender==Female)->와, [RECIPIENT_nameDef], 너 진짜 아름답고 야해!</li>
+					<li>orgysex->Wow, nice moves, [RECIPIENT_nameDef]!</li>
+					<li>orgysex->Wow, you know how to do it, [RECIPIENT_nameDef]!</li>
+					<li>orgysex(RECIPIENT_gender==Female)->Wow, you're so beautiful, [RECIPIENT_nameDef]!</li>
 				<li>r_logentry(INITIATOR_jobDefName==GettinOrgySex, priority=10)->[gettingorgysex]</li>
-					<li>gettingorgysex->허리 놀림이 예술인데, [RECIPIENT_nameDef]!</li>
-					<li>gettingorgysex->[RECIPIENT_nameDef]! 어떻게 해야 하는 지 잘 알고 있네?</li>
-					<li>gettingorgysex(RECIPIENT_gender==Female)->와, [RECIPIENT_nameDef], 너 진짜 아름답고 야해!</li>
+					<li>gettingorgysex->Wow, nice moves, [RECIPIENT_nameDef]!</li>
+					<li>gettingorgysex->Wow, you know how to do it, [RECIPIENT_nameDef]!</li>
+					<li>gettingorgysex(RECIPIENT_gender==Female)->Wow, you're so beautiful, [RECIPIENT_nameDef]!</li>
 					
 			<li>r_logentry(RECIPIENT_jobDefName==OrgySex, priority=10)->[orgysex_react]</li>
-					<li>orgysex_react->몸놀림이 완전 예술인데, [RECIPIENT_nameDef]!</li>
-					<li>orgysex_react->[RECIPIENT_nameDef]! 어떻게 해야 하는 지 잘 알고 있네?</li>
-					<li>orgysex_react(RECIPIENT_gender==Female)->와, [RECIPIENT_nameDef], 너 진짜 아름답고 야해!</li>
+					<li>orgysex_react->Wow, nice moves, [RECIPIENT_nameDef]!</li>
+					<li>orgysex_react->Wow, you know how to do it, [RECIPIENT_nameDef]!</li>
+					<li>orgysex_react(RECIPIENT_gender==Female)->Wow, you're so beautiful, [RECIPIENT_nameDef]!</li>
 				<li>r_logentry(RECIPIENT_jobDefName==GettinOrgySex, priority=10)->[gettingorgysex_react]</li>
-					<li>gettingorgysex_react->몸놀림이 완전 예술인데, [RECIPIENT_nameDef]!</li>
-					<li>gettingorgysex_react->[RECIPIENT_nameDef]! 어떻게 해야 하는 지 잘 알고 있네?</li>
-					<li>gettingorgysex_react(RECIPIENT_gender==Female)->와, [RECIPIENT_nameDef], 너 진짜 아름답고 야해!</li>
+					<li>gettingorgysex_react->Wow, nice moves, [RECIPIENT_nameDef]!</li>
+					<li>gettingorgysex_react->Wow, you know how to do it, [RECIPIENT_nameDef]!</li>
+					<li>gettingorgysex_react(RECIPIENT_gender==Female)->Wow, you're so beautiful, [RECIPIENT_nameDef]!</li>
 		</value>
 	</li>
 	

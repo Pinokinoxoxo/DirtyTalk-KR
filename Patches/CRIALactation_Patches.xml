@@ -7,19 +7,19 @@
 	<xpath>/Defs/RulePackDef[defName = "SexualChitchatConstants"]/rulePack/rulesStrings</xpath>
 	<value>
 		<!-- ===Boobs and milking=== -->	
-		<li>milkproducing->우유 생산</li>
-		<li>milkproducing->착유</li>
-		<li>milkproducing->젖 만드는 일</li>
-		<li>milkproduction->우유 만드는 일</li>
-		<li>milkproduction->젖 짜는 일</li>
-		<li>milkproduction->우유 짜는 일</li>				
-		<li>breastcompliment->환상적인</li>
-		<li>breastcompliment->부드러운</li>
+		<li>milkproducing->lactating</li>
+		<li>milkproducing->milking</li>
+		<li>milkproducing->producing</li>
+		<li>milkproduction->production</li>
+		<li>milkproduction->milking</li>
+		<li>milkproduction->lactation</li>				
+		<li>breastcompliment->wonderful</li>
+		<li>breastcompliment->soft</li>
 		<li>breastcompliment->firm</li>
-		<li>breastcompliment->아름다운</li>
-		<li>milkterrible->끔찍해</li>
-		<li>milkterrible->짜증나</li>
-		<li>milkterrible->기분나빠</li>
+		<li>breastcompliment->beautiful</li>
+		<li>milkterrible->terrible</li>
+		<li>milkterrible->awful</li>
+		<li>milkterrible->shameful</li>
 		<li>milkterrible->humiliating</li>
 	</value>
 	</li>
@@ -33,24 +33,24 @@
 		<li>r_logentry(INITIATOR_moving==No, INITIATOR_jobDefName==MassageBreasts, priority=10)->[massaging]</li>
 			<li>massaging(INITIATOR_thoughtLabel==horny)->[massaging_horny]</li>
 			<li>massaging(INITIATOR_thoughtLabel==sexually frustrated)->[massaging_horny]</li>
-				<li>massaging_horny->[exclaim_low], 이거 너무 [breastcompliment]데!</li>
-				<li>massaging_horny->[exclaim_low], 정말 [breastcompliment] [boobs]이야!</li>
-				<li>massaging_horny->[exclaim_low], 이 [breastcompliment] [boobs]은 만지는 감촉도 좋아..!</li>
-			<li>massaging->이 [boobs] are coming along nicely!</li>
-			<li>massaging->이 [breastcompliment] [boobs]은 우리에게 맛 좋은 우유를 선사할거야!</li>
+				<li>massaging_horny->[exclaim_low], these are so [breastcompliment]!</li>
+				<li>massaging_horny->[exclaim_low], these [boobs] are so [breastcompliment]!</li>
+				<li>massaging_horny->[exclaim_low], these [breastcompliment] [boobs] feel so good!</li>
+			<li>massaging->These [boobs] are coming along nicely!</li>
+			<li>massaging->These [breastcompliment] [boobs] will give us lots of nice milk soon!</li>
 			
 		<li>r_logentry(INITIATOR_moving==No, INITIATOR_jobDefName==MilkHuman, priority=10)->[milking]</li>
 			<li>milking(INITIATOR_thoughtLabel==horny)->[milking_horny]</li>
 			<li>milking(INITIATOR_thoughtLabel==sexually frustrated)->[milking_horny]</li>
-				<li>milking_horny->[exclaim_low], 아무래도 조금 먹어보는 것도 좋을 것 같은데...</li>
-				<li>milking_horny->[exclaim_low], 이 [breastcompliment] [boobs], 너무 좋아..!</li>
-			<li>milking->이 [boobs]은 엄청 우유가 잘 나오는 걸!</li>
-			<li>milking->이 [breastcompliment] [boobs]은 어마어마한 양의 맛 좋은 우유를 만들어주지!</li>
+				<li>milking_horny->[exclaim_low], I might have to have a little taste...</li>
+				<li>milking_horny->[exclaim_low], these [breastcompliment] [boobs] feel so good!</li>
+			<li>milking->These [boobs] are lactating nicely!</li>
+			<li>milking->These [breastcompliment] [boobs] are [milkproducing] lots of tasty milk!</li>
 			
 		<li>r_logentry(INITIATOR_thoughtDefName==Lactating_Essential, RECIPIENT_gender==Female, tag=Milking_Question)->[milkingquestion]</li>
-			<li>milkingquestion(INITIATOR_opinion>=25, priority=1)->[counterpart], 그 [breastcompliment] [boobs]으로 [milkproducing]은 잘 돼?</li>
-			<li>milkingquestion(INITIATOR_opinion&lt;=25, priority=1)->어이, [counterpart]! 그 [boobs]으로 [milkproducing](은)는 잘 되리라 믿어, 그치?</li>
-			<li>milkingquestion->[counterpart], [milkproduction](은)는 좀 어때?</li>
+			<li>milkingquestion(INITIATOR_opinion>=25, priority=1)->Hey, [counterpart] are those [breastcompliment] [boobs] [milkproducing] well?</li>
+			<li>milkingquestion(INITIATOR_opinion&lt;=25, priority=1)->Hey, [counterpart], those [boobs] are [milkproducing] well, I hope?</li>
+			<li>milkingquestion->Hey, [counterpart], how's the [milkproduction] coming along?</li>
 			
 		</value>
 	</li>
@@ -65,8 +65,8 @@
 			<value>
 							<!-- ===Milk=== -->
 							<li>sex_react_n(INITIATOR_thoughtLabel==producing milk)->[sex_react_milk]</li>
-							<li>sex_react_milk->[exclaim_low]! [penis]가 [boobs]에서 우유를 밀어내는데!</li>
-							<li>sex_react_milk->[exclaim_low]! [boobs], 엄청 자극돼... 젖 엄청 나와..!</li>
+							<li>sex_react_milk->[exclaim_low]! Your [penis] is pushing milk out of my [boobs]!</li>
+							<li>sex_react_milk->[exclaim_low]! You're making some milk come out!</li>
 			</value>
 		</li>		
 		
@@ -76,9 +76,9 @@
 			<value>					
 							<!-- ===Milk=== -->
 							<li>sex_react_n(RECIPIENT_thoughtLabel==producing milk)->[sex_react_milk]</li>
-							<li>sex_react_milk(RECIPIENT_thoughtLabel==producing milk)->[exclaim_low]! [boobs]에서 젖 흘러나오는 거 봐. 아주 음탕한데!</li>
-							<li>sex_react_milk(RECIPIENT_thoughtLabel==producing milk)->[exclaim_low]! 우유 흐르는거 보여?</li>
-							<li>sex_react_milk(RECIPIENT_thoughtLabel==producing milk)->[exclaim_low]! 내 [penis]에 네 젖이 흐르는 거 보여?</li>								
+							<li>sex_react_milk(RECIPIENT_thoughtLabel==producing milk)->[exclaim_low]! Your [boobs] are leaking some milk!</li>
+							<li>sex_react_milk(RECIPIENT_thoughtLabel==producing milk)->[exclaim_low]! There's some milk coming out of them!</li>
+							<li>sex_react_milk(RECIPIENT_thoughtLabel==producing milk)->[exclaim_low]! Your milk is running down my [penis]!</li>								
 			</value>
 		</li>	
 		

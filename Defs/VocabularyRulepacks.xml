@@ -6,11 +6,11 @@
     <rulePack>
       <rulesStrings>
 		<!-- ===Grunt/Moans=== -->
-		<li>exclaim_low->으응</li>
-		<li>exclaim_low->웅</li>
-		<li>exclaim_low->흐응</li>
-		<li>exclaim_low->읏</li>
-		<li>exclaim_low->으흠</li>
+		<li>exclaim_low->하아</li>
+		<li>exclaim_low->흐으</li>
+		<li>exclaim_low->허억</li>
+		<li>exclaim_low->흐윽</li>
+		<li>exclaim_low->으흑</li>
 		<li>exclaim_high->ARGH</li>
 		<li>exclaim_high->AAH</li>
 		<li>exclaim_high->OH</li>
@@ -77,20 +77,19 @@
 		<li>exclaim_oral2->우브읍</li>
 		
 		<!-- ===Verbs=== -->
-		<li>suck->빨아</li>
-		<li>suck->핥아</li>
-		<li>forces->강제로 쑤셔넣음</li>	
-		<li>forces->미끄러지듯 박음</li>
-		<li>forces->억지로 밀어넣음</li>
-		<li>forces->강하게 박음</li>
-		<li>forces->힘차게 쑤셔넣음</li>
-		<li>licks->게걸스럽게 핥음</li>
-		<li>licks->강하게 핥음</li>
-		<li>fuck->범해</li>
-		<li>fuck->박아</li>
+		<li>suck->lick</li>
+		<li>suck->suck</li>
+		<li>forces->forces</li>	
+		<li>forces->slides</li>
+		<li>forces->inserts</li>
+		<li>forces->pushes</li>
+		<li>forces->shoves</li>
+		<li>licks->핥아</li>
+		<li>licks->빨아</li>
+		<li>fuck->박아</li>	
+		<li>fuck->쑤셔</li>
 		<li>fuck->따먹어</li>
-		<li>fuck->쑤셔</li>		
-		
+		<li>fuck->범해</li>			
 		<li>desire->need</li>
 		<li>desire->want</li>
 		<!--<li>desire->demand</li>-->
@@ -98,77 +97,76 @@
 		<!-- ===Adjectives=== -->		
 			<!-- ===Genital Adjectives=== -->
 				<!-- ===Good=== -->
-				<li>penis_adj_good->커다란</li>
-				<li>penis_adj_good->우람한</li>
-				<li>penis_adj_good->단단한</li>
-				<li>penis_adj_good->흥분되는</li>
+				<li>penis_adj_good->big</li>
+				<li>penis_adj_good->fat</li>
+				<li>penis_adj_good->hard</li>
 				<li>penis_adj_good-></li>
 				
-				<li>boobs_adj_good->아름다운</li>
-				<li>boobs_adj_good->커다란</li>
-				<li>boobs_adj_good->부드러운</li>
-				<li>boobs_adj_good->아담한</li>
-				<li>boobs_adj_good->섹시한</li>
-				<li>boobs_adj_good->굉장한</li>
-				<li>boobs_adj_good->예쁜</li>
-				<li>boobs_adj_good->흥분되는</li>
+				<li>boobs_adj_good->milky</li>
+				<li>boobs_adj_good->creamy</li>
+				<li>boobs_adj_good->perky</li>
+				<li>boobs_adj_good->little</li>
+				<li>boobs_adj_good->fat</li>
+				<li>boobs_adj_good->giant</li>
+				<li>boobs_adj_good->big-ass</li>
+				<li>boobs_adj_good->soft</li>
 				<li>boobs_adj_good-></li>
 				
-				<li>vagina_adj_good->귀여운</li>
-				<li>vagina_adj_good->조이는</li>
-				<li>vagina_adj_good->물 많은</li>
+				<li>vagina_adj_good->hot</li>
+				<li>vagina_adj_good->tight</li>
+				<li>vagina_adj_good->wet</li>
 				<!-- <li>vagina_adj_good->virgin</li>-->
 				<!-- <li>vagina_adj_good->used</li>-->
 				<li>vagina_adj_good-></li>
 				
-				<li>ass_adj_good->아름다운</li>
-				<li>ass_adj_good->섹시한</li>
-				<li>ass_adj_good->커다란</li>
-				<li>ass_adj_good->예쁜</li>
-				<li>ass_adj_good->귀여운</li>
+				<li>ass_adj_good->big</li>
+				<li>ass_adj_good->fat</li>
+				<li>ass_adj_good->firm</li>
+				<li>ass_adj_good->round</li>
+				<li>ass_adj_good->cute</li>
 				<li>ass_adj_good-></li>
 			
 				<!-- <li>asshole_adj_good->virgin</li>-->
-				<li>asshole_adj_good->귀여운</li>
-				<li>asshole_adj_good->조이는</li>
+				<li>asshole_adj_good->little</li>
+				<li>asshole_adj_good->tight</li>
 				<li>asshole_adj_good-></li>
 				
 				<!-- ===Bad=== -->
-				<li>penis_adj_bad->역겨운</li>
-				<li>penis_adj_bad->더러운</li>
-				<li>penis_adj_bad->부실한</li>
-				<li>penis_adj_bad->손톱만한</li>
-				<li>penis_adj_bad->물렁한</li>
+				<li>penis_adj_bad->filthy</li>
+				<li>penis_adj_bad->dirty</li>
+				<li>penis_adj_bad->hard</li>
+				<li>penis_adj_bad->fat</li>
+				<li>penis_adj_bad->big</li>
 				<li>penis_adj_bad-></li>
 				
-				<li>vagina_adj_bad->더러운</li>
-				<li>vagina_adj_bad->썩은내 나는</li>
-				<li>vagina_adj_bad->역겨운</li>
-				<li>vagina_adj_bad->헐렁한</li>
+				<li>vagina_adj_bad->hot</li>
+				<li>vagina_adj_bad->tight</li>
+				<li>vagina_adj_bad->wet</li>
+				<li>vagina_adj_bad->filthy</li>
 				<li>vagina_adj_bad->dirty</li>
 			
 			<!-- ===Participant Adjectives=== -->
 				<!-- ===Good=== -->
-				<li>participant_adj_good->대단한</li>
-				<li>participant_adj_good->착한</li>
-				<li>participant_adj_good->섹시한</li>
-				<li>participant_adj_good->음란한</li>
-				<li>participant_adj_good->야한</li>
+				<li>participant_adj_good->bad</li>
+				<li>participant_adj_good->good</li>
+				<li>participant_adj_good->horny</li>
+				<li>participant_adj_good->dirty</li>
+				<li>participant_adj_good->naughty</li>
 			
 				<!-- ===Bad=== -->
-				<li>participant_adj_bad->형편없는</li>
-				<li>participant_adj_bad->발정난</li>
-				<li>participant_adj_bad->추잡한</li>
-				<li>participant_adj_bad->음탕한</li>
-				<li>participant_adj_bad->저속한</li>
+				<li>participant_adj_bad->bad</li>
+				<li>participant_adj_bad->horny</li>
+				<li>participant_adj_bad->dirty</li>
+				<li>participant_adj_bad->naughty</li>
+				<li>participant_adj_bad->nasty</li>
 				
-			<li>counterpart_adj_age(RECIPIENT_age>=INITIATOR_age)->큰</li>
-			<li>counterpart_adj_age(INITIATOR_age>=RECIPIENT_age)->어린</li>
+			<li>counterpart_adj_age(RECIPIENT_age>=INITIATOR_age)->big</li>
+			<li>counterpart_adj_age(INITIATOR_age>=RECIPIENT_age)->little</li>
 			<li>counterpart_adj_age-></li>
 			
-		<li>derogadj->추잡한</li>
-		<li>derogadj->더러운</li>
-		<li>derogadj->역겨운</li>	
+		<li>derogadj->nasty</li>
+		<li>derogadj->gross</li>
+		<li>derogadj->disgusting</li>	
 		
 		<!-- ===Genitals=== -->
 		<li>penis->자지</li>
@@ -178,14 +176,18 @@
 		<li>ass->엉덩이</li>
 		<li>ass->뒷구멍</li>
 		<li>vagina->보지</li>
-		<li>vagina->밑구멍</li>
 		<li>vagina->앞구멍</li>
 		<li>vaginaM->씹구멍</li>
+		<li>vaginaM->보지</li>
+		<li>vaginaM->밑구멍</li>
+		<li>vaginaM->앞구멍</li>
 		<li>womb->자궁</li>
 		<li>womb->아가방</li>
 		<li>boobs->가슴</li>
 		<li>boobs->젖가슴</li>		
-		<!-- ===Misc=== -->			
+		<!-- ===Misc=== -->		
+		<li>FellaMouth->입보지</li>
+		<li>FellaMouth->입</li>
 		<li>cum->정액</li>	
 		<li>cum->아기즙</li>
 		<li>cum->좆물</li>			
@@ -194,7 +196,8 @@
 		<li>nipple->유두</li>
 		<li>lovejuce->애액</li>
 		<li>lovejuce->보지즙</li>
-		<li>lovejuce->씹물</li>
+		<li>lovejuce->보짓물</li>
+		<li>lovejuce->씹물</li>	
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -207,48 +210,73 @@
 		<!-- ===Reacting to sex=== -->
 		<li>normal_sex_reaction->와우</li>
 		<li>normal_sex_reaction->oh my</li>
-		<li>normal_sex_reaction->*gasp*</li>
+		<li>normal_sex_reaction->*헉*</li>
 		<li>normal_sex_reaction->ah</li>
-		<li>horny_sex_reaction->와우</li>
 		<li>horny_sex_reaction->하아</li>
 		<li>horny_sex_reaction->후우</li>
+		<li>horny_sex_reaction->아흐</li>
 		<li>gross_sex_reaction->윽</li>
-		<li>gross_sex_reaction->우욱</li>
 		<li>gross_sex_reaction->으윽</li>
 		<li>gross_sex_reaction->우웩</li>
+		<li>gross_sex_reaction->으악</li>
 		<li>cheer_sex_reaction->woo</li>
 		<li>cheer_sex_reaction->nice</li>
 		<li>leaving_sex_reaction->i'll get out of here</li>
 		<li>leaving_sex_reaction->i'll go</li>
 		<li>leaving_sex_reaction->i'll leave you to it</li>
 		<!-- ===Misc=== -->
-		<li>expletive_adj->겁나게</li>
-		<li>expletive_adj->존나</li>
-		<li>expletive->젠장할</li>
-		<li>expletive->젠장맞을</li>
-		<li>expletive->우라질</li>
-		<li>fuck->fuck</li>	
-		<li>fuck->pound</li>	
-		<li>fuck->breed</li>	
-		<li>insult->개자식</li>
+		<li>expletive_adj->fucking</li>
+		<li>expletive_adj->goddamn</li>
+		<li>expletive->god</li>
+		<li>expletive->goddamn</li>
+		<li>expletive->fuck</li>
+		<li>fuck->박아</li>	
+		<li>fuck->쑤셔</li>
+		<li>fuck->따먹어</li>
+		<li>fuck->범해</li>
+		<li>insult->fucker</li>
 		<li>insult->motherfucker</li>
-		<li>insult->개새끼</li>
+		<li>insult->son of a bitch</li>
 		<li>insult->piece of shit</li>
 		<li>insult->fucker</li>
-		<li>laughs->아하하</li>
-		<li>laughs->하하</li>
+		<li>laughs->AHAHAHA</li>
+		<li>laughs->HA HA</li>
+		
 	<!-- ===Nouns=== -->	
 	<li>counterpart(INITIATOR_opinion>=25)->[friend]</li>
 		<li>friend->친구</li>
 		<li>friend->어이</li>
-		<li>friend->야</li>
-		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Male, RECIPIENT_age>INITIATOR_age)->형</li>
-		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Male, RECIPIENT_age>INITIATOR_age)->누나</li>
-		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Female, RECIPIENT_age>INITIATOR_age)->언니</li>
-		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Female, RECIPIENT_age>INITIATOR_age)->오빠</li>
+		<li>friend->[RECIPIENT_nameDef]</li>
+			
+		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[friend_1]</li>
+		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[friend_2]</li>
+		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[friend_3]</li>
+		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[friend_4]</li>
+			
+		<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+		<li>friend_1(INITIATOR_AgeBool==0)->누나</li>
+		<li>friend_1(INITIATOR_AgeBool==1)->동생</li>
+		<li>friend_2(INITIATOR_AgeBool==0)->오빠</li>
+		<li>friend_2(INITIATOR_AgeBool==1)->동생</li>
+		<li>friend_3(INITIATOR_AgeBool==1)->동생</li>
+		<li>friend_3(INITIATOR_AgeBool==0)->형</li>
+		<li>friend_4(INITIATOR_AgeBool==0)->언니</li>
+		<li>friend_4(INITIATOR_AgeBool==1)->동생</li>
+	
 	<li>counterpart->[neutral]</li>
-		<li>neutral->[RECIPIENT_nameDef]</li>		
-		<li>neutral->이봐</li>
+		<li>neutral->[RECIPIENT_nameDef]</li>
+			
+		<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[friend_1]</li>
+		<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[friend_2]</li>
+		<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[friend_3]</li>
+		<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[friend_4]</li>
+			
+		<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+		<li>neutral_1(INITIATOR_AgeBool==0)->누나</li>
+		<li>neutral_2(INITIATOR_AgeBool==0)->오빠</li>
+		<li>neutral_3(INITIATOR_AgeBool==0)->형</li>
+		<li>neutral_4(INITIATOR_AgeBool==0)->언니</li>		
+		
 	<li>counterpart(INITIATOR_opinion&lt;=-25)->[rival]</li>
 		<li>rival(RECIPIENT_trait==masochist, INITIATOR_trait!=masochist, priority=1)->[disapprove]</li>				
 			<li>disapprove(RECIPIENT_trait==zoophile, INITIATOR_trait!=zoophile)->수간충</li>
@@ -256,9 +284,10 @@
 			<li>disapprove->degenerate</li>
 			<li>disapprove->freak</li>
 			<li>disapprove(INITIATOR_intellectual_level>=10)->profligate</li>
+			
 		<li>rival->punk</li>
-		<li>rival(RECIPIENT_gender==Male)->개자식</li>
-		<li>rival(RECIPIENT_gender==Female)->걸레년</li>			
+		<li>rival(RECIPIENT_gender==Male)->asshole</li>
+		<li>rival(RECIPIENT_gender==Female)->bitch</li>			
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -269,44 +298,71 @@
     <rulePack>
       <rulesStrings>
 		<!-- ===Who's doing what to who=== -->
-		<li>sex(INITIATOR_gender==Male, RECIPIENT_gender==Male, priority=1)->[sex_mm]</li>
-		<li>sex(INITIATOR_gender==Male, RECIPIENT_gender==Female, priority=1)->[sex_mf]</li>
-		<li>sex(INITIATOR_gender==Female, RECIPIENT_gender==Male, priority=1)->[sex_ff]</li>
-		<li>sex(INITIATOR_gender==Female, RECIPIENT_gender==Female, priority=1)->[sex_fm]</li>
-			<li>sex_mm->[sex_n]</li>
-			<li>sex_mf->[sex_n]</li>
-			<li>sex_ff->[sex_n]</li>
-			<li>sex_fm->[sex_n]</li>
+		<li>sex(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[sex_1]</li>
+		<li>sex(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[sex_2]</li>
+		<li>sex(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[sex_3]</li>
+		<li>sex(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[sex_4]</li>
 		<!-- ===Nouns=== -->
 		<li>lover(INITIATOR_opinion>=85)->[best]</li>
 			<li>best->자기</li>
-			<li>best->내사랑</li>
 			<li>best->여보</li>
-			<li>best->여보야</li>
-			<li>friend(RECIPIENT_gender==Female)->애기야</li>
-			<li>best(RECIPIENT_gender==Male)->오라버니</li>
-			<li>best(RECIPIENT_gender==Male)->서방님</li>
-			<li>best(RECIPIENT_gender==Female)->마누라</li>
+			<li>best->[RECIPIENT_nameDef]</li>
+			
+			<li>best(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[best_1]</li>
+			<li>best(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[best_2]</li>
+			<li>best(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[best_3]</li>
+			<li>best(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[best_4]</li>
+			
+			<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>best_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>best_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>best_2(INITIATOR_AgeBool==0)->오라버니</li>
+			<li>best_3(INITIATOR_AgeBool==1)->동생</li>
+			<li>best_3(INITIATOR_AgeBool==0)->형</li>
+			<li>best_4(INITIATOR_AgeBool==0)->언니</li>
+			<li>best_4(INITIATOR_AgeBool==1)->동생</li>
+			
 		<li>lover(INITIATOR_opinion>=25)->[friend]</li>
 			<li>friend->자기</li>
-			<li>friend->내사랑</li>
 			<li>friend->[RECIPIENT_nameDef]</li>
-			<li>friend(RECIPIENT_gender==Female)->귀염둥이</li>
-			<li>friend(RECIPIENT_gender==Male)->오라버니</li>
-			<li>friend(RECIPIENT_gender==Male)->오빠</li>
+			
+			<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[friend_1]</li>
+			<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[friend_2]</li>
+			<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[friend_3]</li>
+			<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[friend_4]</li>
+			
+			<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>friend_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>friend_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>friend_2(INITIATOR_AgeBool==0)->오라버니</li>
+			<li>friend_3(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_3(INITIATOR_AgeBool==0)->형</li>
+			<li>friend_4(INITIATOR_AgeBool==0)->언니</li>
+			<li>friend_4(INITIATOR_AgeBool==1)->동생</li>
+			
 		<li>lover->[neutral]</li>
-			<li>neutral->[RECIPIENT_nameDef]</li>							
+			<li>neutral->[RECIPIENT_nameDef]</li>
+			
+			<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[neutral_1]</li>
+			<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[neutral_2]</li>
+			<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[neutral_3]</li>
+			<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[neutral_4]</li>
+			
+			<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>neutral_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>neutral_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>neutral_3(INITIATOR_AgeBool==0)->형</li>
+			<li>neutral_4(INITIATOR_AgeBool==0)->언니</li>
+			
 		<li>lover(INITIATOR_opinion&lt;=-25)->[rival]</li>
-			<li>rival(RECIPIENT_gender==Female)->암캐</li>
-			<li>rival(RECIPIENT_gender==Female)->걸레</li>
-			<li>rival(RECIPIENT_gender==Male)->더러운 남창</li>
-			<li>rival(RECIPIENT_gender==Male)->발정난 개새끼</li>
+			<li>rival(RECIPIENT_gender==Female)->skank</li>
+			<li>rival(RECIPIENT_gender==Female)->slut</li>
+			<li>rival(RECIPIENT_gender==Male)->fuckboy</li>
+			<li>rival(RECIPIENT_gender==Male)->sleaze</li>
 		<li>lover(INITIATOR_opinion&lt;=-85)->[worst]</li>
-			<li>worst(RECIPIENT_gender==Female)->창년</li>
-			<li>worst(RECIPIENT_gender==Female)->암캐년</li>
-			<li>worst(RECIPIENT_gender==Female)->걸레년</li>
-			<li>rival(RECIPIENT_gender==Male)->역겨운 창놈</li>
-			<li>worst(RECIPIENT_gender==Male)->씹새끼</li>
+			<li>worst(RECIPIENT_gender==Female)->whore</li>
+			<li>worst(RECIPIENT_gender==Female)->bitch</li>
+			<li>worst(RECIPIENT_gender==Male)->scumbag</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -318,55 +374,69 @@
       <rulesStrings>
 		<!-- ===Who's doing what to who=== -->
 		<li>r_logentry->[sex_react]</li>
-			<li>sex_react(INITIATOR_gender==Female, RECIPIENT_gender==Female, priority=1)->[sex_react_ff]</li>
-			<li>sex_react(INITIATOR_gender==Female, RECIPIENT_gender==Male, priority=1)->[sex_react_fm]</li>
-			<li>sex_react(INITIATOR_gender==Male, RECIPIENT_gender==Female, priority=1)->[sex_react_mf]</li>
-			<li>sex_react(INITIATOR_gender==Male, RECIPIENT_gender==Male, priority=1)->[sex_react_mm]</li>
-				<li>sex_react_ff->[sex_react_n]</li>
-				<li>sex_react_fm->[sex_react_n]</li>
-				<li>sex_react_mf->[sex_react_n]</li>
-				<li>sex_react_mm->[sex_react_n]</li>
+			<li>sex_react(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[sex_react_1]</li>
+			<li>sex_react(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[sex_react_2]</li>
+			<li>sex_react(INITIATOR_gender==Male, RECIPIENT_gender==Male, priority=1)->[sex_react_3]</li>
+			<li>sex_react(INITIATOR_gender==Female, RECIPIENT_gender==Female, priority=1)->[sex_react_4]</li>
 		<!-- ===Nouns=== -->
 		<li>lover(INITIATOR_opinion>=85)->[best]</li>
 			<li>best->자기</li>
 			<li>best->여보</li>
-			<li>best->내사랑</li>
-			<li>best->여보야</li>
-			<li>best(RECIPIENT_gender==Female)->귀염둥이</li>
-			<li>best(RECIPIENT_gender==Male)->오라버니</li>
+			<li>best->[RECIPIENT_nameDef]</li>
+			
+			<li>best(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[best_1]</li>
+			<li>best(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[best_2]</li>
+			<li>best(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[best_3]</li>
+			<li>best(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[best_4]</li>
+			
+			<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>best_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>best_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>best_2(INITIATOR_AgeBool==0)->오라버니</li>
+			<li>best_3(INITIATOR_AgeBool==0)->형</li>
+			<li>best_4(INITIATOR_AgeBool==0)->언니</li>
+			
 		<li>lover(INITIATOR_opinion>=25)->[friend]</li>
 			<li>friend->자기</li>
-			<li>friend->여보</li>
-			<li>friend(RECIPIENT_gender==Female)->애기</li>
-			<li>friend(RECIPIENT_gender==Male)->오라버니</li>
+			<li>friend->[RECIPIENT_nameDef]</li>
+			
+			<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[friend_1]</li>
+			<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[friend_2]</li>
+			<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[friend_3]</li>
+			<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[friend_4]</li>
+			
+			<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>friend_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>friend_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>friend_2(INITIATOR_AgeBool==0)->오라버니</li>
+			<li>friend_3(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_3(INITIATOR_AgeBool==0)->형</li>
+			<li>friend_4(INITIATOR_AgeBool==0)->언니</li>
+			<li>friend_4(INITIATOR_AgeBool==1)->동생</li>
+			
 		<li>lover->[neutral]</li>
-			<li>neutral->[RECIPIENT_nameDef]</li>							
+			<li>neutral->[RECIPIENT_nameDef]</li>
+			
+			<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[neutral_1]</li>
+			<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[neutral_2]</li>
+			<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[neutral_3]</li>
+			<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[neutral_4]</li>
+			
+			<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>neutral_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>neutral_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>neutral_3(INITIATOR_AgeBool==0)->형</li>
+			<li>neutral_4(INITIATOR_AgeBool==0)->언니</li>
+			
 		<li>lover(INITIATOR_opinion&lt;=-25)->[rival]</li>
-			<li>rival(RECIPIENT_gender==Female)->암캐</li>
-			<li>rival(RECIPIENT_gender==Female)->걸레</li>
-			<li>rival(RECIPIENT_gender==Male)->짐승</li>
-			<li>rival(RECIPIENT_gender==Male)->남창</li>
+			<li>rival(RECIPIENT_gender==Female)->창녀</li>
+			<li>rival(RECIPIENT_gender==Female)->slut</li>
+			<li>rival(RECIPIENT_gender==Male)->fuckboy</li>
+			<li>rival(RECIPIENT_gender==Male)->sleaze</li>
 		<li>lover(INITIATOR_opinion&lt;=-85)->[worst]</li>
-			<li>worst(RECIPIENT_gender==Female)->창년</li>
-			<li>worst(RECIPIENT_gender==Female)->암캐년</li>
-			<li>worst(RECIPIENT_gender==Female)->걸레년</li>
-			<li>worst(RECIPIENT_gender==Male)->개자식</li>
-      </rulesStrings>
-    </rulePack>
-  </RulePackDef>
-  
-  <!-- ===Constants across all sex recipient interactions "Masterbation.xml"=== -->
-  <RulePackDef>
-    <defName>MasterbationConstants</defName>
-    <rulePack>
-      <rulesStrings>
-		<!-- ===Who's doing what to who=== -->
-		<li>r_logentry->[Masturbated]</li>
-			<li>Masturbated(INITIATOR_gender==Female, priority=1)->[Masturbated_f]</li>
-			<li>Masturbated(INITIATOR_gender==Male, priority=1)->[Masturbated_m]</li>
-				<li>Masturbated_f->[Masturbated_n]</li>
-				<li>Masturbated_m->[Masturbated_n]</li>
-		<!-- ===Nouns=== -->
+			<li>worst(RECIPIENT_gender==Female)->whore</li>
+			<li>worst(RECIPIENT_gender==Female)->bitch</li>
+			<li>worst(RECIPIENT_gender==Male)->scumbag</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -387,8 +457,8 @@
 		<li>victim(RECIPIENT_gender==Male)->[victim_m]</li>
 		<li>victim_f(INITIATOR_opinion>=25,  priority=1)->[RECIPIENT_nameDef]</li>
 		<li>victim_f->bitch</li>
-		<li>victim_f->걸레</li>
-		<li>victim_f->창녀</li>
+		<li>victim_f->slut</li>
+		<li>victim_f->whore</li>
 		<li>victim_m(INITIATOR_opinion>=25,  priority=1)->[RECIPIENT_nameDef]</li>
 		<li>victim_m->bitch</li>
 		<li>victim_m->pussy</li>
@@ -426,14 +496,14 @@
 		<!-- ===Nouns=== -->
 		<li>rapist(INITIATOR_opinion>=25, priority=1)->[RECIPIENT_nameDef]</li>
 		<li>rapist(INITIATOR_trait==masochist, priority=2)->[master]</li>					
-			<li>master->주인님</li>
+			<li>master->master</li>
 			<li>master(RECIPIENT_gender==Male)->daddy</li>
 			<li>master->[RECIPIENT_nameDef]</li>
 		<li>rapist->[rapist_bad_opinion]</li>
-			<li>rapist_bad_opinion(RECIPIENT_gender==Female)->창녀</li>
+			<li>rapist_bad_opinion(RECIPIENT_gender==Female)->bitch</li>
 			<li>rapist_bad_opinion(RECIPIENT_gender==Male)->creep</li>
-			<li>rapist_bad_opinion->개새끼</li>
-			<li>rapist_bad_opinion->개자식</li>
+			<li>rapist_bad_opinion->you fuck</li>
+			<li>rapist_bad_opinion->fucker</li>
 			<li>rapist_bad_opinion->you piece of shit</li>
 			<li>rapist_bad_opinion->freak</li>	
       </rulesStrings>

@@ -13,19 +13,24 @@
 		<symbol>UI/Icons/AnalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->[exclaim_high], [exclaim_high], [lover] [ass] 너무 기분 좋아, 알고 있어?</li>			
-					<li>sex_react_n->[exclaim_high]! [lover] [ass]에 가득 싸줄게, [exclaim_high]!</li>
-					<li>sex_react_n->[exclaim_high], [exclaim_high], 여자 [pneis]에 박혀서 신음하는 [lover] 너무 야해..!</li>			
-					<li>sex_react_n->[exclaim_high]! [lover] [ass]에 가득 싸줄게, [exclaim_high]!</li>
-					<!-- ===Replying to a Female=== -->	
-					<li>sex_react_n->[exclaim_high], [lover] [ass]도 [vagina]처럼 꽉 조이네, 알고 있어?</li>
-					<li>sex_react_n->[exclaim_high]! [lover] [ass]도 가득 싸줄게, [exclaim_high]!</li>
-					<li>sex_react_n->[ass]에 박는데 [vagina]도 움찔거리네? 그렇게 좋아?</li>
-					<li>sex_react_n->[exclaim_high], [exclaim_high], [lover] [ass] 너무 기분 좋아, 알고 있어?</li>			
-					<li>sex_react_n->[exclaim_high]! [lover] [ass]에 가득 싸줄게, [exclaim_high]!</li>
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_lowF], [exclaim_highF]! [INITIATOR_nameDef] [ass], 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_lowF]!</li>
+					<li>sex_react_1->이거 기분 이상해, [exclaim_lowF]! [lover], 이거 너무, [exclaim_lowF], 쌀 것 같아, [exclaim_lowF]!</li>
+					<li>sex_react_1->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM], [exclaim_lowM]! [ass], 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_lowM]!</li>
+					<li>sex_react_2->이거 기분 이상해, [exclaim_lowM]! [lover], 이거 너무, [exclaim_lowM], 쌀 것 같아, [exclaim_lowM]!</li>
+					<li>sex_react_2->깊어어, [exclaim_lowM], [exclaim_lowM], 천천히, [exclaim_lowM], [exclaim_highM]!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep_penetrated)       === -->
+					<li>sex_react_3->[exclaim_lowM], [exclaim_lowM]! [ass], 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_lowM]!</li>
+					<li>sex_react_3->이거 기분 이상해, [exclaim_lowM]! [lover], 이거 너무, [exclaim_lowM], 쌀 것 같아, [exclaim_lowM]!</li>
+					<li>sex_react_3->깊어어, [exclaim_lowM], [exclaim_lowM], 천천히, [exclaim_lowM], [exclaim_highM]!</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->[exclaim_lowF], [exclaim_highF]! [INITIATOR_nameDef] [ass], 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_lowF]!</li>
+					<li>sex_react_4->이거 기분 이상해, [exclaim_lowF]! [lover]야, 이거 너무, [exclaim_lowF], 쌀 것 같아, [exclaim_lowF]!</li>
+					<li>sex_react_4->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -37,16 +42,24 @@
 		<symbol>UI/Icons/AnalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->[exclaim_low], [exclaim_high]! 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_low]!</li>
-					<li>sex_react_n->이거 기분 이상해, [exclaim_low]! [lover]야, 이거 너무, [exclaim_low], 쌀 것 같아, [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]... [exclaim_low], [exclaim_low]! [exclaim_low]!</li>
-					<!-- ===Replying to a Female=== -->
-					<li>sex_react_n->[exclaim_low], [exclaim_high]! 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_low]!</li>
-					<li>sex_react_n->이거 기분 이상해, [exclaim_low]! [lover]야, 이거 너무, [exclaim_low], 쌀 것 같아, [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]... [exclaim_low], [exclaim_low]! [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [lover], [ass] 후타 [penis]로 가득 채워줘! [exclaim_low]!</li>
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_lowF], [exclaim_highF]! [ass], 계속 [fuck]줘! [INITIATOR_nameDef] [ass]에 계속 [fuck]줘, [exclaim_lowF]!</li>
+					<li>sex_react_1->이거 기분 이상해, [exclaim_lowF]! [lover], 이거 너무, [exclaim_lowF], 쌀 것 같아, [exclaim_lowF]!</li>
+					<li>sex_react_1->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM], [exclaim_lowM], [lover] [ass] 너무 기분 좋아, 알고 있어?</li>			
+					<li>sex_react_2->[exclaim_lowM]! [lover] [ass]에 가득 싸줄게, [exclaim_lowM]!</li>
+					<li>sex_react_2->[lover] [ass] 너무 조이지 마, [exclaim_lowM].. 쌀 것 같으니까...</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[exclaim_lowM], [exclaim_lowM]! [ass], 계속 [fuck]줘! [ass]에 계속 [fuck]줘, [exclaim_lowM]!</li>
+					<li>sex_react_3->이거 기분 이상해, [exclaim_lowM]! [lover], 이거 너무, [exclaim_lowM], 쌀 것 같아, [exclaim_lowM]!</li>
+					<li>sex_react_3->깊어어, [exclaim_lowM], [exclaim_lowM], 천천히, [exclaim_lowM], [exclaim_highM]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female(futa), Speaker:Female(futa) === -->
+					<li>sex_react_4->[exclaim_lowF], [exclaim_lowM], [lover] [ass] 너무 기분 좋아, 알고 있어?</li>			
+					<li>sex_react_4->[exclaim_lowM]! [lover] [ass]에 가득 싸줄게, [exclaim_lowF]!</li>
+					<li>sex_react_4->[lover] [ass] 너무 조이지 마, [exclaim_lowF].. 쌀 것 같으니까...</li>
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -61,20 +74,28 @@
 		<symbol>UI/Icons/VaginalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
-					<li>sex_react_n->[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]! [exclaim_lowF]!</li>
-					<li>sex_react_n->[exclaim_lowF],[exclaim_highF]! [lover], [lover] [penis] [womb]에 닿, 닿아서 이상해, [exclaim_highF]!</li>
-					<li>sex_react_n->[exclaim_lowF], [exclaim_lowF]! 계속, 그렇게, [exclaim_lowF]! 쿵쿵 해줘어, [exclaim_highF]!</li>
-					<li>sex_react_n->[exclaim_lowF], 안에, 안에 싸주세요, [exclaim_lowF]! 임신시켜줘, [exclaim_highF]!</li>
-					<li>sex_react_n->흐으으으... [lover], 이거.. 조아... 안에 닿아...! [exclaim_highF]!</li>
-					<!-- ===Replying to a Female=== -->	
-					<li>sex_react_n->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
-					<li>sex_react_n->[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]! [exclaim_lowF]!</li>
-					<li>sex_react_n->[exclaim_lowF],[exclaim_lowF]! [lover], [lover] [penis] [womb]에 닿, 닿아서 이상해, [exclaim_highF]!</li>
-					<li>sex_react_n->[exclaim_lowF], [exclaim_lowF]! 계속, 그렇게, [exclaim_lowF]! 쿵쿵 해줘어, [exclaim_highF]!</li>
-					<li>sex_react_n->흐으으으... [lover], 이거.. 조아... 안에 닿아...! [exclaim_highF]!</li>
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]! [exclaim_lowF]!</li>
+					<li>sex_react_1->[exclaim_lowF],[exclaim_highF]! [lover], [lover] [penis] [womb]에 닿, 닿아서 이상해, [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF], [exclaim_lowF]! 계속, 그렇게, [exclaim_lowF]! 쿵쿵, [fuck]줘어, [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF], 안에, 안에 싸주세요, [exclaim_lowF]! 임신시켜줘, [exclaim_highF]!</li>
+					<li>sex_react_1->흐으으으... [lover], 이거.. 조아... 안에 닿아...! [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF], [exclaim_highF]! [INITIATOR_nameDef] [vagina] 깊숙히, [exclaim_lowF]! [fuck]줘, [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM], [lover] 진짜 사랑해. [exclaim_lowM].</li>
+					<li>sex_react_2->[exclaim_lowM], [lover] [vagina] 엄청 오물거리는 거 알아? [exclaim_lowM]...</li>
+					<li>sex_react_2->[lover] [vagina] 진짜 뜨거워. [exclaim_lowM], 안에 잔뜩 싸줄게, [exclaim_lowM].</li>
+					<li>sex_react_2->[lover] [vagina] 너무 조이지 마, [exclaim_lowM].. 쌀 것 같으니까...</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]! [exclaim_lowF]!</li>
+					<li>sex_react_4->[exclaim_lowF],[exclaim_highF]! [lover], [lover] [penis] [womb]에 닿, 닿아서 이상해, [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_lowF], [exclaim_lowF]! 계속, 그렇게, [exclaim_lowF]! 쿵쿵, [fuck]줘어, [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_lowF], 안에, 안에 싸주세요, [exclaim_lowF]! 임신시켜줘, [exclaim_highF]!</li>
+					<li>sex_react_4->흐으으으... [lover], 이거.. 조아... 안에 닿아...! [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_lowF], [exclaim_highF]! [INITIATOR_nameDef] [vagina] 깊숙히, [exclaim_lowF]! [fuck]줘, [exclaim_lowF]!</li>
+					
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -86,16 +107,25 @@
 		<symbol>UI/Icons/VaginalSexMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->[exclaim_lowM], [lover] 남자도 똑같이 느끼는거야? [exclaim_lowM].</li>
-					<li>sex_react_n->[lover] [vagina] 진짜 뜨거워. [exclaim_lowM], 안에 잔뜩 싸줄게, [exclaim_lowM].</li>
-					<li>sex_react_n->[lover] [vagina] 너무 조이지 마, [exclaim_lowM].. 쌀 것 같으니까...</li>
-					<!-- ===Replying to a Female=== -->			
-					<li>sex_react_n->[exclaim_lowM], [lover] 진짜 사랑해. [exclaim_lowM].</li>
-					<li>sex_react_n->[exclaim_lowM], [lover] [vagina] 엄청 오물거리는 거 알아? [exclaim_lowM]...</li>
-					<li>sex_react_n->[lover] [vagina] 진짜 뜨거워. [exclaim_lowM], 안에 잔뜩 싸줄게, [exclaim_lowM].</li>
-					<li>sex_react_n->[lover] [vagina] 너무 조이지 마, [exclaim_lowM].. 쌀 것 같으니까...</li>
+			
+					<!-- ===Requestor:Male, Acceptors:Female, Speaker:Female(Accep)=== -->
+					<li>sex_react_1->깊어어, [exclaim_lowF], [exclaim_lowF], 천천히, [exclaim_lowF], [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]! [exclaim_lowF]!</li>
+					<li>sex_react_1->[exclaim_lowF],[exclaim_highF]! [lover], [lover] [penis] [womb]에 닿, 닿아서 이상해, [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF], [exclaim_lowF]! 계속, 그렇게, [exclaim_lowF]! 쿵쿵, [fuck]줘어, [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF], 안에, 안에 싸주세요, [exclaim_lowF]! 임신시켜줘, [exclaim_highF]!</li>
+					<li>sex_react_1->흐으으으... [lover], 이거.. 조아... 안에 닿아...! [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF], [exclaim_highF]! [INITIATOR_nameDef] [vagina] 깊숙히, [exclaim_lowF]! [fuck]줘, [exclaim_lowF]!</li>
+					<!-- ===Requestor:Female, Acceptors:Male, Speaker:Male(Accep)=== -->
+					<li>sex_react_2->[exclaim_lowM], [lover] 진짜 사랑해. [exclaim_lowM].</li>
+					<li>sex_react_2->[exclaim_lowM], [lover] [vagina] 엄청 오물거리는 거 알아? [exclaim_lowM]...</li>
+					<li>sex_react_2->[lover] [vagina] 진짜 뜨거워. [exclaim_lowM], 안에 잔뜩 싸줄게, [exclaim_lowM].</li>
+					<li>sex_react_2->[lover] [vagina] 너무 조이지 마, [exclaim_lowM].. 쌀 것 같으니까...</li>
+					<!-- ===Requestor:Female, Acceptors:Female(futa), Speaker:Female(futa)=== -->
+					<li>sex_react_4->[exclaim_lowF], [lover] [vagina] 엄청 오물거리는 거 알아? [exclaim_lowF]...</li>
+					<li>sex_react_4->[lover] [vagina] 진짜 뜨거워. [exclaim_lowF], 안에 잔뜩 싸줄게, [exclaim_lowF].</li>
+					<li>sex_react_4->[lover] [vagina] 너무 조이지 마, [exclaim_lowF].. 쌀 것 같으니까...</li>
+					
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>		
@@ -109,16 +139,35 @@
 		<symbol>UI/Icons/HandjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->[lover] [penis] 이렇게 만져주는거 좋아하지? 어때? 좋아?</li>
-					<li>sex_react_n->하아... [lover] [penis] 엄청 뜨겁네, 넣고 싶어?</li>
-					<li>sex_react_n->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? 좋지?</li>
-					<!-- ===Replying to a Female=== -->
-					<li>sex_react_n->새로 단 [lover] [penis] 이렇게 만져주는거 좋아하지? 어때? 좋아?</li>
-					<li>sex_react_n->하아... [lover] [penis]도 남자랑 똑같이 뜨겁네, 어때, 넣고 싶어?</li>
-					<li>sex_react_n->이렇게 세우는 것도 되다니... [lover], 이렇게 만져주면 어때? 좋지?</li>
-										
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[lover] [penis] 이렇게 만져주는거 좋아하지? [exclaim_low], 어때? 좋아?</li>
+					<li>sex_react_1->[exclaim_low]... [lover] [penis] 엄청 뜨겁네, 넣고 싶어?</li>
+					<li>sex_react_1->[exclaim_low]... [lover] [penis] 단단해... 안에 넣고 싶어...</li>
+					<li>sex_react_1->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? [exclaim_low]... 좋지?</li>
+					<li>sex_react_1->[exclaim_low]... [lover], [penis] 손으로 만지니까 움찔거리는거 귀여워...</li>
+					<li>sex_react_1->잔뜩 싸줘, [lover]... 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_low]... [lover] [penis] 엄청 뜨겁네, 남자들 [penis]랑 똑같아...</li>
+					<li>sex_react_2->[exclaim_low]... [lover] [penis] 단단해...</li>
+					<li>sex_react_2->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? [exclaim_low]... 좋지?</li>
+					<li>sex_react_2->[exclaim_low]... [lover], [penis] 손으로 만지니까 남자처럼 움찔거리는거 귀여워...</li>
+					<li>sex_react_2->잔뜩 싸줘, [lover]... 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[lover] [penis] 이렇게 만져주는거 좋아하지? [exclaim_low], 어때? 좋아?</li>
+					<li>sex_react_3->[exclaim_low]... [lover] [penis] 엄청 뜨겁네, 나도 그런데...</li>
+					<li>sex_react_3->[exclaim_low]... [lover] [penis] 단단해...</li>
+					<li>sex_react_3->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? [exclaim_low]... 좋지?</li>
+					<li>sex_react_3->[exclaim_low]... [lover], [penis] 손으로 만지니까 움찔거리는거 귀여워...</li>
+					<li>sex_react_3->잔뜩 싸줘, [lover]... 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Female, Speaker:Female(Accep) === -->				
+					<li>sex_react_4->[lover] [penis] 이렇게 만져주는거 좋아해? [exclaim_low], 남자들은 좋아하던데, 어때? 좋아?</li>
+					<li>sex_react_4->[exclaim_low]... [lover] [penis] 엄청 뜨겁네, 남자들 [penis]랑 똑같아...</li>
+					<li>sex_react_4->[exclaim_low]... [lover] [penis] 단단해...</li>
+					<li>sex_react_4->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? [exclaim_low]... 좋지?</li>
+					<li>sex_react_4->[exclaim_low]... [lover], [penis] 손으로 만지니까 남자처럼 움찔거리는거 귀여워...</li>
+					<li>sex_react_4->잔뜩 싸줘, [lover]... 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+			
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -130,13 +179,36 @@
 		<symbol>UI/Icons/HandjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<li>sex_react_n->[exclaim_lowM]! 잠깐, 나 쌀 것 같아!</li>
-					<li>sex_react_n->[exclaim_lowM]! 그거 너무 기분 좋아, [lover]! [exclaim_lowM]! 계속 해줘.</li>
-					<li>sex_react_n->[exclaim_lowM]! 어떻게 [penis](을)를 만져야 기분이 좋은지 너무 잘 아는 거 아냐?</li>
-					<!-- ===Replying to a Male=== -->
-					<!-- ===Replying to a Female=== -->						
-							
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[lover] [penis] 이렇게 만져주는거 좋아하지? [exclaim_low], 어때? 좋아?</li>
+					<li>sex_react_1->[exclaim_low]... [lover] [penis] 엄청 뜨겁네, 넣고 싶어?</li>
+					<li>sex_react_1->[exclaim_low]... [lover] [penis] 단단해... 안에 넣고 싶어...</li>
+					<li>sex_react_1->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? [exclaim_low]... 좋지?</li>
+					<li>sex_react_1->[exclaim_low]... [lover], [penis] 손으로 만지니까 움찔거리는거 귀여워...</li>
+					<li>sex_react_1->잔뜩 싸줘, [lover]... 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM]! 잠깐, 나 쌀 것 같아!</li>
+					<li>sex_react_2->[exclaim_lowM]! 그거 너무 기분 좋아, [lover]! [exclaim_lowM]! 계속 해줘.</li>
+					<li>sex_react_2->[lover], 손으로 이것 좀 만져줄래? [exclaim_lowM]</li>
+					<li>sex_react_2->[lover], 내 [penis] 엄청 화났는데, 손으로 해줘...</li>
+					<li>sex_react_2->잠깐, [lover], [exclaim_lowM], 응, 그렇게 만져줘...</li>
+					<li>sex_react_2->[lover], 거기 너무 자극이, [exclaim_lowM], 조금만 천천히...</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[lover] [penis] 이렇게 만져주는거 좋아하지? [exclaim_low], 어때? 좋아?</li>
+					<li>sex_react_3->[exclaim_low]... [lover] [penis] 엄청 뜨겁네, 나도 그런데...</li>
+					<li>sex_react_3->[exclaim_low]... [lover] [penis] 단단해...</li>
+					<li>sex_react_3->이렇게 세워뒀으면서... [lover], 이렇게 만져주면 어때? [exclaim_low]... 좋지?</li>
+					<li>sex_react_3->[exclaim_low]... [lover], [penis] 손으로 만지니까 움찔거리는거 귀여워...</li>
+					<li>sex_react_3->잔뜩 싸줘, [lover]... 손으로 해줄테니 내 얼굴에다 [cum] 잔뜩 뿌려줘..!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->				
+					<li>sex_react_4->[exclaim_lowF]! 잠깐, 나 쌀 것 같아! [exclaim_lowF]!</li>
+					<li>sex_react_4->[exclaim_lowF]! 그거 너무 기분 좋아, [lover]! [exclaim_lowF]! 계속 해줘.</li>
+					<li>sex_react_4->[lover], 손으로 이것 좀 만져줄래? [exclaim_lowF]</li>
+					<li>sex_react_4->[lover], 내 [penis] 엄청 화났는데, [exclaim_lowF], 손으로 해줘...</li>
+					<li>sex_react_4->잠깐, [lover], [exclaim_lowF], 응, 그렇게 만져줘...</li>
+					<li>sex_react_4->[lover], 거기 너무 자극이, [exclaim_lowF], 조금만 천천히... [exclaim_lowF]!</li>					
+					
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>		
@@ -150,14 +222,28 @@
 		<symbol>UI/Icons/FootjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<li>sex_react_n->지저분한 발로 만져지고 있는데도 흥분하는거야, [lover]? 완전 변태네.</li>
-					<li>sex_react_n->[exclaim_low], 이렇게 해주는 걸로 만족해해. 싸게는 해줄 테니까. [exclaim_low]...</li>
-					<li>sex_react_n->움찔거리는 거 봐.. [exclaim_low], 발가락으로 만지는게 그렇게 좋아, [lover]?</li>		
-					<!-- ===Replying to a Male=== -->
-						
-					<!-- ===Replying to a Female=== -->					
-
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_low]... 지저분한 발로 만져지고 있는데도 흥분하는거야, [lover]? 완전 변태네.</li>
+					<li>sex_react_1->[exclaim_low], 이렇게 해주는 걸로 만족해해. 싸게는 해줄 테니까. [exclaim_low]...</li>
+					<li>sex_react_1->움찔거리는 거 봐.. [exclaim_low], 발가락으로 느끼는 거 진짜 변태같아, [lover].</li>
+					<li>sex_react_1->[exclaim_low], [penis] 진짜 뜨거워... [lover], 기분 좋아?</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_low]... 지저분한 발로 만져지고 있는데도 흥분하는거야, [lover]? 완전 변태네.</li>
+					<li>sex_react_2->[exclaim_low], 남자처럼 느끼는 거 너무 야해... [exclaim_low]...</li>
+					<li>sex_react_2->움찔거리는 거 봐.. [exclaim_low], 발가락으로 느끼는 거 진짜 변태같아, [lover].</li>
+					<li>sex_react_2->[exclaim_low], [penis] 진짜 뜨거워... 남자 [penis]처럼 단단해... [lover], 기분 좋아?</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[exclaim_low]! [lover], 내 발 어때..?</li>
+					<li>sex_react_3->[exclaim_low], 이렇게 해주는 걸로 만족해해. 싸게는 해줄 테니까. [exclaim_low]...</li>
+					<li>sex_react_3->움찔거리는 거 봐.. [exclaim_low], 발가락으로 느끼는 거 진짜 변태같아, [lover].</li>
+					<li>sex_react_3->[exclaim_low], [penis] 진짜 뜨거워... [lover], 기분 좋아?</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->[exclaim_low]... 지저분한 발로 만져지고 있는데도 흥분하는거야, [lover]? 완전 변태네.</li>
+					<li>sex_react_4->[exclaim_low], 남자처럼 느끼는 거 너무 야해... [exclaim_low]...</li>
+					<li>sex_react_4->움찔거리는 거 봐.. [exclaim_low], 발가락으로 느끼는 거 진짜 변태같아, [lover].</li>
+					<li>sex_react_4->[exclaim_low], [penis] 진짜 뜨거워... 남자 [penis]처럼 단단해... [lover], 기분 좋아?</li>
+					
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>		
@@ -169,12 +255,26 @@
 		<symbol>UI/Icons/FootjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<li>sex_react_n->[exclaim_lowM], 발바닥 부드러워서 너무 기분 좋아, [lover]!</li>
-					<li>sex_react_n->[exclaim_lowM]! 너무 야하게 문지르는데, [lover]... 쌀 것 같아..! [exclaim_lowM]</li>
-					<!-- ===Replying to a Male=== -->
-
-					<!-- ===Replying to a Female=== -->						
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_low]... 지저분한 발로 만져지고 있는데도 흥분하는거야, [lover]? 완전 변태네.</li>
+					<li>sex_react_1->[exclaim_low], 이렇게 해주는 걸로 만족해해. 싸게는 해줄 테니까. [exclaim_low]...</li>
+					<li>sex_react_1->움찔거리는 거 봐.. [exclaim_low], 발가락으로 느끼는 거 진짜 변태같아, [lover].</li>
+					<li>sex_react_1->[exclaim_low], [penis] 진짜 뜨거워... [lover], 기분 좋아?</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM], 발바닥, 부드러워서 너무 기분 좋아, [lover]!</li>
+					<li>sex_react_2->[exclaim_lowM]! 너무 야하게 문지르는데, [lover]... 쌀 것 같아..! [exclaim_lowM]</li>
+					<li>sex_react_2->[lover] 발바닥, [exclaim_lowM]! 너무 부드러워... 쌀 것 같아..! [exclaim_lowM]</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[exclaim_low]! [lover], 내 발 어때..?</li>
+					<li>sex_react_3->[exclaim_low], 이렇게 해주는 걸로 만족해해. 싸게는 해줄 테니까. [exclaim_low]...</li>
+					<li>sex_react_3->움찔거리는 거 봐.. [exclaim_low], 발가락으로 느끼는 거 진짜 변태같아, [lover].</li>
+					<li>sex_react_3->[exclaim_low], [penis] 진짜 뜨거워... [lover], 기분 좋아?</li>
+					<!-- ===   Requestor:Female, Acceptors:Female(futa), Speaker:Female(Accep_futa) === -->
+					<li>sex_react_4->[exclaim_lowF]! 너무 야하게 문지르는데, [lover]... 쌀 것 같아..! [exclaim_lowF]</li>
+					<li>sex_react_4->[exclaim_lowF], 발바닥, 부드러워서 너무 기분 좋아, [lover]!</li>
+					<li>sex_react_4->잠깐, [lover], [exclaim_lowF], 그렇게 만져줘...</li>
+					<li>sex_react_4->[lover] 발바닥, [exclaim_lowF]! 너무 부드러워... 쌀 것 같아..! [exclaim_lowF]</li>					
 					
 			</rulesStrings>
 		</logRulesInitiator>
@@ -189,13 +289,20 @@
 		<symbol>UI/Icons/FingeringMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<li>sex_react_n->[exclaim_lowM], 이거봐, 푹 젖은거 보여?</li>
-					<li>sex_react_n->[exclaim_lowM], 갈 것 같아? 안쪽이 엄청 조이네?</li>
-					<li>sex_react_n->물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
-					<!-- ===Replying to a Male=== -->
-
-					<!-- ===Replying to a Female=== -->						
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->1[exclaim_lowF]! 거기, 거기 누르지 마하, [exclaim_lowF], [exclaim_lowF]!</li>
+					<li>sex_react_1->1안돼.. [exclaim_lowF]! [lover], 이제 거기 그만, [exclaim_lowF]! 아냐 계속해줘..! [exclaim_lowF], 아니 그마안... [exclaim_lowF]!</li>
+					<li>sex_react_1->1[exclaim_lowF]! 나, 나 쌀 것 같아, [exclaim_lowF], 안돼, 싫어, [exclaim_lowF]!</li>
+					<li>sex_react_1->1[exclaim_lowF]! 으으... 이런 거.. 몰라아... 어떡해, [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->2[exclaim_low]! 이거봐, 푹 젖은거 보여?</li>
+					<li>sex_react_2->2[exclaim_low], 갈 것 같아? 안쪽이 엄청 조이네?</li>
+					<li>sex_react_2->2물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->3물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->4물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
 					
 			</rulesStrings>
 		</logRulesInitiator>
@@ -208,15 +315,21 @@
 		<symbol>UI/Icons/FingeringMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<li>sex_react_n->[exclaim_low]! 거기, 거기 누르지 마하, [exclaim_low], [exclaim_low]!</li>
-					<li>sex_react_n->안돼.. [exclaim_low]! [lover], 이제 거기 그만, [exclaim_low]! 아냐 계속해줘..! [exclaim_low], 아니 그마안... [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! 나, 나 쌀 것 같아, [exclaim_low], 안돼, 싫어, [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! 으으... 이런 거.. 몰라아... 어떡해, [exclaim_low]!</li>
-					<!-- ===Replying to a Male=== -->
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->5[exclaim_lowF]! 거기, 거기 누르지 마하, [exclaim_lowF], [exclaim_lowF]!</li>
+					<li>sex_react_1->5안돼.. [exclaim_lowF]! [lover], 이제 거기 그만, [exclaim_lowF]! 아냐 계속해줘..! [exclaim_lowF], 아니 그마안... [exclaim_lowF]!</li>
+					<li>sex_react_1->5[exclaim_lowF]! 나, 나 쌀 것 같아, [exclaim_lowF], 안돼, 싫어, [exclaim_lowF]!</li>
+					<li>sex_react_1->5[exclaim_lowF]! 으으... 이런 거.. 몰라아... 어떡해, [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->6[exclaim_low]! 이거봐, 푹 젖은거 보여?</li>
+					<li>sex_react_2->6[exclaim_low], 갈 것 같아? 안쪽이 엄청 조이네?</li>
+					<li>sex_react_2->6물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->7물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->8물 엄청 나온 거 봐. 네게서 나온거야. 보여?</li>
 					
-					<!-- ===Replying to a Female=== -->						
-
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>		
@@ -230,16 +343,28 @@
 		<symbol>UI/Icons/FistingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->						
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->[exclaim_low]! [ass]에 주먹 넣는 거에 느끼는거야? 진짜 변태다 [lover].. [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! 아파? 괜찮지? 더 넣을게...</li>
-					<li>sex_react_n->[exclaim_low]!</li>		
-					<!-- ===Replying to a Female=== -->	
-					<li>sex_react_n->[exclaim_low]! [ass]에 주먹 넣는 거에 느끼는거야? 진짜 변태다 [lover].. [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [ass]에 주먹 들어가니 어때, [lover].. [exclaim_low]!</li>
-					<li>sex_react_n->아파 [lover]? [exclaim_low]! 더 넣는다?</li>
-					<li>sex_react_n->[exclaim_low]!</li>		
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_highF]! [exclaim_lowF], 미.. 미칠 것 같아.. [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF]! [exclaim_highF]! [exclaim_highF]!</li>
+					<li>sex_react_1->잠, 잠깐, 나 아직 마음의 준비가-[exclaim_highF]! [exclaim_highF]! [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_highF]! 주먹, 너무, [exclaim_lowF], 커어.. [exclaim_highF]!</li>
+					<li>sex_react_1->[exclaim_lowF]! 이상해, [exclaim_highF]! 이거, 이거 안돼, [exclaim_highF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->잠, 잠깐, 나 아직 마음의 준비가-[exclaim_highM]! [exclaim_lowM]! [exclaim_highM]!</li>
+					<li>sex_react_2->[exclaim_lowM]! 주먹, 너무, [exclaim_lowM], 커어.. [exclaim_highM]!</li>
+					<li>sex_react_2->[exclaim_highM]! 이상해, [exclaim_highM]! 이거, 이거 안돼, [exclaim_highM]!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->잠, 잠깐, 나 아직 마음의 준비가-[exclaim_highM]! [exclaim_lowM]! [exclaim_highM]!</li>
+					<li>sex_react_3->[exclaim_lowM]! 주먹, 너무, [exclaim_lowM], 커어.. [exclaim_highM]!</li>
+					<li>sex_react_3->[exclaim_highM]! 이상해, [exclaim_highM]! 이거, 이거 안돼, [exclaim_highM]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->[exclaim_highF]! [exclaim_lowF], 미.. 미칠 것 같아.. [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_lowF]! [exclaim_highF]! [exclaim_highF]!</li>
+					<li>sex_react_4->잠, 잠깐, 나 아직 마음의 준비가-[exclaim_highF]! [exclaim_highF]! [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_highF]! 주먹, 너무, [exclaim_lowF], 커어.. [exclaim_highF]!</li>
+					<li>sex_react_4->[exclaim_lowF]! 이상해, [exclaim_highF]! 이거, 이거 안돼, [exclaim_highF]!</li>
+					
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -251,12 +376,27 @@
 		<symbol>UI/Icons/FistingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<li>sex_react_n->[exclaim_low], [exclaim_low]! 미.. 미칠 것 같아.. [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [exclaim_low]! [exclaim_high]!</li>
-					<!-- ===Replying to a Male=== -->
-							
-					<!-- ===Replying to a Female=== -->	
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->5[exclaim_low]! [ass]에 주먹 넣는 거에 느끼는거야? 진짜 변태다 [lover].. [exclaim_low]!</li>
+					<li>sex_react_1->5[exclaim_low]! [ass]에 주먹 들어가니 어때, [lover].. [exclaim_low]!</li>
+					<li>sex_react_1->5아파 [lover]? [exclaim_low]! 더 넣는다?</li>
+					<li>sex_react_1->5[exclaim_low]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM]! [ass]에 주먹 넣는 거에 느끼는거야? 진짜 변태다 [lover].. [exclaim_lowM]!</li>
+					<li>sex_react_2->[exclaim_lowM]! [ass]에 주먹 들어가니 어때, [lover].. [exclaim_lowM]!</li>
+					<li>sex_react_2->아파 [lover]? [exclaim_lowM]! 더 넣는다?</li>
+					<li>sex_react_2->[exclaim_lowM]! [ass]로 오물거리는 게 다 느껴지는데?</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[exclaim_lowM]! [ass]에 주먹 넣는 거에 느끼는거야? 진짜 변태다 [lover].. [exclaim_lowM]!</li>
+					<li>sex_react_3->[exclaim_lowM]! [ass]에 주먹 들어가니 어때, [lover].. [exclaim_lowM]!</li>
+					<li>sex_react_3->아파 [lover]? [exclaim_lowM]! 더 넣는다?</li>
+					<li>sex_react_3->[exclaim_lowM]! [ass]로 오물거리는 게 다 느껴지는데?</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->[exclaim_low]! [ass]에 주먹 넣는 거에 느끼는거야? 진짜 변태다 [lover].. [exclaim_low]!</li>
+					<li>sex_react_4->[exclaim_low]! [ass]에 주먹 들어가니 어때, [lover].. [exclaim_low]!</li>
+					<li>sex_react_4->아파 [lover]? [exclaim_low]! 더 넣는다?</li>
+					<li>sex_react_4->[exclaim_low]! [ass]로 오물거리는 게 다 느껴지는데?</li>
 					
 			</rulesStrings>
 		</logRulesInitiator>
@@ -272,19 +412,32 @@
 		<symbol>UI/Icons/BreastjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<!-- ===Replying to a Male by Female=== -->
-					<li>sex_react_n->[lover] [penis] 움찔거리는거 귀여워...</li>
-					<li>sex_react_n->내 [boobs] 어때? 기분 좋지? 이렇게 해주면... 좋아..?</li>
-					<li>sex_react_n->[lover] [penis]로 내 [boobs]에 [cum] 잔뜩 뿌려줘..</li>
-					<li>sex_react_n->보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
-					<!-- ===Replying to a Female=== -->						
-					<li>sex_react_n->[lover] [penis]도 남자 것처럼 움찔거리네, 귀여워...</li>
-					<li>sex_react_n->이걸로 [lover] [penis] 슥슥 해줬으면 좋겠어?</li>
-					<li>sex_react_n->보여? 내 [boobs]에 거의 다 들어갔어.[lover] [boobs]에도 들어갈까?</li>
-					<!-- ===Replying to a Female by Male=== -->
-					<li>sex_react_n->[exclaim_lowM], [lover]도 [boobs]으로 내 [penis] 만지면서 느끼는거야? [nipple] 딱딱해졌네...</li>
-					<li>sex_react_n->[boobs] 너무 기분 좋아... 너무 부드러워...[exclaim_lowM]</li>
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->이렇게..? [lover], [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_react_1->[exclaim_low]... 어때..? 내 [boobs], 기분 좋지? 이렇게 해주면... 좋아..?</li>
+					<li>sex_react_1->이렇게 만지면 돼, [lover]? 나도... [penis]로, 내 [boobs]에 [cum] 잔뜩 뿌려줘, [exclaim_low]...</li>
+					<li>sex_react_1->[lover], [penis], 엄청 뜨거워... 나도 [boobs] 기분 좋아...</li>
+					<li>sex_react_1->[exclaim_low]... 보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->이렇게? [lover], [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_react_2->[exclaim_low]... 어때..? 내 [boobs], 남자 [boobs] 치고 기분 좋지? 이렇게 해주면... 좋아..?</li>
+					<li>sex_react_2->이렇게 만져줄까, [lover]? 엄청 단단하네, 남자랑 똑같아. 내 [penis]도 엄청 단단해졌어, [exclaim_lowM]...</li>
+					<li>sex_react_2->[lover], [penis], 내 [penis]처럼 엄청 뜨거워... 어때..?</li>
+					<li>sex_react_2->[exclaim_lowM]... 보여? 네 여자 [penis]가 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->이렇게..? [lover], [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_react_3->[exclaim_low]... 어때..? 내 [boobs], 남자 [boobs] 치고 기분 좋지? 이렇게 해주면... 좋아..?</li>
+					<li>sex_react_3->이렇게 만져줄까, [lover]? 엄청 단단하네, 내 [penis]도 엄청 단단해졌어, [exclaim_lowM]...</li>
+					<li>sex_react_3->[lover], [penis], 내 [penis]처럼 엄청 뜨거워... 어때..?</li>
+					<li>sex_react_3->[exclaim_lowM]... 보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->이렇게..? [lover], 여자인데도 [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_react_4->[exclaim_low]... 어때..? 내 [boobs], 기분 좋지? 이렇게 해주면... 좋아..?</li>
+					<li>sex_react_4->이렇게 만지면 돼, [lover]? 나도... [penis]로, 내 [boobs]에 [cum] 잔뜩 뿌려줘, [exclaim_low]...</li>
+					<li>sex_react_4->[lover], [penis], 엄청 뜨거워, 마치 남자처럼... 나도 [boobs] 너무 흥분돼...</li>
+					<li>sex_react_4->[exclaim_low]... 보여? 내 [boobs]에 거의 다 들어갔어. 여자한테 달린 [penis]도 남자처럼 느끼나? 어때? 좋아?</li>
+				
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -296,14 +449,30 @@
 		<symbol>UI/Icons/BreastjobMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->						
-					<li>sex_react_n->[exclaim_low].. 부드러워... 끝 부분은 입으로 빨아줘, [lover]...</li>
-					<li>sex_react_n->[exclaim_low]! They're so soft, [lover]! [exclaim_low]</li>
-					<li>sex_react_n->[exclaim_low]! [boobs]에 쌀 것 같아, [lover].. [exclaim_low]!</li>
-					<!-- ===Replying to a Male=== -->
-
-					<!-- ===Replying to a Female=== -->						
-					
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->이렇게..? [lover], [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_react_1->[exclaim_low]... 어때..? 내 [boobs], 기분 좋지? 이렇게 해주면... 좋아..?</li>
+					<li>sex_react_1->이렇게 만지면 돼, [lover]? 나도... [penis]로, 내 [boobs]에 [cum] 잔뜩 뿌려줘, [exclaim_low]...</li>
+					<li>sex_react_1->[lover], [penis], 엄청 뜨거워... 나도 [boobs] 기분 좋아...</li>
+					<li>sex_react_1->[exclaim_low]... 보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM].. 부드러워... 끝 부분은 입으로 빨아줘, [lover]...</li>
+					<li>sex_react_2->[exclaim_lowM]! 너무, 자극적이야, [lover]! [exclaim_lowM]</li>
+					<li>sex_react_2->[exclaim_lowM]! [boobs]에 쌀 것 같아, [lover].. [exclaim_lowM]!</li>
+					<li>sex_react_2->[lover], [boobs] 너무 부드러워, [exclaim_lowM]! [lover]! 잠깐만, 쌀 것 같은데..!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->이렇게..? [lover], [penis] 움찔거리는거 귀여워...</li>
+					<li>sex_react_3->[exclaim_low]... 어때..? 내 [boobs], 남자 [boobs] 치고 기분 좋지? 이렇게 해주면... 좋아..?</li>
+					<li>sex_react_3->이렇게 만져줄까, [lover]? 엄청 단단하네, 내 [penis]도 엄청 단단해졌어, [exclaim_lowM]...</li>
+					<li>sex_react_3->[lover], [penis], 내 [penis]처럼 엄청 뜨거워... 어때..?</li>
+					<li>sex_react_3->[exclaim_lowM]... 보여? 내 [boobs]에 거의 다 들어갔어. 어때? 좋아?</li>
+					<!-- ===   Requestor:Female, Acceptors:Female(futa), Speaker:Female(Accep_futa) === -->
+					<li>sex_react_4->[exclaim_lowF].. 부드러워... 끝 부분은 입으로 빨아줘, [lover]...</li>
+					<li>sex_react_4->[exclaim_lowF]! 너무, 자극적이야, [lover]! [exclaim_lowF]</li>
+					<li>sex_react_4->[exclaim_lowF]! [boobs]에 쌀 것 같아, [lover].. [exclaim_lowF]!</li>
+					<li>sex_react_4->[lover], [boobs] 너무 부드러워, [exclaim_lowF]! [lover]! 잠깐만, 쌀 것 같은데..!</li>
+				
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>	
@@ -315,13 +484,11 @@
 		<symbol>UI/Icons/ScissoringMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->[exclaim_low]! 골반 흔드는 법을 너무 잘 아는거 아냐, [lover]?</li>
-					<li>sex_react_n->[exclaim_low]! [lover], 네 질척이는 [vagina], 너무 기분 좋아... [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]!</li>
-					<!-- ===Replying to a Male=== -->
-											
-					<!-- ===Replying to a Female=== -->		
+
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->	
+					<li>sex_react_4->[exclaim_lowF]! 골반 흔드는 법을 너무 잘 아는거 아냐, [lover]?</li>
+					<li>sex_react_4->[exclaim_lowF]! [lover], 네 질척이는 [vagina], 너무 기분 좋아... [exclaim_lowF]!</li>
+					<li>sex_react_4->[exclaim_lowF]!</li>
 					
 			</rulesStrings>
 		</logRulesInitiator>
@@ -334,14 +501,23 @@
 		<symbol>UI/Icons/MutualMasturbationMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->[exclaim_low]! [lover] [penis] 엄청 뜨거워... 나 너무 흥분돼, [lover]...!</li>
-					<li>sex_react_n->[exclaim_low]! [vagina] 안에 손가락 너무 깊어어...! [exclaim_low]!</li>	
-					
-					<!-- ===Replying to a Female=== -->						
-					<li>sex_react_n->[exclaim_low]! [vagina](이)가 [lovejuce]으로 난리가 났네..? [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [lover], 그렇게 핥아주는거 좋아..! [exclaim_low]!</li>	
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_highF], 키스,, 키스 해주면서 같이 쑤셔줘..!</li>
+					<li>sex_react_1->[lover], [penis] 엄청 뜨겁다... [exclaim_lowF]! 내 [vagina]도... [exclaim_lowF], 같이 만져줘...</li>
+					<li>sex_react_1->[lover], 내 앞에서 [penis]로 자위하는 모습 보여줘... [exclaim_highF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->1[lover], [vagina] 엄청 젖었네. [exclaim_highM]... 내 [penis]도 터질 것 같아. 만져줘.</li>
+					<li>sex_react_2->1[vagina] 속 내 손가락으로 혼자 느끼지만 말고, [exclaim_lowM], 나도 애무해줘, [lover].</li>
+					<li>sex_react_2->1[lover], 내 앞에서 [vagina] 만지면서 자위하는 모습 보여줄래?</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->[lover], [penis] 단단하고 뜨거워... 내 [penis]도, [exclaim_lowM], 만져줘..</li>
+					<li>sex_react_3->[penis]... [exclaim_lowM], [lover], [penis] 때문에 내 [penis]도 단단해졌어, [exclaim_lowM]...</li>
+					<li>sex_react_3->[lover], 내 앞에서 [penis]로 자위하는 모습 보여줘... [exclaim_highM]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->[exclaim_highF], [vagina] 이상해..! 키스,, 키스 해주면서 쑤셔줘..!</li>
+					<li>sex_react_4->[lover], [vagina] 엄청 오물거려... [exclaim_lowF]! 내 [vagina]도... 같이 만져줘...</li>
+					<li>sex_react_4->[lover], 내 앞에서 [lovejuce] 질질 싸면서 자위하는 모습 너무 야해... [exclaim_lowF]!</li>
 					
 			</rulesStrings>
 		</logRulesInitiator>
@@ -356,14 +532,22 @@
 		<symbol>UI/Icons/RimmingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->*[exclaim_oral]* [ass] 움찔거리는거, *[exclaim_oral]* 귀여워..!</li>
-					<li>sex_react_n->*[exclaim_oral]* [ass]도 맛있네..? *[exclaim_oral]*!</li>
-					<li>sex_react_n->*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*!</li>		
-					<!-- ===Replying to a Female=== -->						
-					<li>sex_react_n->*[exclaim_oral]* [ass](을)를 빨아주니 *[exclaim_oral]* [vagina]도 엄청 움찔대네? *[exclaim_oral]* 그렇게 좋아?</li>
-					<li>sex_react_n->*[exclaim_oral]* [vagina](이)가 [lovejuce] 범벅이네. 난 분명 [ass](을)를 핥았는데 말이지, 그치? *[exclaim_oral]*</li>
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->[exclaim_lowF]! 혀,, 혀 넣지 마... [exclaim_lowF], 거기 더러워..!</li>
+					<li>sex_react_1->[exclaim_lowF]! 아 좋아... [ass] 계속 빨아줘.. [exclaim_lowF]...</li>
+					<li>sex_react_1->이상해.. [exclaim_lowF]! 하지마, 거기 느낌 이상해, [exclaim_lowF], [exclaim_lowF]!</li>
+					<li>sex_react_1->느낌 이상해... [exclaim_lowF]! [lover], 거기 이상해, 느낌 이상해, [exclaim_lowF], [exclaim_lowF]!</li>
+					<li>sex_react_1->[exclaim_lowF]! 잠깐, [ass] 더러운데, [exclaim_lowF]! 혀, 안돼...</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->*[exclaim_oral1]* [ass] 움찔거리는거, *[exclaim_oral1]* 귀여워..!</li>
+					<li>sex_react_2->*[exclaim_oral1]* [ass]도 맛있네..? *[exclaim_oral1]*!</li>
+					<li>sex_react_2->*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->3*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->4*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*!</li>					
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -375,13 +559,20 @@
 		<symbol>UI/Icons/RimmingMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->[exclaim_low]! 혀,, 혀 넣지 마아... [exclaim_low], 거기 더러워..!</li>
-					<li>sex_react_n->[exclaim_low]! 아 좋아... [ass] 계속 빨아줘.. [exclaim_low]...</li>
-					<li>sex_react_n->이상해.. [exclaim_low]! 하지마, 거기 느낌 이상해, [exclaim_low], [exclaim_low]!</li>	
-					<!-- ===Replying to a Male=== -->
-								
-					<!-- ===Replying to a Female=== -->						
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->5*[exclaim_oral1]* [ass] 움찔거리는거, *[exclaim_oral1]* 귀여워..!</li>
+					<li>sex_react_1->5*[exclaim_oral1]* [ass]도 맛있네..? *[exclaim_oral1]*!</li>
+					<li>sex_react_1->5*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->6[exclaim_low]! 혀,, 혀 넣지 마... [exclaim_low], 거기 더러워..!</li>
+					<li>sex_react_2->6[exclaim_low]! 아 좋아... [ass] 계속 빨아줘.. [exclaim_low]...</li>
+					<li>sex_react_2->6이상해.. [exclaim_low]! 하지마, 거기 느낌 이상해, [exclaim_low], [exclaim_low]!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->7*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->8*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*!</li>					
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>		
@@ -395,13 +586,20 @@
 		<symbol>UI/Icons/CunnilingusMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->너무 젖었는데, *[exclaim_oral]* 여기서 맛있는 냄새가 나네. *[exclaim_oral]*</li>
-					<li>sex_react_n->*[exclaim_oral]* [vagina]에서 [lovejuce] 흐르는 거 봐.. *[exclaim_oral]* 다 마셔줄게..!</li>
-					<!-- ===Replying to a Male=== -->
 			
-					<!-- ===Replying to a Female=== -->						
-					
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->1[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거, [exclaim_lowF]! 너무 좋아..! [exclaim_lowF]!</li>
+					<li>sex_react_1->1[exclaim_lowF]! 나, 나 갈, 갈거, [exclaim_lowF]! 안돼..! [exclaim_lowF]!</li>	
+					<li>sex_react_1->1[exclaim_lowF], [lover] 혀 닿을 때마다 [vagina] 이상해... [exclaim_lowF]!</li>	
+					<li>sex_react_1->1[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->2너무 젖었는데, *[exclaim_oral1]* 여기서 맛있는 냄새가 나네. *[exclaim_oral1]*</li>
+					<li>sex_react_2->2*[exclaim_oral1]* [vagina]에서 [lovejuce] 흐르는 거 봐.. *[exclaim_oral1]* 다 마셔줄게..!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->3[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거, [exclaim_lowF]! 너무 좋아..! [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->	
+					<li>sex_react_4->4[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거, [exclaim_lowF]! 너무 좋아..! [exclaim_lowF]!</li>
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -413,14 +611,19 @@
 		<symbol>UI/Icons/CunnilingusMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거 *[exclaim_lowF]*너무 좋아..! [exclaim_lowF]!</li>
-					<li>sex_react_n->[exclaim_lowF]! 나, 나 갈, 갈거, [exclaim_lowF]! 안돼..! [exclaim_lowF]!</li>	
-					<li>sex_react_n->[exclaim_lowF], [lover] 혀 닿을 때마다 [vagina] 저릿저릿해... [exclaim_lowF]!</li>	
-					<li>sex_react_n->[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]!</li>
-					<!-- ===Replying to a Male=== -->
-								
-					<!-- ===Replying to a Female=== -->						
+
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->1[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거, [exclaim_lowF]! 너무 좋아..! [exclaim_lowF]!</li>
+					<li>sex_react_1->1[exclaim_lowF]! 나, 나 갈, 갈거, [exclaim_lowF]! 안돼..! [exclaim_lowF]!</li>	
+					<li>sex_react_1->1[exclaim_lowF], [lover] 혀 닿을 때마다 [vagina] 이상해... [exclaim_lowF]!</li>	
+					<li>sex_react_1->1[exclaim_lowF]... [exclaim_lowF], [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->2너무 젖었는데, *[exclaim_oral1]* 여기서 맛있는 냄새가 나네. *[exclaim_oral1]*</li>
+					<li>sex_react_2->2*[exclaim_oral1]* [vagina]에서 [lovejuce] 흐르는 거 봐.. *[exclaim_oral1]* 다 마셔줄게..!</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->3[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거, [exclaim_lowF]! 너무 좋아..! [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->	
+					<li>sex_react_4->4[exclaim_lowF]..! 웅.. 거기.. 거기 빨아주는거, [exclaim_lowF]! 너무 좋아..! [exclaim_lowF]!</li>
 
 			</rulesStrings>
 		</logRulesInitiator>
@@ -435,13 +638,30 @@
 		<symbol>UI/Icons/FellatioMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
-					<li>sex_react_n->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
-					<li>sex_react_n->남자들은... *[exclaim_oral2]* *[exclaim_oral2]* 여기 빨아주는거 좋아한다며? *[exclaim_oral2]*</li>
-									
-					<!-- ===Replying to a Female=== -->					
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
+					<li>sex_react_1->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
+					<li>sex_react_1->남자들은... *[exclaim_oral2]* *[exclaim_oral2]* 여기, 빨아주는거 좋아한다며? *[exclaim_oral2]*</li>
+					<li>sex_react_1->[lover], 내 [FellaMouth], *[exclaim_oral2]* 마음대로, *[exclaim_oral2]* 써줘... *[exclaim_oral2]*</li>
+					<li>sex_react_1->*[exclaim_oral2]* 좋, *[exclaim_oral2]* 좋아아... *[exclaim_oral2]* </li>
+					<li>sex_react_1->*[exclaim_oral2]* [exclaim_lowF], 더, 더 거칠게, *[exclaim_oral2]* 대해줘, *[exclaim_oral2]* </li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
+					<li>sex_react_2->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
+					<li>sex_react_2->[lover], 내 입, *[exclaim_oral2]* 마음대로, *[exclaim_oral2]* 써줘... *[exclaim_oral2]*</li>
+					<li>sex_react_2->*[exclaim_oral2]* 남자가, *[exclaim_oral2]* 지을 법한, *[exclaim_oral2]* 표정을 짓고 있네...</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
+					<li>sex_react_3->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
+					<li>sex_react_3->*[exclaim_oral2]* 단단해... *[exclaim_oral2]* *[exclaim_oral2]* 너무 흥분되는 걸...</li>
+					<!-- ===   Requestor:Female(futa), Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
+					<li>sex_react_4->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
+					<li>sex_react_4->남자들처럼... *[exclaim_oral2]* *[exclaim_oral2]* 여기, 빨아주는거 좋아하네..? *[exclaim_oral2]*</li>
+					<li>sex_react_4->[lover], 내 [FellaMouth], *[exclaim_oral2]* 마음대로, *[exclaim_oral2]* 써줘... *[exclaim_oral2]*</li>
+					<li>sex_react_4->*[exclaim_oral2]* 좋, *[exclaim_oral2]* 좋아아... *[exclaim_oral2]* </li>
+					<li>sex_react_4->*[exclaim_oral2]* [exclaim_lowF], 더, 더 거칠게, *[exclaim_oral2]* 대해줘, *[exclaim_oral2]* </li>	
 
 			</rulesStrings>
 		</logRulesInitiator>
@@ -454,14 +674,29 @@
 		<symbol>UI/Icons/FellatioMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->[exclaim_high], 입으로 빨아주는거 너무 좋다, [lover]야, [exclaim_high].</li>
-					<li>sex_react_n->더 깊숙히 빨아. 토하는 소리 너무 꼴려.. 좀만 움직일게, [exclaim_high]..</li>
-					<li>sex_react_n->[exclaim_high]! 잠깐, 쌀 것 같아, 입으로 받아, [exclaim_high]!</li>
-					<!-- ===Replying to a Male=== -->
-		
-					<!-- ===Replying to a Female=== -->						
-					
+
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
+					<li>sex_react_1->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
+					<li>sex_react_1->남자들은... *[exclaim_oral2]* *[exclaim_oral2]* 여기, 빨아주는거 좋아한다며? *[exclaim_oral2]*</li>
+					<li>sex_react_1->[lover], 내 [FellaMouth], *[exclaim_oral2]* 마음대로, *[exclaim_oral2]* 써줘... *[exclaim_oral2]*</li>
+					<li>sex_react_1->*[exclaim_oral2]* 좋, *[exclaim_oral2]* 좋아아... *[exclaim_oral2]* </li>
+					<li>sex_react_1->*[exclaim_oral2]* [exclaim_lowF], 더, 더 거칠게, *[exclaim_oral2]* 대해줘, *[exclaim_oral2]* </li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->[exclaim_lowM], 입으로 빨아주는거 너무 좋다, [lover], [exclaim_lowM].</li>
+					<li>sex_react_2->더 깊숙히 빨아. 토하는 소리 너무 꼴려.. 좀만 움직일게, [exclaim_lowM]..</li>
+					<li>sex_react_2->[exclaim_lowM]! 잠깐, 쌀 것 같아, 싸면 입으로 받아줘, [exclaim_lowM]!</li>
+					<li>sex_react_2->[exclaim_lowM], 혀 놀림이, [exclaim_lowM]..! [exclaim_lowM]..</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->*[exclaim_oral2]* 히훈죠아? *[exclaim_oral2]*</li>
+					<li>sex_react_3->*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]* </li>
+					<li>sex_react_3->*[exclaim_oral2]* 단단해... *[exclaim_oral2]* *[exclaim_oral2]* 너무 흥분되는 걸...</li>
+					<!-- ===   Requestor:Female, Acceptors:Female(futa), Speaker:Female(futa) === -->
+					<li>sex_react_4->[exclaim_lowF], 입으로 빨아주는거 너무 좋다, [lover], [exclaim_lowF].</li>
+					<li>sex_react_4->더 깊숙히 빨아. 토하는 소리 너무 꼴려.. 좀만 움직일게, [exclaim_lowF]..</li>
+					<li>sex_react_4->[exclaim_lowF]! 잠깐, 쌀 것 같아, 싸면 입으로 받아줘, [exclaim_lowF]!</li>
+					<li>sex_react_4->[exclaim_lowF], 혀 놀림이, [exclaim_lowF]..! [exclaim_lowF]..</li>
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>		
@@ -473,14 +708,17 @@
 		<symbol>UI/Icons/SixtynineMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<!-- ===Replying to a Male=== -->
-					<li>sex_react_n->*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
-					<li>sex_react_n->*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
-						
-					<!-- ===Replying to a Female=== -->				
-					<li>sex_react_n->*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
-					
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->*[exclaim_oral2]* [exclaim_lowF], *[exclaim_oral2]* [lover] 혀 닿을 때마다 [vagina] 이상해... *[exclaim_oral2]* [exclaim_lowF]!</li>
+					<li>sex_react_1->*[exclaim_oral2]* [exclaim_lowF], *[exclaim_oral2]* [vagina] 말고 이상한 데 핥지 마, *[exclaim_oral2]* [exclaim_lowF]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->2*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->3*[exclaim_oral2]* *[exclaim_oral2]* *[exclaim_oral2]*</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->4*[exclaim_oral1]* *[exclaim_oral1]* *[exclaim_oral1]*</li>		
+
 			</rulesStrings>
 		</logRulesInitiator>
 	</InteractionDef>			
@@ -494,13 +732,17 @@
 		<symbol>UI/Icons/DoublePenetrationMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->[exclaim_low]! 내,, 내 구멍들 엉망진창으로 [fuck]줘..!</li>
-					<li>sex_react_n->[exclaim_low]! [exclaim_low]! [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [lover] [penis]들 너무 기분 좋아아...! [exclaim_low]!</li>		
-					<!-- ===Replying to a Male=== -->
-					
-					<!-- ===Replying to a Female=== -->	
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->1[exclaim_low]! 내,, 내 구멍들 엉망진창으로 [fuck]줘..!</li>
+					<li>sex_react_1->1[exclaim_low]! [exclaim_low]! [exclaim_low]!</li>
+					<li>sex_react_1->1[exclaim_low]! [lover] [penis]들 너무 기분 좋아아...! [exclaim_low]!</li>	
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->2*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->3*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->4*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>		
 
 			</rulesStrings>
 		</logRulesInitiator>
@@ -513,13 +755,17 @@
 		<symbol>UI/Icons/DoublePenetrationMote</symbol>
 		<logRulesInitiator>
 			<rulesStrings>
-					<!-- ===Neutral=== -->	
-					<li>sex_react_n->[exclaim_low]! [vagina]도, [ass]도, 엄청 오물거려서 기분 좋아..! [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [lover], [vagina]도, [ass]도 [cum] 잔뜩 채워줄게..! [exclaim_low]!</li>
-					<li>sex_react_n->[exclaim_low]! [lover], 모든 구멍에 [penis] 박고 있는 모습 너무 꼴려..[exclaim_low]!</li>
-					<!-- ===Replying to a Male=== -->
-	
-					<!-- ===Replying to a Female=== -->	
+			
+					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
+					<li>sex_react_1->5[exclaim_low]! [vagina]도, [ass]도, 엄청 오물거려서 기분 좋아..! [exclaim_low]!</li>
+					<li>sex_react_1->5[exclaim_low]! [lover], [vagina]도, [ass]도 [cum] 잔뜩 채워줄게..! [exclaim_low]!</li>
+					<li>sex_react_1->5[exclaim_low]! [lover], 모든 구멍에 [penis] 박고 있는 모습 너무 꼴려..[exclaim_low]!</li>
+					<!-- ===   Requestor:Female, Acceptors:Male, Speaker:Male(Accep)     === -->
+					<li>sex_react_2->6*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
+					<!-- ===   Requestor:Male, Acceptors:Male, Speaker:Male(Accep)       === -->
+					<li>sex_react_3->7*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>
+					<!-- ===   Requestor:Female, Acceptors:Female, Speaker:Female(Accep) === -->
+					<li>sex_react_4->8*[exclaim_oral]* *[exclaim_oral]* *[exclaim_oral]*</li>	
 					
 			</rulesStrings>
 		</logRulesInitiator>
