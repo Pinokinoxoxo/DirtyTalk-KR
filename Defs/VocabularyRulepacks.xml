@@ -242,52 +242,94 @@
 		<li>laughs->AHAHAHA</li>
 		<li>laughs->HA HA</li>
 		
-	<!-- ===Nouns=== -->	
+	<!-- ===Nouns=== -->
+	<li>counterpart->[neutral]</li>
+		<li>neutral->[RECIPIENT_nameDef]</li>
+	
 	<li>counterpart(INITIATOR_opinion>=25)->[friend]</li>
 		<li>friend->친구</li>
 		<li>friend->어이</li>
 		<li>friend->[RECIPIENT_nameDef]</li>
-			
+		
 		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[friend_1]</li>
 		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[friend_2]</li>
 		<li>friend(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[friend_3]</li>
 		<li>friend(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[friend_4]</li>
-			
+		
 		<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
-		<li>friend_1(INITIATOR_AgeBool==0)->누나</li>
-		<li>friend_1(INITIATOR_AgeBool==1)->동생</li>
-		<li>friend_2(INITIATOR_AgeBool==0)->오빠</li>
-		<li>friend_2(INITIATOR_AgeBool==1)->동생</li>
-		<li>friend_3(INITIATOR_AgeBool==1)->동생</li>
-		<li>friend_3(INITIATOR_AgeBool==0)->형</li>
-		<li>friend_4(INITIATOR_AgeBool==0)->언니</li>
-		<li>friend_4(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>friend_1(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_1(INITIATOR_AgeBool==1)->[RECIPIENT_nameDef]</li>
+			<li>friend_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>friend_2(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_2(INITIATOR_AgeBool==1)->[RECIPIENT_nameDef]</li>
+			<li>friend_3(INITIATOR_AgeBool==0)->형</li>
+			<li>friend_3(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_3(INITIATOR_AgeBool==1)->[RECIPIENT_nameDef]</li>
+			<li>friend_4(INITIATOR_AgeBool==0)->언니</li>
+			<li>friend_4(INITIATOR_AgeBool==1)->동생</li>
+			<li>friend_4(INITIATOR_AgeBool==1)->[RECIPIENT_nameDef]</li>
+		
+	<li>counterpart(INITIATOR_relationship==Lover)->[counterpart_lover]</li>
+	<li>counterpart(INITIATOR_relationship==Fiance)->[counterpart_lover]</li>
+	<li>counterpart(INITIATOR_relationship==Spouse)->[counterpart_lover]</li>
+		<li>counterpart_lover->자기</li>
+		<li>counterpart_lover->여보</li>		
+		<li>counterpart_lover->[RECIPIENT_nameDef]</li>
+		
+		<li>counterpart_lover(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[counterpart_lover_1]</li>
+		<li>counterpart_lover(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[counterpart_lover_2]</li>
+		<li>counterpart_lover(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[counterpart_lover_3]</li>
+		<li>counterpart_lover(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[counterpart_lover_4]</li>
+				
+		<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
+			<li>counterpart_lover_1(INITIATOR_AgeBool==0)->누나</li>
+			<li>counterpart_lover_1(INITIATOR_AgeBool==1)->애기</li>
+			<li>counterpart_lover_2(INITIATOR_AgeBool==0)->오빠</li>
+			<li>counterpart_lover_2(INITIATOR_AgeBool==0)->오라버니</li>
+			<li>counterpart_lover_2(INITIATOR_AgeBool==1)->애기</li>
+			<li>counterpart_lover_3(INITIATOR_AgeBool==0)->형</li>
+			<li>counterpart_lover_4(INITIATOR_AgeBool==0)->언니</li>
+			<li>counterpart_lover_4(INITIATOR_AgeBool==1)->애기</li>		
 	
-	<li>counterpart->[neutral]</li>
-		<li>neutral->[RECIPIENT_nameDef]</li>
+	<li>counterpart(INITIATOR_relationship==Sibling)->[family_Sibling]</li>
+	
+	<li>counterpart(RECIPIENT_relationship==Parent)->[family_Parent]</li>
+		<li>family_Parent(RECIPIENT_gender==Male)->[recipient_father]</li>
+			<li>recipient_father->아버지</li>
+			<li>recipient_father->아빠</li>
+		<li>family_Parent(RECIPIENT_gender==Female)->[recipient_mother]</li>
+			<li>recipient_mother->어머니</li>
+			<li>recipient_mother->엄마</li>
 			
-		<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Male, priority=1)->[friend_1]</li>
-		<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Female, priority=1)->[friend_2]</li>
-		<li>neutral(RECIPIENT_gender==Male, INITIATOR_gender==Male, priority=1)->[friend_3]</li>
-		<li>neutral(RECIPIENT_gender==Female, INITIATOR_gender==Female, priority=1)->[friend_4]</li>
+	<li>counterpart(RECIPIENT_relationship==Grandparent)->[family_Grandparent]</li>
+		<li>family_Grandparent(RECIPIENT_gender==Male)->[recipient_Grandfather]</li>
+			<li>recipient_Grandfather->할아버지</li>
+		<li>family_Grandparent(RECIPIENT_gender==Female)->[recipient_Grandmother]</li>
+			<li>recipient_Grandmother->할머니</li>
+
+	<li>counterpart(INITIATOR_relationship==Parent)->[family_child]</li>
+		<li>family_child(RECIPIENT_gender==Male)->[recipient_son]</li>
+			<li>recipient_son->아들</li>
+			<li>recipient_son->우리 아들</li>
+		<li>family_child(RECIPIENT_gender==Female)->[recipient_daughter]</li>
+			<li>recipient_daughter->딸</li>
+			<li>recipient_daughter->우리 딸</li>
 			
-		<!-- === INITIATOR의 나이가 RECIPIENT보다 크면 INITIATOR_AgeBool=1, 작으면 INITIATOR_AgeBool=0 === -->
-		<li>neutral_1(INITIATOR_AgeBool==0)->누나</li>
-		<li>neutral_2(INITIATOR_AgeBool==0)->오빠</li>
-		<li>neutral_3(INITIATOR_AgeBool==0)->형</li>
-		<li>neutral_4(INITIATOR_AgeBool==0)->언니</li>		
+	<li>counterpart(INITIATOR_relationship==Grandparent)->[family_Grandchild]</li>
+		<li>family_Grandchild(RECIPIENT_gender==Male)->[recipient_Grandson]</li>
+			<li>recipient_Grandson->우리 손자</li>
+			<li>recipient_Grandson->우리 강아지</li>
+		<li>family_Grandchild(RECIPIENT_gender==Female)->[recipient_Granddaughter]</li>
+			<li>recipient_Granddaughter->우리 손녀</li>
+			<li>recipient_Granddaughter->우리 강아지</li>
 		
 	<li>counterpart(INITIATOR_opinion&lt;=-25)->[rival]</li>
-		<li>rival(RECIPIENT_trait==masochist, INITIATOR_trait!=masochist, priority=1)->[disapprove]</li>				
-			<li>disapprove(RECIPIENT_trait==zoophile, INITIATOR_trait!=zoophile)->수간충</li>
-			<li>disapprove(RECIPIENT_trait==rapist, INITIATOR_trait!=rapist)->강간마</li>
-			<li>disapprove->degenerate</li>
-			<li>disapprove->freak</li>
-			<li>disapprove(INITIATOR_intellectual_level>=10)->profligate</li>
-			
-		<li>rival->punk</li>
-		<li>rival(RECIPIENT_gender==Male)->asshole</li>
-		<li>rival(RECIPIENT_gender==Female)->bitch</li>			
+		<li>rival(RECIPIENT_trait==masochist)->변태</li>				
+		<li>rival(RECIPIENT_trait==zoophile)->수간충</li>
+		<li>rival(RECIPIENT_trait==rapist)->강간마</li>
+		<li>rival->[RECIPIENT_nameDef]</li>
+					
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -317,10 +359,8 @@
 			<li>best_1(INITIATOR_AgeBool==0)->누나</li>
 			<li>best_2(INITIATOR_AgeBool==0)->오빠</li>
 			<li>best_2(INITIATOR_AgeBool==0)->오라버니</li>
-			<li>best_3(INITIATOR_AgeBool==1)->동생</li>
 			<li>best_3(INITIATOR_AgeBool==0)->형</li>
 			<li>best_4(INITIATOR_AgeBool==0)->언니</li>
-			<li>best_4(INITIATOR_AgeBool==1)->동생</li>
 			
 		<li>lover(INITIATOR_opinion>=25)->[friend]</li>
 			<li>friend->자기</li>
