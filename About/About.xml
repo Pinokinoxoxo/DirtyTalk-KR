@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Dirty Talk</name>
+	<name>Dirty Talk KR</name>
 	<author>Az</author>
   <supportedVersions>
 	<li>1.4</li>
@@ -19,12 +19,9 @@
     </li>
   </modDependencies>
   <description>
-	Adds speakup functionality to RJW sexual interactions
+	RJW의 성적인 상호작용을 추가합니다.
 	
-	It is safe to ignore if Mod Manager gives you this error:
-	"Depends on SpeakUp version >=0.0.0..."
+	한글화 버전입니다.
 	
-	Interaction icons are drawn by OTYOTY, and come from this mod:
-	https://www.loverslab.com/topic/145286-mod-oty-rjw-symbols/
   </description>
 </ModMetaData>

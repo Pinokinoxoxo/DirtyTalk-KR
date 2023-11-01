@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 <Operation Class="PatchOperationSequence">
 <operations>
@@ -7,7 +7,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Anal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/AnalSexMote</symbol>
 				<li>r_logentry(tag=Anal_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Male(request)   === -->
 					<li>sex_1->이리와 [lover], [ass] 제대로 [fuck]줄게!</li>
@@ -27,7 +26,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Anal"]/logRulesRecipient/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/AnalSexMote</symbol>
 				<li>r_logentry->빨리, 빨리 와줘!</li>
 		</value>
 	</li>
@@ -36,7 +34,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Anal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/AnalSexMote</symbol>
 				<li>r_logentry(tag=Anal_Sex_Reply_Reverse, priority=5)->[sex]</li>
 					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Male(request)   === -->
 					<li>sex_1->이리와 [lover], [ass] 제대로 [fuck]줄게!</li>
@@ -57,7 +54,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Anal"]/logRulesRecipient/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/AnalSexMote</symbol>
 				<li>r_logentry->이리와, 어서 빨리!</li>	
 		</value>
 	</li>
@@ -67,7 +63,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/VaginalSexMote</symbol>
 				<li>r_logentry(tag=Vaginal_Sex_Reply, priority=5)->[sex]</li>
 					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Male(request)   === -->
 					<li>sex_1->이리와 [lover], [exclaim_lowM], [vagina] 제대로 따먹어줄게, [exclaim_lowM]!</li>
@@ -90,7 +85,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Vaginal"]/logRulesRecipient/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/VaginalSexMote</symbol>
 				<li>r_logentry->빨리, 빨리 와줘!</li>
 		</value>
 	</li>	
@@ -99,7 +93,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Vaginal"]/logRulesInitiator/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/VaginalSexMote</symbol>
 				<li>r_logentry(tag=Vaginal_Sex_Reply_Reverse, priority=5)->[sex]</li>
 					<!-- ===   Requestor:Male, Acceptors:Female, Speaker:Female(Accep)   === -->
 					<li>sex_1->5이리와 [lover], [vaginaM] 제대로 [fuck]줄게!</li>
@@ -122,7 +115,6 @@
 	<li Class="PatchOperationAdd">
 		<xpath>/Defs/InteractionDef[defName="Sex_Reverse_Vaginal"]/logRulesRecipient/rulesStrings</xpath>
 		<value>
-				<symbol>UI/Icons/VaginalSexMote</symbol>
 				<li>r_logentry->이리와, 어서 빨리!</li>	
 		</value>
 	</li>
